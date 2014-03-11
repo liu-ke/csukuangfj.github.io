@@ -1,625 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-   <style type="text/css">
-   /*CSS stylesheet is based on killwing's flavored markdown style:https://gist.github.com/2937864*/body{    margin: 0 auto;    font: 13px/1.231 Helvetica, Arial, sans-serif;    color: #444444;    line-height: 1;    max-width: 960px;    padding: 5px;}h1, h2, h3, h4 {    color: #111111;    font-weight: 400;}h1, h2, h3, h4, h5, p {    margin-bottom: 16px;    padding: 0;}h1 {    font-size: 28px;}h2 {    font-size: 22px;    margin: 20px 0 6px;}h3 {    font-size: 21px;}h4 {    font-size: 18px;}h5 {    font-size: 16px;}a {    color: #0099ff;    margin: 0;    padding: 0;    vertical-align: baseline;}a:link,a:visited{ text-decoration:none;}a:hover{ text-decoration:underline;}ul, ol {    padding: 0;    margin: 0;}li {    line-height: 24px;    margin-left: 44px;}li ul, li ul {    margin-left: 24px;}ul, ol {    font-size: 14px;    line-height: 20px;    max-width: 540px;}p {    font-size: 14px;    line-height: 20px;    max-width: 540px;    margin-top: 3px;}pre {    padding: 0px 4px;    max-width: 800px;    white-space: pre-wrap;    font-family: Consolas, Monaco, Andale Mono, monospace;    line-height: 1.5;    font-size: 13px;    border: 1px solid #ddd;    background-color: #f7f7f7;    border-radius: 3px;}code {    font-family: Consolas, Monaco, Andale Mono, monospace;    line-height: 1.5;    font-size: 13px;    border: 1px solid #ddd;    background-color: #f7f7f7;    border-radius: 3px;}pre code {    border: 0px;}aside {    display: block;    float: right;    width: 390px;}blockquote {    border-left:.5em solid #40AA53;    padding: 0 2em;    margin-left:0;    max-width: 476px;}blockquote  cite {    font-size:14px;    line-height:20px;    color:#bfbfbf;}blockquote cite:before {    content: '\2014 \00A0';}blockquote p {      color: #666;    max-width: 460px;}hr {    height: 1px;    border: none;    border-top: 1px dashed #0066CC}button,input,select,textarea {  font-size: 100%;  margin: 0;  vertical-align: baseline;  *vertical-align: middle;}button, input {  line-height: normal;  *overflow: visible;}button::-moz-focus-inner, input::-moz-focus-inner {  border: 0;  padding: 0;}button,input[type="button"],input[type="reset"],input[type="submit"] {  cursor: pointer;  -webkit-appearance: button;}input[type=checkbox], input[type=radio] {  cursor: pointer;}/* override default chrome & firefox settings */input:not([type="image"]), textarea {  -webkit-box-sizing: content-box;  -moz-box-sizing: content-box;  box-sizing: content-box;}input[type="search"] {  -webkit-appearance: textfield;  -webkit-box-sizing: content-box;  -moz-box-sizing: content-box;  box-sizing: content-box;}input[type="search"]::-webkit-search-decoration {  -webkit-appearance: none;}label,input,select,textarea {  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  font-size: 13px;  font-weight: normal;  line-height: normal;  margin-bottom: 18px;}input[type=checkbox], input[type=radio] {  cursor: pointer;  margin-bottom: 0;}input[type=text],input[type=password],textarea,select {  display: inline-block;  width: 210px;  padding: 4px;  font-size: 13px;  font-weight: normal;  line-height: 18px;  height: 18px;  color: #808080;  border: 1px solid #ccc;  -webkit-border-radius: 3px;  -moz-border-radius: 3px;  border-radius: 3px;}select, input[type=file] {  height: 27px;  line-height: 27px;}textarea {  height: auto;}/* grey out placeholders */:-moz-placeholder {  color: #bfbfbf;}::-webkit-input-placeholder {  color: #bfbfbf;}input[type=text],input[type=password],select,textarea {  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;  transition: border linear 0.2s, box-shadow linear 0.2s;  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);}input[type=text]:focus, input[type=password]:focus, textarea:focus {  outline: none;  border-color: rgba(82, 168, 236, 0.8);  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);}/* buttons */button {  display: inline-block;  padding: 4px 14px;  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  font-size: 13px;  line-height: 18px;  -webkit-border-radius: 4px;  -moz-border-radius: 4px;  border-radius: 4px;  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);  background-color: #0064cd;  background-repeat: repeat-x;  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);  background-image: -o-linear-gradient(top, #049cdb, #0064cd);  background-image: linear-gradient(top, #049cdb, #0064cd);  color: #fff;  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);  border: 1px solid #004b9a;  border-bottom-color: #003f81;  -webkit-transition: 0.1s linear all;  -moz-transition: 0.1s linear all;  transition: 0.1s linear all;  border-color: #0064cd #0064cd #003f81;  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}button:hover {  color: #fff;  background-position: 0 -15px;  text-decoration: none;}button:active {  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);}button::-moz-focus-inner {  padding: 0;  border: 0;}/* table  */table {    border-spacing: 0;    border: 1px solid #ccc;}td, th{    border: 1px solid #ccc;    padding: 5px;}/* code syntax highlight.Documentation: http://www.mdcharm.com/documentation/code_syntax_highlighting.html#custom_your_own */pre .literal,pre .comment,pre .template_comment,pre .diff .header,pre .javadoc {    color: #008000;}pre .keyword,pre .css .rule .keyword,pre .winutils,pre .javascript .title,pre .nginx .title,pre .subst,pre .request,pre .status {    color: #0000FF;    font-weight: bold}pre .number,pre .hexcolor,pre .python .decorator,pre .ruby .constant {    color: #0000FF;}pre .string,pre .tag .value,pre .phpdoc,pre .tex .formula {    color: #D14}pre .title,pre .id {    color: #900;    font-weight: bold}pre .javascript .title,pre .lisp .title,pre .clojure .title,pre .subst {    font-weight: normal}pre .class .title,pre .haskell .type,pre .vhdl .literal,pre .tex .command {    color: #458;    font-weight: bold}pre .tag,pre .tag .title,pre .rules .property,pre .django .tag .keyword {    color: #000080;    font-weight: normal}pre .attribute,pre .variable,pre .lisp .body {    color: #008080}pre .regexp {    color: #009926}pre .class {    color: #458;    font-weight: bold}pre .symbol,pre .ruby .symbol .string,pre .lisp .keyword,pre .tex .special,pre .prompt {    color: #990073}pre .built_in,pre .lisp .title,pre .clojure .built_in {    color: #0086b3}pre .preprocessor,pre .pi,pre .doctype,pre .shebang,pre .cdata {    color: #999;    font-weight: bold}pre .deletion {    background: #fdd}pre .addition {    background: #dfd}pre .diff .change {    background: #0086b3}pre .chunk {    color: #aaa}pre .markdown .header {    color: #800;    font-weight: bold;}pre .markdown .blockquote {    color: #888;}pre .markdown .link_label {    color: #88F;}pre .markdown .strong {    font-weight: bold;}pre .markdown .emphasis {    font-style: italic;}
-   </style>
-   
-   
-</head>
-<body>
-    <p><strong>hello</strong></p>
+---
+title: csukuangfj's Homepage
+layout: page
+---
 
-<p><em>abc</em></p>
-
-<blockquote>
-<p>haod</p>
-
-<p>adf</p>
-</blockquote>
-
-<p><del>that is not right</del></p>
-
-<pre><code>abc
-</code></pre>
-
-<p>dadf</p>
-
-<p><a href="http://www.baidu.com" title="this is a title made by kfj">baidu</a></p>
-
-<p>支持中文么？</p>
-
-<pre><code class="c"><span class="keyword">void</span> main(<span class="keyword">int</span> argc, <span class="keyword">char</span>**argv)
-{
-    printf(<span class="string">"hello world!\n"</span>);
-
-    <span class="keyword">return</span> <span class="number">0</span>;
-}
-</code></pre>
-
-<h3>超链接</h3>
-
-<p><a href="http://someurl">http://someurl</a></p>
-
-<p><a href="mailto:somebbob@example.com">somebbob@example.com</a></p>
-
-<p><a href="http://someurl">like this</a></p>
-
-<p><a href="http://someurl" title="this title shows up when you hover">like this</a></p>
-
-<p>You can also put the <a href="http://url">link URL</a> below the current paragraph
-like <a href="http://another.url" title="A funky title">this</a>.</p>
-
-<p>Or you can use a <a href="http://goes/with/the/link/name/text">shortcut</a> reference, which links the text
-&quot;shortcut&quot; to the link named &quot;<a href="http://goes/with/the/link/name/text">shortcut</a>&quot; on the next paragraph.</p>
-
-<p><em>this is in italic</em>  and <em>so is this</em></p>
-
-<p><strong>this is in bold</strong>  and <strong>so is this</strong></p>
-
-<p><strong><em>this is bold and italic</em></strong>  and <strong><em>so is this</em></strong></p>
-
-<p><s>this is strike through text</s></p>
-
-<p>A carriage return
-makes a line break.</p>
-
-<p>Two carriage returns make a new paragraph.</p>
-
-<blockquote>
-<p>Use it if you&#39;re quoting a person, a song or whatever.</p>
-
-<p>You can use <em>italic</em> or lists inside them also.
-And just like with other paragraphs,
-all of these lines are still
-part of the blockquote, even without the &gt; character in front.</p>
-</blockquote>
-
-<p>To end the blockquote, just put a blank line before the following
-paragraph.</p>
-
-<pre><code>This line won&#39;t *have any markdown* formatting applied.
-I can even write &lt;b&gt;HTML&lt;/b&gt; and it will show up as text.
-This is great for showing program source code, or HTML or even
-Markdown. &lt;b&gt;this won&#39;t show up as HTML&lt;/b&gt; but
-exactly &lt;i&gt;as you see it in this text file&lt;/i&gt;.
-</code></pre>
-
-<p>Within a paragraph, you can use backquotes to do the same thing.
-<code>This won&#39;t be *italic* or **bold** at all.</code></p>
-
-<ul>
-<li>an asterisk starts an unordered list</li>
-<li>and this is another item in the list</li>
-<li>or you can also use the + character</li>
-<li>or the - character</li>
+<ul class="listing">
+{% for post in paginator.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator">{{ y }}</li>
+  {% endif %}
+  <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
 </ul>
 
-<p>To start an ordered list, write this:</p>
+<div id="post-pagination" class="paginator">
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/"><前页</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}"><前页</a>
+    {% endif %}
+  {% else %}
+    <span class="previous disabled"><前页</span>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="next" href="/page{{paginator.next_page}}">后页></a>
+  {% else %}
+    <span class="next disabled" >后页></span>
+  {% endif %}
+  (共{{ paginator.total_posts }}篇)
+</div>
 
-<ol>
-<li>this starts a list <em>with</em> numbers</li>
-<li> this will show as number &quot;2&quot;</li>
-<li> this will show as number &quot;3.&quot;</li>
-<li><p>any number, +, -, or * will keep the list going.</p>
-
-<ul>
-<li>just indent by 4 spaces (or tab) to make a sub-list
-
-<ol>
-<li>keep indenting for more sub lists</li>
-</ol></li>
-<li>here i&#39;m back to the second level</li>
-</ul>
-
-<table><thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody></table></li>
-</ol>
-
-<h1>This is a huge header</h1>
-
-<h2>this is a smaller header</h2>
-
-<hr>
-
-<hr>
-
-<h2>you will get a header</h2>
-
-<p><img src="https://sourceforge.net/images/icon_linux.gif" alt="alternate text"></p>
-
-<p>[TOC]</p>
-
-<h1>Section 1</h1>
-
-<h2>Sub-section 1</h2>
-
-<h1>Section 2</h1>
-
-<pre><code>Create Topic
-Stats Graph
-</code></pre>
-
-<p>Forums</p>
-
-<pre><code>kile695
-General Discussion1
-</code></pre>
-
-<p>Help</p>
-
-<pre><code>Formatting Help
-</code></pre>
-
-<p>Markdown Syntax
-Markdown Syntax Guide</p>
-
-<p>SourceForge uses markdown syntax everywhere to allow you to create rich
-text markup, and extends markdown in several ways to allow for quick linking
-to other artifacts in your project.</p>
-
-<p>Markdown was created to be easy to read, easy to write, and still readable in plain text format.</p>
-
-<pre><code>Links
-Reference Links
-Artifact Links
-Basic Text Formatting
-Blockquotes
-Preformatted Text
-Lists
-Tables
-Headers
-Horizontal Rules
-Images
-Videos
-Escapes and HTML
-More Headers
-Table of Contents
-Code Highlighting
-Includes
-Neighborhood Notifications
-Project Info Macros
-Thanks
-</code></pre>
-
-<p>Links</p>
-
-<p>Most URLs will automatically be turned into links. To be explicit, just write it like this:</p>
-
-<p><a href="http://someurl">http://someurl</a></p>
-
-<p><a href="mailto:somebbob@example.com">somebbob@example.com</a></p>
-
-<p>Output:</p>
-
-<p>http://someurl</p>
-
-<p><a href="mailto:somebbob@example.com">somebbob@example.com</a></p>
-
-<p>To use text for the link, write it:</p>
-
-<p><a href="http://someurl">like this</a></p>
-
-<p>Output:</p>
-
-<p>like this</p>
-
-<p>You can add a <em>title</em> (which shows up under the cursor):</p>
-
-<p><a href="http://someurl" title="this title shows up when you hover">like this</a></p>
-
-<p>Output:</p>
-
-<p>like this
-Reference Links</p>
-
-<p>You can also put the <a href="http://url">link URL</a> below the current paragraph
-like <a href="http://another.url" title="A funky title">this</a>.</p>
-
-<p>Output:</p>
-
-<p>You can also put the link URL below the current paragraph
-like this.</p>
-
-<p>Here the text &quot;link URL&quot; gets linked to &quot;http://url&quot;, and the lines showing &quot;<a href="http://url">1</a>: http://url&quot; won&#39;t show anything.</p>
-
-<p>Or you can use a <a href="http://goes/with/the/link/name/text">shortcut</a> reference, which links the text &quot;shortcut&quot; to the link named &quot;<a href="http://goes/with/the/link/name/text">shortcut</a>&quot; on the next paragraph.</p>
-
-<p>Or you can use a <a href="http://goes/with/the/link/name/text">shortcut</a> reference, which links the text
-&quot;shortcut&quot; to the link named &quot;<a href="http://goes/with/the/link/name/text">shortcut</a>&quot; on the next paragraph.</p>
-
-<p>Output:</p>
-
-<p>Or you can use a shortcut reference, which links the text
-&quot;shortcut&quot; to the link named &quot;<a href="http://goes/with/the/link/name/text">shortcut</a>&quot; on the next paragraph.
-Artifact Links</p>
-
-<p>Any forge resource (artifact) can be linked with surrounding square brackets, e.g. [MyPage] or [#123]. These artifact links can take several forms.
-Simple Links</p>
-
-<p>Most commonly, the artifact identifier can simply be surrounded with square brackets. Here are some examples:</p>
-
-<p>[MyWikiPage]       # Wiki - name of wiki page
-[#123]             # Tracker - ticket number
-[r10721]           # SVN - revision number
-[3b9d48]           # Git &amp; Mercurial - first 6 characters of revision hash
-[2012/02/my-post]  # Blog - post slug, including YYYY/MM/ prefix
-[a6d38f98]         # Discussion Thread - thread id
-[a6d38f98#42f8]    # Discussion Post - thread_id#post_id</p>
-
-<p>Two-part Links</p>
-
-<p>To link to an artifact in a specific tool, use the form: <code>[tool:artifact]</code>, where <code>tool</code> is the name of the tool as it appears in the URL. Two-part links are useful when you have two tools of the same type installed. For example, let&#39;s say you have a &#39;bugs&#39; tracker and a &#39;features&#39; tracker installed, and you want to link to the first ticket in each:</p>
-
-<p>[bugs:#1]
-[features:#1]</p>
-
-<p>Three-part Links</p>
-
-<p>To link to an artifact in another project, use the form: <code>[project:tool:artifact]</code>, where <code>project</code> is the name of the project as it appears in the URL. For example:</p>
-
-<p>[allura:wiki:Home]</p>
-
-<p>To link to an artifact in a subproject, use the form: <code>[project/subproject:tool:artifact]</code>, where <code>subproject</code> is the name of the subproject as it appears in the URL. For example:</p>
-
-<p>[allura/sub:code:3b9d48]</p>
-
-<p>Basic Text Formatting</p>
-
-<p>Use * or _ to emphasize things:</p>
-
-<p><em>this is in italic</em>  and <em>so is this</em></p>
-
-<p><strong>this is in bold</strong>  and <strong>so is this</strong></p>
-
-<p><strong><em>this is bold and italic</em></strong>  and <strong><em>so is this</em></strong></p>
-
-<p>Output:</p>
-
-<p>this is in italic and so is this</p>
-
-<p>this is in bold and so is this</p>
-
-<p>this is bold and italic and so is this</p>
-
-<p>You can strike through text using HTML like this:</p>
-
-<p><s>this is strike through text</s></p>
-
-<p>Output:</p>
-
-<p>this is strike through text</p>
-
-<p>A carriage return
-makes a line break.</p>
-
-<p>Two carriage returns make a new paragraph.</p>
-
-<p>Output:</p>
-
-<p>A carriage return
-makes a line break.</p>
-
-<p>Two carriage returns make a new paragraph.
-Blockquotes</p>
-
-<p>Use the &gt; character in front of a line, just like in email</p>
-
-<blockquote>
-<p>Use it if you&#39;re quoting a person, a song or whatever.</p>
-
-<p>You can use <em>italic</em> or lists inside them also.
-And just like with other paragraphs,
-all of these lines are still
-part of the blockquote, even without the &gt; character in front.</p>
-</blockquote>
-
-<p>To end the blockquote, just put a blank line before the following
-paragraph.</p>
-
-<p>Output:</p>
-
-<pre><code>Use it if you&#39;re quoting a person, a song or whatever.
-
-You can use italic or lists inside them also.
-And just like with other paragraphs,
-all of these lines are still
-part of the blockquote, even without the &gt; character in front.
-</code></pre>
-
-<p>To end the blockquote, just put a blank line before the following
-paragraph.
-Preformatted Text</p>
-
-<p>If you want some text to show up exactly as you write it, without Markdown doing anything to it, just indent every line by at least 4 spaces (or 1 tab). As an alternative to indenting, you can use 4 or more tildes before and after the text. See examples in the Code Highlighting section</p>
-
-<pre><code>This line won&#39;t *have any markdown* formatting applied.
-I can even write &lt;b&gt;HTML&lt;/b&gt; and it will show up as text.
-This is great for showing program source code, or HTML or even
-Markdown. &lt;b&gt;this won&#39;t show up as HTML&lt;/b&gt; but
-exactly &lt;i&gt;as you see it in this text file&lt;/i&gt;.
-</code></pre>
-
-<p>Within a paragraph, you can use backquotes to do the same thing.
-<code>This won&#39;t be *italic* or **bold** at all.</code></p>
-
-<p>Output:</p>
-
-<p>This line won&#39;t <em>have any markdown</em> formatting applied.
-I can even write <b>HTML</b> and it will show up as text.
-This is great for showing program source code, or HTML or even
-Markdown. <b>this won&#39;t show up as HTML</b> but
-exactly <i>as you see it in this text file</i>.</p>
-
-<p>Within a paragraph, you can use backquotes to do the same thing.
-This won&#39;t be <em>italic</em> or <strong>bold</strong> at all.
-Lists</p>
-
-<ul>
-<li>an asterisk starts an unordered list</li>
-<li>and this is another item in the list</li>
-<li>or you can also use the + character</li>
-<li>or the - character</li>
-</ul>
-
-<p>To start an ordered list, write this:</p>
-
-<ol>
-<li>this starts a list <em>with</em> numbers</li>
-<li> this will show as number &quot;2&quot;</li>
-<li> this will show as number &quot;3.&quot;</li>
-<li>any number, +, -, or * will keep the list going.
-
-<ul>
-<li>just indent by 4 spaces (or tab) to make a sub-list
-
-<ol>
-<li>keep indenting for more sub lists</li>
-</ol></li>
-<li>here i&#39;m back to the second level</li>
-</ul></li>
-</ol>
-
-<p>Output:</p>
-
-<pre><code>an asterisk starts an unordered list
-and this is another item in the list
-or you can also use the + character
-or the - character
-</code></pre>
-
-<p>To start an ordered list, write this:</p>
-
-<pre><code>this starts a list with numbers
-this will show as number &quot;2&quot;
-this will show as number &quot;3.&quot;
-any number, +, -, or * will keep the list going.
-    just indent by 4 spaces (or tab) to make a sub-list
-        keep indenting for more sub lists
-    here i&#39;m back to the second level
-</code></pre>
-
-<p>Tables</p>
-
-<p>You can create tables using pipes and dashes like this:</p>
-
-<table><thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody></table>
-
-<p>Output:
-First Header    Second Header
-Content Cell    Content Cell
-Content Cell    Content Cell</p>
-
-<p>You can use markdown syntax within table cells for formatting:</p>
-
-<table><thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead><tbody>
-<tr>
-<td><em>Content Cell</em></td>
-<td>Content Cell</td>
-</tr>
-<tr>
-<td>Content Cell</td>
-<td>Content Cell</td>
-</tr>
-</tbody></table>
-
-<p>Output:
-First Header    Second Header
-Content Cell    Content Cell
-Content Cell    Content Cell</p>
-
-<p>You can also create tables using HTML code.
-Headers</p>
-
-<p>Just put 1 or more dashes or equals signs (--- or ===) below the title.</p>
-
-<h1>This is a huge header</h1>
-
-<h2>this is a smaller header</h2>
-
-<p>Output:
-This is a huge header
-this is a smaller header
-Horizontal Rule</p>
-
-<p>Just put three or more *&#39;s or -&#39;s on a line:</p>
-
-<hr>
-
-<p>Output:</p>
-
-<p>Or, you can use single spaces between then, like this:</p>
-
-<hr>
-
-<p>Output:</p>
-
-<p>or</p>
-
-<hr>
-
-<p>Output:
-Make sure you have a blank line above the dashes, though, or else:</p>
-
-<h2>you will get a header</h2>
-
-<p>Output:
-you will get a header
-Images</p>
-
-<p>To include an image, just put a &quot;!&quot; in front of a text link:</p>
-
-<p><img src="https://sourceforge.net/images/icon_linux.gif" alt="alternate text"></p>
-
-<p>Output:</p>
-
-<p>alternate text</p>
-
-<p>The &quot;alternate text&quot; will show up if the browser can&#39;t load the image.</p>
-
-<p>You can also use a title if you want, like this:</p>
-
-<p><img src="https://sourceforge.net/images/icon_linux.gif" alt="tiny arrow" title="tiny arrow"></p>
-
-<p>Output:</p>
-
-<p>tiny arrow</p>
-
-<p>To reference an attached image, just use the img macro. You can add more attributes:</p>
-
-<p>[[img src=attached-image.jpg alt=foobar]]</p>
-
-<p>Output:</p>
-
-<p>foobar
-Videos</p>
-
-<p>To embed a YouTube video, use the <code>embed</code> macro (only YouTube is supported at this time):</p>
-
-<p>[[embed url=<a href="http://www.youtube.com/watch?v=6YbBmqUnoQM%5D">http://www.youtube.com/watch?v=6YbBmqUnoQM]</a>]</p>
-
-<p>Output:
-Escapes and HTML</p>
-
-<p>What if you want to just show asterisks, not italics?</p>
-
-<ul>
-<li>this shows up in italics: <em>a happy day</em></li>
-<li>this shows the asterisks: *a happy day*</li>
-</ul>
-
-<p>Output:</p>
-
-<pre><code>this shows up in italics: a happy day
-this shows the asterisks: *a happy day*
-</code></pre>
-
-<p>The backslashes will disappear and leave the asterisks. You can do the same with any of the characters that have a special meaning
-for Markdown.</p>
-
-<p>Many simple HTML tags are allowed, for example <b> And unknown tags will be dropped. To show a literal <b> or an unknown tag like <foobar> you need escape it with HTML entities: :</p>
-
-<p><b>this will be bold</b>
-you should escape &lt;unknown&gt; tags
-&copy; special entities work
-&amp;copy; if you want to escape it</p>
-
-<p>Output:</p>
-
-<p>this will be bold
-you should escape <unknown> tags
-© special entities work
-&copy; if you want to escape it</p>
-
-<p>HTML tags that are block-level like <div> can be used, but if there is markdown formatting within it, you must add a &quot;markdown&quot; attribute: <div markdown> Some safe attributes are also allowed, permitting basic styling and layout: <div markdown style="float:left"></p>
-
-<p>Individual ampersands (&amp;) and less-than signs (&lt;) are fine, they will be shown as expected.
-More Headers</p>
-
-<p>More ways of doing headers:</p>
-
-<h1>this is a huge header</h1>
-
-<h2>this is a smaller header</h2>
-
-<h3>this is even smaller</h3>
-
-<h4>more small</h4>
-
-<h5>even smaller</h5>
-
-<h6>smallest still: <code>&lt;h6&gt;</code> header</h6>
-
-<p>Output:
-this is a huge header
-this is a smaller header
-this is even smaller
-more small
-even smaller
-smallest still: <h6> header</p>
-
-<p>You can use up to 6 # characters at the beginning of the line.
-Table of Contents</p>
-
-<p>You can display a list of links to jump to headers in a document. Sub-headers will be nested.</p>
-
-<p>[TOC]</p>
-
-<h1>Section 1</h1>
-
-<h2>Sub-section 1</h2>
-
-<h1>Section 2</h1>
-
-<p>Output:</p>
-
-<pre><code>Section 1
-    Sub-section 1
-Section 2
-</code></pre>
-
-<p>Section 1
-Sub-section 1
-Section 2</p>
-
-<pre><code>#!/usr/bin/python
-# Code goes here ...
-</code></pre>
-
-<p>[[download_button]]</p>
-
-</body>
-</html>
