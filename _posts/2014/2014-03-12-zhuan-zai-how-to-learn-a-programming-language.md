@@ -21,7 +21,7 @@ tags:
 ### 1.2 笨方法系列
 Ruby与Python双修的怪才Zed Shaw，推出了笨方法学习编程的系列教程。里面已经有了Ruby\Python\c系列。Zed Shaw开源了相应的方法论、资料，你也可以将它改为自己要学的版本，比如java、Arduino等。
 
-网址：http://learncodethehardway.org/
+网址：<http://learncodethehardway.org/>
 
 [Ruby中文版](http://lrthw.github.com/)
 
@@ -30,16 +30,16 @@ Ruby与Python双修的怪才Zed Shaw，推出了笨方法学习编程的系列�
 ### 1.3 社区英雄设计的练习题目
 任何一个社区，都有一些英雄人物，乐意传承自身的知识体系，因此，设计了大量的练习题目。比如，Ruby社区的以下材料都很适合初学者。
 
-http://rubykoans.com/
+<http://rubykoans.com/>
 
-http://kidsruby.com/
+<http://kidsruby.com/>
 
-http://rubymonk.com/
+<http://rubymonk.com/>
 
 ### 1.4 人气较旺的程序员问答社区
-个人比较推荐：http://stackoverflow.com/
+个人比较推荐：<http://stackoverflow.com/>
 
-可以去这里回答别人的问题，如果时间有限、可以先下载stackoverflow的top问题电子书
+可以去这里回答别人的问题，如果时间有限、可以先下载[stackoverflow的top问题电子书](http://hewgill.com/~greg/stackoverflow/ebooks/)
 
 别急着看最佳答案，自己尝试写下答案。然后再与最佳答案对照。
 
@@ -54,16 +54,16 @@ windows下的朋友暂时缺少，通过bundle可以快速掌握一门语言的�
 ### 2.2 cheatsheets
 cheatsheets类似于考试时的小抄，将某个需要学习的东西精华整理在一页或几页纸上。
 
-http://cheat-sheets.org/ 找到里面的Ruby cheatsheets或者你自己所用到语言的小抄，有多个版本，找一个最适合自己的版本 ，然后下载并打印出来。一张纸囊括核心内容。
+<http://cheat-sheets.org/> 找到里面的Ruby cheatsheets或者你自己所用到语言的小抄，有多个版本，找一个最适合自己的版本 ，然后下载并打印出来。一张纸囊括核心内容。
 
-cheatsheets，还有很多在这里：http://refcardz.dzone.com/
+cheatsheets，还有很多在这里：<http://refcardz.dzone.com/>
 
 ### 2.3 FlashCard
 FlashCard是一种学习方法，先将题目呈现，然后心中默想答案，再翻看答案。
 
 将与学习相关的FlashCards下载在手机或者打印出来，然后等车等无聊时间，予以默想。
 
-比如：http://www.yoyobrain.com/cardboxes/103
+比如：<http://www.yoyobrain.com/cardboxes/103>
 
 以及一个特别针对Ruby on Rails的[app](http://itunes.apple.com/app/ruby-on-rails-commands-flashcards/id440877359?mt=8)
 
