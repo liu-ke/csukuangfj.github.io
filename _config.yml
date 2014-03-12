@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://csukuagfj.github.io
+url: http://csukuangfj.github.io
 author: csukuangfj
 pygments: true
 paginate: 24
