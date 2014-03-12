@@ -8,7 +8,7 @@ tags:
 ---
 
 
-**转自** http://www.yangzhiping.com/tech/learn-program-psychology.html
+**转自** <http://www.yangzhiping.com/tech/learn-program-psychology.html>
 
 如何学习一门新的编程语言？
 
