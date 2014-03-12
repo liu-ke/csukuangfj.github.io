@@ -7,7 +7,25 @@ tags:
 - git
 ---
 
-## 第一个笔记
+## 程序
 
-Hello World
+```c
+void main(int argc, char* argv[])
+{
+    printf("Hello World!\n");
+        
+    return 0;
+}
+```
+
+## 图片
+
+### 来自网络
+ ![](http://www.baidu.com/img/bdlogo.gif)
+ 
+### 来自根目录
+![](/images/github.png)
+
+
+
 
