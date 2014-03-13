@@ -53,7 +53,7 @@ print "This will run."
     I could have code like this.  
     This will run.
 
-- # 后面的内容是注释
+- `#` 后面的内容是注释
 
 <center>ex3.py</center>
 ```python
