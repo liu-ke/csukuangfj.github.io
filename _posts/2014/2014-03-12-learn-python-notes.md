@@ -335,6 +335,3 @@ print fat_cat
     	* Fishies
     	* Catnip
     	* Grass
-
-
-```
