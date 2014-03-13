@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python 学习笔记
+title: python 学习笔记-1
 categories:
 - Notes
 - Programming
