@@ -4,7 +4,7 @@ title: 可以看的网址
 categories:
 - Notes
 tags:
-- git
+- info
 ---
 
 ## 程序
