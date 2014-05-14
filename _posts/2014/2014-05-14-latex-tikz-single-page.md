@@ -4,7 +4,8 @@ title: Tikz pgf 单页环境 图片单独存放
 categories:
 - Notes
 tags:
-- info
+- latex
+- tikz
 ---
 
 ## 方法1:
