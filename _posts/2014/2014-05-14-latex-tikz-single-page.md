@@ -34,7 +34,8 @@ tags:
 这种方法可以调节图片的 margin
 
 ## 方法2
-首先，把 tikz 代码单独放一个文件中，代码如下
+首先，把 tikz 代码单独放一个文件中，代码如下  
+
 ```latex
 \documentclass{standalone}
 \usepackage{tikz} 
