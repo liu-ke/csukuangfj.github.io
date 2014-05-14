@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tikz pgf 单页环境 图片单独存放
+title: Tikz latex 单页环境 图片单独存放
 categories:
 - Notes
 tags:
