@@ -50,7 +50,7 @@ tags:
 ```
 这种方法现在不会调节图片的空白距离。使用这种方法的好处是可以直接在引用这个图片的文件中使用 input 包含即可。
 
-然后在文件中包含这个图片，代码如下:
+然后在文件中包含这个图片，代码如下:  
 ```latex
 \documentclass{article} % or whatever class you are using
 
