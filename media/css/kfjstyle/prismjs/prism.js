@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism-coy&languages=markup+css+css-extras+clike+javascript+java+php+php-extras+coffeescript+scss+bash+c+cpp+python+sql+groovy+http+ruby+gherkin+csharp+go+nsis+aspnet&plugins=line-numbers+show-language */
+/* http://prismjs.com/download.html?themes=prism-coy&languages=markup+css+css-extras+clike+javascript+java+php+php-extras+coffeescript+scss+bash+c+cpp+python+sql+groovy+http+ruby+gherkin+csharp+go+nsis+aspnet&plugins=show-language */
 var self = (typeof window !== 'undefined') ? window : {};
 
 /**
@@ -729,6 +729,19 @@ Prism.languages.python= {
 	'punctuation' : /[{}[\];(),.:]/g
 };
 
+Prism.languages.latex = {
+	'comment': {
+		pattern: /(^|[^\\])%.*?(\r?\n|$)/g,
+		lookbehind: true
+	},
+	'string': /(\$)(\\?.)*?\1/g,
+	'number' : /\b-?(0x)?\d*\.?[\da-f]+\b/g,
+	//'keyword': /\b(article|document|lstlisting|standalone)\b/g,
+	'punctuation': /[\{\}]/g,
+	'selector': /[\\][a-zA-Z;,:\.]*/g
+
+}
+
 ;
 Prism.languages.sql= { 
 	'comment': {
@@ -955,30 +968,6 @@ if ( Prism.languages.aspnet.script ) {
 	Prism.languages.aspnet.script.inside.tag.pattern = Prism.languages.aspnet['asp script'].inside.tag.pattern
 	Prism.languages.aspnet.script.inside.tag.inside = Prism.languages.aspnet.tag.inside;
 };
-Prism.hooks.add('after-highlight', function (env) {
-	// works only for <code> wrapped inside <pre data-line-numbers> (not inline)
-	var pre = env.element.parentNode;
-	if (!pre || !/pre/i.test(pre.nodeName) || pre.className.indexOf('line-numbers') === -1) {
-		return;
-	}
-
-	var linesNum = (1 + env.code.split('\n').length);
-	var lineNumbersWrapper;
-
-	lines = new Array(linesNum);
-	lines = lines.join('<span></span>');
-
-	lineNumbersWrapper = document.createElement('span');
-	lineNumbersWrapper.className = 'line-numbers-rows';
-	lineNumbersWrapper.innerHTML = lines;
-
-	if (pre.hasAttribute('data-start')) {
-		pre.style.counterReset = 'linenumber ' + (parseInt(pre.getAttribute('data-start'), 10) - 1);
-	}
-
-	env.element.appendChild(lineNumbersWrapper);
-
-});;
 (function(){
 
 if (!self.Prism) {
