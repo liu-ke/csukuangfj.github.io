@@ -9,7 +9,7 @@ tags:
 
 ## 程序
 
-```C
+```language-c
 void main(int argc, char* argv[])
 {
     printf("Hello World!\n");
@@ -17,6 +17,9 @@ void main(int argc, char* argv[])
     return 0;
 }
 ```
+
+
+
 
 ## 图片
 

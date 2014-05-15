@@ -14,7 +14,7 @@ tags:
 
 
 <center>ex1.py</center>
-```python
+```language-python
 print "Hello World!"
 print "Hello Again"
 print "I like typing this."
@@ -37,7 +37,7 @@ print 'I "said" do not touch this.'
 - 用双引号或单引号括住字符串
 
 <center>ex2.py</center>
-```python
+```language-python
 # A comment, this is so you can read your program later.
 # Anything after the # is ingored by python.
 
@@ -56,7 +56,7 @@ print "This will run."
 - 井号 后面的内容是注释
 
 <center>ex3.py</center>
-```python
+```language-python
 print "I will now count my chickens:"
 
 print "Hens", 25 + 30 / 6
@@ -104,7 +104,7 @@ print "Is it less or equal?", 5 <= -2
 - 运算时注意浮点数
 
 <center>ex4.py</center>
-```python
+```language-python
 cars = 100
 space_in_a_car = 4.0
 drivers = 30
@@ -135,7 +135,7 @@ print "We need to put about", average_passengers_per_car, "in each car."
 - 可以使用下划线做单词之间的分隔，易读
 
 <center>ex5.py</center>
-```python
+```language-python
 my_name = 'Zed A. Shaw'
 my_age = 35 # not a lie
 my_height = 74 # inches
@@ -173,7 +173,7 @@ print "If I add %d, %d, and %d I get %d." % (
  
 
 <center>ex6.py</center>
-```python
+```language-python
 x = "There are %d types of people." % 10
 binary = "binary"
 do_not = "don't"
@@ -210,7 +210,7 @@ print w + e
 
 
 <center>ex7.py</center>
-```python
+```language-python
 print "Mary had a little lamb."
 print "Its fleece was white as %s." % 'snow'
 print "And everywhere that Mary went."
@@ -244,7 +244,7 @@ Cheese Burger
 - print 输出后，会输出一个回车，若后面带逗号的话，就不会输出回车
 
 <center>ex8.py</center>
-```python
+```language-python
 formatter = "%r %r %r %r"
 
 print formatter % (1, 2, 3, 4)
@@ -269,7 +269,7 @@ print formatter % (
 - 这个例子显示出了 %r 的用法
 
 <center>ex9.py</center>
-```python
+```language-python
 # Here's some new strange stuff, remeber type it exactly.
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
@@ -306,7 +306,7 @@ Even 4 lines if we want, or 5, or 6.
 - 也可以用 \n 输出分行的字符串
 
 <center>ex10.py</center>
-```python
+```language-python
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
