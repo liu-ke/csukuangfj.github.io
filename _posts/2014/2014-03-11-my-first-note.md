@@ -9,7 +9,7 @@ tags:
 
 ## 程序
 
-```c
+```C
 void main(int argc, char* argv[])
 {
     printf("Hello World!\n");
