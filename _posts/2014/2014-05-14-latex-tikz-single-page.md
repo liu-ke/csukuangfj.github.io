@@ -9,7 +9,7 @@ tags:
 ---
 
 ## 方法1:
-```latex
+```language-latex
 \documentclass{article}
 \usepackage[pdftex,active,tightpage]{preview}
 %\setlength\PreviewBorder{2mm} % use to add a border around the image
@@ -36,7 +36,7 @@ tags:
 ## 方法2
 首先，把 tikz 代码单独放一个文件中，代码如下  
 
-```latex
+```language-latex
 \documentclass{standalone}
 \usepackage{tikz} 
 %include other needed packages here   
@@ -52,7 +52,7 @@ tags:
 
 然后在文件中包含这个图片，代码如下:  
 
-```latex
+```language-latex
 \documentclass{article} % or whatever class you are using
 
 \usepackage{standalone} % 要添加这两个 package
