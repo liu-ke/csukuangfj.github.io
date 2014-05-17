@@ -1,5 +1,5 @@
 ---
-title: tags
+title: Tags
 layout: page
 ---
 
@@ -11,7 +11,7 @@ layout: page
 
 <ul class="listing">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+  <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</li>
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -24,8 +24,10 @@ layout: page
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
-    size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
+    //size: {start: 1, end: 1, unit: 'em'},
+      //color: {start: '#f8e0e6', end: '#ff3333'}
+    size: {start: 10, end: 10, unit: 'pt'},
+      color: {start: '#7CCD7C', end: '#CD0000'}
 };
 
 $(function () {
