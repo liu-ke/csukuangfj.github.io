@@ -251,4 +251,16 @@ footer a:hover {
 }
 
 
+/*
+ * added by kfj
+ */
 
+/* table  */
+table {
+    border-spacing: 0;
+    border: 1px solid #ccc;
+}
+td, th{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
