@@ -35,33 +35,16 @@ layout: default
 {% endif %}
 </section>
 
-<!--
-**************************************************** 
-add google custom search engine script
-**************************************************** 
--->
 
-<script>
-  (function() {
-    var cx = '009648601723504702197:wsfdrfqhjj8';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
+<!--
+	add disqus comment function
+-->
+{% include disqus.md %}
 
 <!--  
 **************************************************** 
+* 下面的代码：按方向键或 j k 可以翻页
 -->
-
-
-
-{% include comments.md %}
 <script type="text/javascript">
 $(function(){
   $(document).keydown(function(e) {

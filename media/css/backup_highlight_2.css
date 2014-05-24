@@ -58,4 +58,25 @@
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
- 
+
+
+.codeblock {
+	width: 600px;
+	height: 200px;
+	background-color: yellow;
+	display: block;
+}
+.lineno {
+	background-color: #ddd;
+	width: 60px;
+}
+.code {
+	background-color: #ccc;
+	overflow: auto;
+	text-align:left;
+}
+
+.code pre {
+	overflow: auto;
+}
+

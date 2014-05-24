@@ -5,7 +5,12 @@ layout: default
 <section class="post">
 {{ content }}
 </section>
+
+<!--
+	add disqus comment function
+-->
+
 {% if page.comments %}
-{% include comments.md %}
+{% include disqus.md %}
 {% endif %}
 

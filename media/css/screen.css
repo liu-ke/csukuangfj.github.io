@@ -265,6 +265,8 @@ td, th{
     padding: 5px;
 }
 
+/* for Mathjx */
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 
 
 
