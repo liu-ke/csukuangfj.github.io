@@ -11,6 +11,8 @@ tags:
 参考 <http://www.internationale-studierende.de/en/prepare_your_studies/financing/costs_of_living/>
 
 
+
+
 Item          | price
 --------- | -----
 Rent (incl. additional charges)	| 298,- Euro
