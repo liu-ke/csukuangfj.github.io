@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用 MathJax 输入数学公式
+useMath: [latex]
 categories:
 - Notes
 tags:
@@ -9,9 +10,10 @@ tags:
 ---
 
 ## 参考资料
- - [LaTeX Math Magic][1], 源代码参考[这里][3]
+ - [LaTeX Math Magic][1], 源代码参考[这里][3], github repostiory 在[这里][6]
  - [MathJax in Markdown][2],源代码参考[这里][4]
  - [MathJax Getting Started][5]
+ - [Port MathJax support from gollum to jekyll #199][7]
 
 
 ## 输入方法
@@ -26,21 +28,21 @@ tags:
 
 {% highlight javascript %}
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script>
-            MathJax.Hub.Config({
-                tex2jax: {
-                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-                }
-            });
-            MathJax.Hub.Queue(function() {
-                // Fix <code> tags after MathJax finishes running. This is a
-                // hack to overcome a shortcoming of Markdown. Discussion at
-                // https://github.com/mojombo/jekyll/issues/199
-                var all = MathJax.Hub.getAllJax(), i;
-                for(i = 0; i < all.length; i += 1) {
-                    all[i].SourceElement().parentNode.className += ' has-jax';
-                }
-            });
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        // Fix <code> tags after MathJax finishes running. This is a
+        // hack to overcome a shortcoming of Markdown. Discussion at
+        // https://github.com/mojombo/jekyll/issues/199
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i = 0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
 </script>
 {% endhighlight %}
 
@@ -112,4 +114,5 @@ P(E)   = {n \choose k} p^k (1-p)^{ n-k}
 [3]: https://raw.githubusercontent.com/cwoebker/.com/master/_posts/2011-10-27-latex-math-magic.markdown
 [4]: https://github.com/stygstra/stygstra.github.com/blob/master/_layouts/default.html
 [5]: http://docs.mathjax.org/en/latest/start.html#mathjax-cdn
-
+[6]: https://github.com/cwoebker/.com
+[7]: https://github.com/jekyll/jekyll/issues/199
