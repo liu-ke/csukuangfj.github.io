@@ -1,4 +1,4 @@
-本模板从 [Luke](https://github.com/kejinlu/kejinlu.github.com) 拷贝, 网址为 https://github.com/kejinlu/kejinlu.github.com。他的博客网址为 [Luke's Homepage][http://geeklu.com]
+本模板从 [Luke](https://github.com/kejinlu/kejinlu.github.com) 拷贝, [网址](https://github.com/kejinlu/kejinlu.github.com)。他的博客网址为 [Luke's Homepage](http://geeklu.com)
 
 此Git库为我的博客  [csukuangfj's Homepage](http://csukuangfj.github.io)。
 
