@@ -7,6 +7,10 @@ tags:
 - git
 ---
 
+name | value
+-----|-----
+path | {{ page.path }}
+
 ## 程序
 
 ### 第一种方法
