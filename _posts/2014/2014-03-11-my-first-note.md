@@ -7,9 +7,7 @@ tags:
 - git
 ---
 
-name | value
------|-----
-path | {{ page.path }}
+
 
 ## 程序
 
