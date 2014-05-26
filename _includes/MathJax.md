@@ -3,7 +3,7 @@
 added support for MathJax
 -->
 
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <script>
     MathJax.Hub.Config({
         tex2jax: {
@@ -20,6 +20,7 @@ added support for MathJax
         }
     });
 </script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
 
