@@ -17,7 +17,6 @@ tags:
 
 
 ## 输入方法
- - 
  - inline 公式: `\(` `formula` `\)`, 如 `\(\LaTeX\)`, `\(a^2+b^2=c^2\)`
  - 行间公式: `$$` `formula` `$$` 或 `\[` `formula` `\]`
 
