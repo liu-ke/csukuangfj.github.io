@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 可以看的网址
+title: 收集的一些资料及链接
 categories:
 - Notes
 tags:
@@ -31,3 +31,14 @@ tags:
    - <https://launchpad.net>  
    - <http://koders.com> 现在重定向到了 <http://code.ohloh.net/>
    - <https://code.csdn.net> 国内的 CSDN
+
+
+## 好的书
+1. BackTrack 5 Wireless Penetration Testing Beginner''s Guide
+  > 很好的一本书，wireshark, aircrack-ng 的基本用法，牵涉到 wifi 中的一些固有安全问题
+  > 演示了如何攻击
+
+2. Hacking with Kali: Practical Penetration Testing Techniques
+  > Kali, BackTrack 的新版本
+
+3. xjpvictor''s Ebooks 下载电子书！ <http://book.xjpvictor.info/>
