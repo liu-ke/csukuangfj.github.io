@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C 语言 数组下标初始化
+title:  C 语言 数组下标初始化 结构体指定成员初始化
 categories:
 - Notes
 tags:
@@ -10,7 +10,12 @@ tags:
 
 ## 程序:
 
+
+
 {% gist 47e722f89c7635bbec97 %}
+
+
+<script src="https://gist.github.com/csukuangfj/47e722f89c7635bbec97.js"></script>
 
 ```language-c
 #include <stdio.h>
