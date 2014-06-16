@@ -33,6 +33,9 @@ tags:
    - <https://code.csdn.net> 国内的 CSDN
 
 
+7. Mobile Media： java, OSGi 相关的一些资料 <http://www.linecity.de/downloads/>
+
+
 ## 好的书
 1. BackTrack 5 Wireless Penetration Testing Beginner''s Guide
   > 很好的一本书，wireshark, aircrack-ng 的基本用法，牵涉到 wifi 中的一些固有安全问题
@@ -42,3 +45,8 @@ tags:
   > Kali, BackTrack 的新版本
 
 3. xjpvictor''s Ebooks 下载电子书！ <http://book.xjpvictor.info/>
+
+## 好的软件
+1. ubuntu 下的 pdf 编辑器: master-pdf-editor_1.9.25_i386.deb, 下载网址<http://code-industry.net/free-pdf-editor.php>
+
+
