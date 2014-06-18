@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 转载 几种常用窗函数  
+title: 转载 几种常用窗函数
+useMath: [latex]
 categories:
 - 转载
 tags:
