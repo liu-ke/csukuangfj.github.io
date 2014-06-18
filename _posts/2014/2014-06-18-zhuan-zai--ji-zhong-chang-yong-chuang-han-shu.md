@@ -150,5 +150,5 @@ Chebyshev 仅对奇数长度的窗有定义，若 n 为偶数，函数 w = chebw
 此外，还有Papoulis窗、Parzen窗、Poisson窗、Cauchy窗、 Gaussian窗、Bartlett-Hann、Blackman-Harris 、 Nuttall's Blackman-Harris 、 Bohman 、 Flat Top window 、 Hann 、 Parzen (de la Valle-Poussin ) 、 Tapered cosine 等。
 Matlab 窗设计和分析工具 (WinTool) 具有 GUI 界面，可以用来设计和分析窗函数，
 
-其用法：
->> wintool 
+其用法：  
+`>> wintool`
