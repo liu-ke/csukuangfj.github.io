@@ -17,7 +17,7 @@ tags:
  
 ## programming
  - [The.Art.of.Exploitation.2nd.Edition.Feb.2008][6]
- - [A commentary on the sixth edition unix operating system][8]
+ - [A commentary on the sixth edition unix operating system][8],latex [源文件][9]
 
 [1]: /pdf/wifi/Android%EF%BC%9AWi-Fi%20NFC%E5%92%8CGPS.pdf
 [2]: /pdf/wifi/WiFi_P2P_Technical_Specification_v1.2.pdf
@@ -27,3 +27,4 @@ tags:
 [6]: /pdf/programming/The.Art.of.Exploitation.2nd.Edition.Feb.2008.pdf
 [7]: /pdf/wifi/wpa_supplicant-devel.pdf
 [8]: /pdf/programming/A%20COMMENTARY%20ON%20THE%20SIXTH%20EDITION%20UNIX%20OPERATING%20SYSTEM.pdf
+[9]: /latex/a-commentary-on-sixth-edition-unix-operating-system.tar.gz
