@@ -19,6 +19,10 @@ tags:
  - [The.Art.of.Exploitation.2nd.Edition.Feb.2008][6]
  - [A commentary on the sixth edition unix operating system][8],latex [源文件][9], 参考[网页][10]
  - [Professional.Assembly.Language][11]
+ - [Embedded Programming with the GNU Toolchain][12], 最基础的知识， arm bare metal, linker script 等， 讲的非常清楚
+
+
+
 
 [1]: /pdf/wifi/Android%EF%BC%9AWi-Fi%20NFC%E5%92%8CGPS.pdf
 [2]: /pdf/wifi/WiFi_P2P_Technical_Specification_v1.2.pdf
@@ -31,3 +35,4 @@ tags:
 [9]: /latex/a-commentary-on-sixth-edition-unix-operating-system.tar.gz
 [10]: http://pdos.csail.mit.edu/6.828/2012/index.html
 [11]: /pdf/programming/Wrox.Professional.Assembly.Language.Jan.2005.eBook-DDU.pdf
+[12] http://www.bravegnu.org/gnu-eprog/
