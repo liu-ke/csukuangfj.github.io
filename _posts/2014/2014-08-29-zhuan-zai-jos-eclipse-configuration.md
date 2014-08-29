@@ -64,4 +64,4 @@ tags:
 最后祝大家课程顺利，大家一起进步咯！
 
 [1]: http://www.cnblogs.com/dabaopku/archive/2012/02/11/2346802.html
-[2] : http://www.cnblogs.com/dabaopku/archive/2012/01/09/2316772.html
+[2]: http://www.cnblogs.com/dabaopku/archive/2012/01/09/2316772.html
