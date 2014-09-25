@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WiFi 资料
+title: 收集的一些资料
 categories:
 - Notes
 tags:
@@ -14,6 +14,7 @@ tags:
  - [IEEE_Std_802.11][4]
  - [802.11无线网络权威指南][5]
  - [WPA_Supplicant development manual][7]
+ - [TL-WR800N_V1_详细配置指南.pdf][13]
  
 ## programming
  - [The.Art.of.Exploitation.2nd.Edition.Feb.2008][6]
@@ -35,4 +36,5 @@ tags:
 [9]: /latex/a-commentary-on-sixth-edition-unix-operating-system.tar.gz
 [10]: http://pdos.csail.mit.edu/6.828/2012/index.html
 [11]: /pdf/programming/Wrox.Professional.Assembly.Language.Jan.2005.eBook-DDU.pdf
-[12] http://www.bravegnu.org/gnu-eprog/
+[12]: http://www.bravegnu.org/gnu-eprog/
+[13]: /pdf/wifi/TL-WR800N_V1_%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97.pdf
