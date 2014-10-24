@@ -50,3 +50,5 @@ tags:
 1. ubuntu 下的 pdf 编辑器: master-pdf-editor_1.9.25_i386.deb, 下载网址<http://code-industry.net/free-pdf-editor.php>
 
 
+### network related websites
+1. The Difference Between Hubs, Switches and Routers <http://www.webopedia.com/DidYouKnow/Hardware_Software/router_switch_hub.asp>
