@@ -21,7 +21,7 @@ tags:
  - [A commentary on the sixth edition unix operating system][8],latex [源文件][9], 参考[网页][10]
  - [Professional.Assembly.Language][11]
  - [Embedded Programming with the GNU Toolchain][12], 最基础的知识， arm bare metal, linker script 等， 讲的非常清楚
-
+ - [java notes][14], 一本关于 java 的书，写的不错
 
 
 
@@ -38,3 +38,4 @@ tags:
 [11]: /pdf/programming/Wrox.Professional.Assembly.Language.Jan.2005.eBook-DDU.pdf
 [12]: http://www.bravegnu.org/gnu-eprog/
 [13]: /pdf/wifi/TL-WR800N_V1_%E8%AF%A6%E7%BB%86%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97.pdf
+[14]: /pdf/programming/javanotes7-linked.pdf
