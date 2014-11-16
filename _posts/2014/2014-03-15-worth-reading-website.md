@@ -57,5 +57,13 @@ tags:
 
 3. OpenDaylight Application Developers’ Tutorial <http://sdnhub.org/tutorials/opendaylight/>
 
+4. OpenDaylight: Programming Flows with the REST Interface and cURL <http://www.frank-durr.de/?p=68>
+    - OpenDaylight REST API 入门级blog
+   
+5. Developing OSGi Components for OpenDaylight <http://www.frank-durr.de/?p=84>
+    - OpenDaylight OSGi 入门级 blog
+    
+6. Reactive Flow Programming with OpenDaylight <http://www.frank-durr.de/?p=126>
+    - 比 5 稍微复杂点，也算是入门级
 
 
