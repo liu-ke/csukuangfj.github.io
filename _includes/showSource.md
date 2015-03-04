@@ -4,4 +4,4 @@
 -->
 
 <hr />
-<a href="https://raw.githubusercontent.com/{{ site.github }}/{{ site.github }}.github.io/master/{{ page.path }}">source file</a>
+<a href="https://raw.githubusercontent.com/{{ site.github }}/{{ site.github }}.github.io/master/{{ page.path }}">SOURCE file of this post</a>

@@ -5,13 +5,14 @@ layout: default
 <section class="post">
 {{ content }}
 
-{% if page.showSource contains 'yes' %}
-{% include showSource.md %}
+<!--
+    showSource: 'yes'  ====> include source file
+    other value ===> do not include source file
+-->
+{% if page.showSource == 'yes' %}
+    {% include showSource.md %}
 {% else %}
-do not include source fileaa---cccc
-{{ page.showSource }}
-{{ page.useMath }}
-<!-- do not include source file -->
+    <!-- do not include source file -->
 {% endif %}
 
 
