@@ -6,9 +6,11 @@ layout: default
 {{ content }}
 
 <!-- added by kfj to view raw content of the post -->
-<hr />
-<a href="https://raw.githubusercontent.com/{{ site.github }}/{{ site.github }}.github.io/master/{{ page.path }}">source file</a>
 
+
+{% if page.showSource contains 'yes' %}
+{% include showSource.md %}
+{% endif %}
 
 </section>
 <section class="meta">
