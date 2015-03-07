@@ -11,6 +11,7 @@ tags:
 
 # Persons
  - [Martìn Casado][4]
+ - [Kyriakos Zarifis][8] and this [link][9]
 
 
 # Courses
@@ -30,9 +31,15 @@ tags:
  - [Software Defined Network (SDN)---Mininet Learning Guide][6]
  - [Cheng Li][5] http://www.muzixing.com/
 
+# Companies
+ - [Nicira][7]
+
 [1]: http://www.csg.ethz.ch/education/lectures/ATCN/hs2014
 [2]: https://www.youtube.com/watch?v=YHeyuD89n1Y
 [3]: https://www.youtube.com/watch?v=c9-K5O_qYgA
 [4]: http://yuba.stanford.edu/~casado/
 [5]: http://www.muzixing.com/
 [6]: http://csie.nqu.edu.tw/smallko/sdn/sdn.htm
+[7]: http://en.wikipedia.org/wiki/Nicira
+[8]: https://www.linkedin.com/profile/view?id=15296045&authType=NAME_SEARCH&authToken=FTDo&locale=en_US&trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1425764418953%2Ctas%3AKyriakos+Zarifis
+[9]: http://nsl.cs.usc.edu/Profiles/KyriakosZarifis
