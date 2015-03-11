@@ -10,7 +10,7 @@ tags:
 ---
 
 # Persons
- - Minlan Yu[Homepage][10] and [LinkedIn][12]
+ - Minlan Yu [Homepage][10] and [LinkedIn][12]
  - [Martìn Casado][4]
  - [Kyriakos Zarifis][8] and this [link][9]
  - [Murphy McCauley][11]
