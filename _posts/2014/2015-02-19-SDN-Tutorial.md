@@ -51,7 +51,7 @@ tags:
 [9]: http://nsl.cs.usc.edu/Profiles/KyriakosZarifis
 [10]: http://www-bcf.usc.edu/~minlanyu/
 [11]: http://opennetsummit.org/archives/apr12/mccauley-mon-nox.pdf
-[12]: https://www.linkedin.com/pub/minlan-yu/9/b90/999
+[12]: https://www.linkedin.com/pub/minlan-yu/9/b90/999/en
 [13]: http://archive.openflow.org/wk/index.php/OpenFlow_Tutorial
 [14]: https://www.opennetworking.org/images/stories/downloads/sdn-resources/onf-specifications/openflow/openflow-spec-v1.0.0.pdf
 
