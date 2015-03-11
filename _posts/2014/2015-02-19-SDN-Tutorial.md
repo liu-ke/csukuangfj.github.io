@@ -10,13 +10,18 @@ tags:
 ---
 
 # Persons
+ - Minlan Yu[Homepage][10] and [LinkedIn][12]
  - [Martìn Casado][4]
  - [Kyriakos Zarifis][8] and this [link][9]
+ - [Murphy McCauley][11]
 
 
 # Courses
  - [Advanced Topics in Communication Networks HS 2014: Software-Defined Networking][1]
 
+# Tutorials
+ - [OpenFlow Tutorial][13]
+ - [OpenFlow Switch Specification Version 1.0.0][14]
 
 # Videos
  - [The Future of Networking, and the Past of Protocols - Scott Shenker][2]
@@ -25,6 +30,7 @@ tags:
 
 # Articles
  - N. McKeown, T. Anderson, H. Balakrishnan, G. Parulkar, L. Peterson, J. Rexford, S. Shenker and J. Turner. "**OpenFlow: enabling innovation in campus networks**". ACM SIGCOMM Computer Communication Review 38.2 (2008): 69-74.
+ - Kreutz, D., Ramos, F. (2014). **Software-Defined Networking: A Comprehensive Survey**. arXiv Preprint arXiv: …, 49. Retrieved from http://arxiv.org/abs/1406.0440
 
 
 # Blogs
@@ -43,3 +49,9 @@ tags:
 [7]: http://en.wikipedia.org/wiki/Nicira
 [8]: https://www.linkedin.com/profile/view?id=15296045&authType=NAME_SEARCH&authToken=FTDo&locale=en_US&trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1425764418953%2Ctas%3AKyriakos+Zarifis
 [9]: http://nsl.cs.usc.edu/Profiles/KyriakosZarifis
+[10]: http://www-bcf.usc.edu/~minlanyu/
+[11]: http://opennetsummit.org/archives/apr12/mccauley-mon-nox.pdf
+[12]: https://www.linkedin.com/pub/minlan-yu/9/b90/999
+[13]: http://archive.openflow.org/wk/index.php/OpenFlow_Tutorial
+[14]: https://www.opennetworking.org/images/stories/downloads/sdn-resources/onf-specifications/openflow/openflow-spec-v1.0.0.pdf
+
