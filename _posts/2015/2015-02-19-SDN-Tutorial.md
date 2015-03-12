@@ -7,7 +7,14 @@ categories:
 - Research
 tags:
 - SDN
+- OpenFlow
+- Mininet
 ---
+
+# Tutorials
+ - [Packet Structures of OpenFlow 1.0.0][15]  OpenFlow 1.0.0 数据结构
+ - [OpenFlow Tutorial][13]
+ - [OpenFlow Switch Specification Version 1.0.0][14]
 
 # Persons
  - Minlan Yu [Homepage][10] and [LinkedIn][12]
@@ -19,9 +26,7 @@ tags:
 # Courses
  - [Advanced Topics in Communication Networks HS 2014: Software-Defined Networking][1]
 
-# Tutorials
- - [OpenFlow Tutorial][13]
- - [OpenFlow Switch Specification Version 1.0.0][14]
+
 
 # Videos
  - [The Future of Networking, and the Past of Protocols - Scott Shenker][2]
@@ -54,4 +59,5 @@ tags:
 [12]: https://www.linkedin.com/pub/minlan-yu/9/b90/999/en
 [13]: http://archive.openflow.org/wk/index.php/OpenFlow_Tutorial
 [14]: https://www.opennetworking.org/images/stories/downloads/sdn-resources/onf-specifications/openflow/openflow-spec-v1.0.0.pdf
+[15]: /pdf/openflow/openflow-1.0-packet-structures-draft-0.pdf
 
