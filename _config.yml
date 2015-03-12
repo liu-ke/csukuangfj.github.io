@@ -8,7 +8,6 @@ paginate: 24
 timezone: "Asia/Shanghai"
 github: csukuangfj
 pygments: true
-myemail: csukuangfj@gmail.com
 mydomain: http://csukuangfj.github.io
 disqus_shortname: csukuangfj
 mygithub: http://github.com/csukuangfj
