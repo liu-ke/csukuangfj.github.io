@@ -82,8 +82,8 @@ h1 {
     font-size: 28px;
     line-height: 28px;
     margin: 0 0 28px 0;
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	display: inline-block;
 	padding: 12px;
 }
@@ -142,12 +142,14 @@ hr {
     height: 2px;
     margin: 0 0 22px 0;
 }
+/*
 a {
     color: #EE0000;
 }
 a:visited {
     color: #B22222;
 }
+*/
 a.ss-icon {
 	font-size: 20px;
 	padding: 0 0.25em;
