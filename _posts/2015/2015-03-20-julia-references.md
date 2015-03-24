@@ -14,7 +14,7 @@ tags:
  - [The Julia Manual][2]
  - [**julia web brain**][11]
  - [Julia blog][18]
- - [Programming in Julia][1]
+ - [Programming in Julia][1] , a very good tutorial for julia beginners!
  - [Why We Created Julia][3]
  - [Julia Tutorial][4]
  - [Julia at EuroSciPy 2014][6]
