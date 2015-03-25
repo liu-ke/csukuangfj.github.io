@@ -12,16 +12,20 @@ tags:
 
 # Tutorials
  - [The Julia Manual][2]
+ - [**Programming in Julia**][1] , a very good tutorial for julia beginners!
  - [**julia web brain**][11]
+ - [**julia-studio/tutorials/**][21]
  - [Julia blog][18]
- - [Programming in Julia][1] , a very good tutorial for julia beginners!
  - [Why We Created Julia][3]
  - [Julia Tutorial][4]
  - [Julia at EuroSciPy 2014][6]
  - [**Julia in the classroom**][12]
  - [Learn Julia in Y minutes][16]
- - [julia-studio/tutorials/][21]
  - [julia by example][23]
+ - [Julia for Numerical Computation in MIT Courses][28]
+ - [Basic Numerical Programming in Julia][29]
+ - STAT 590F, Topics in Statistical Computing on [github][35]
+ - [A Julia Meta Tutorial][36]
     
 # PDF files
  - [Julia@EuroSciPy.pdf][7]
@@ -33,6 +37,8 @@ tags:
  - [An IJulia Notebook][8]
  - [Julia as a calculator][9]
  - [nbviewer][20] provides service to view Jupyter Notebooks
+ - [Notebook][30] on github  of stanford course A228 Decision Making under Uncertainty, and on [nbviewer][31], and [course web page][32]
+ - [Notebook][33] of course AA222 Introduction to Multidisciplinary Design Optimization AND course [Homepage][34]
  
 # Courses using Julia
  - [**MTH 229 Projects**][5] and the corresponding lecture is [here][10]
@@ -47,6 +53,16 @@ tags:
  - [Plotly Julia Library][22]    
 
 
+
+[36]: http://www.datacommunitydc.org/blog/2013/07/a-julia-meta-tutorial
+[35]: https://github.com/heike/stat590f
+[34]: http://web.stanford.edu/class/aa222/#!index.md
+[33]: http://nbviewer.ipython.org/github/sisl/aa222-notebook/tree/master/
+[32]: http://web.stanford.edu/class/aa228/#!notebook.md
+[31]: http://nbviewer.ipython.org/github/sisl/aa228-notebook/tree/master/
+[30]: https://github.com/csukuangfj/aa228-notebook
+[29]: http://homerreid.dyndns.org/teaching/18.330/JuliaProgramming.shtml
+[28]: https://github.com/stevengj/julia-mit
 [27]: http://bogumilkaminski.pl/files/julia_express.pdf
 [26]: http://quant-econ.net/_static/pdfs/jl-quant-econ.pdf
 [25]: http://en.wikibooks.org/wiki/Introducing_Julia/Plotting
