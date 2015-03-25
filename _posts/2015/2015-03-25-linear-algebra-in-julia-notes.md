@@ -246,7 +246,7 @@ a1=10
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-julia"><pre><span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="o">.</span><span class="mi">2</span> <span class="o">.</span><span class="mi">6</span>
@@ -261,9 +261,11 @@ a1=10
 <span class="n">eigen_values</span> <span class="o">=</span> <span class="n">F</span><span class="o">.</span><span class="n">values</span>
 <span class="n">eigen_vectors</span> <span class="o">=</span> <span class="n">F</span><span class="o">.</span><span class="n">vectors</span>
 
-<span class="n">println</span><span class="p">(</span><span class="n">det</span><span class="p">(</span><span class="n">vectors</span><span class="p">),</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+<span class="n">println</span><span class="p">(</span><span class="n">det</span><span class="p">(</span><span class="n">eigen_vectors</span><span class="p">),</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
 
-<span class="n">println</span><span class="p">(</span><span class="n">A</span><span class="o">*</span><span class="n">eigen_vectors</span> <span class="o">-</span> <span class="n">eigen_vectors</span> <span class="o">*</span> <span class="n">diagm</span><span class="p">(</span><span class="n">eigen_values</span><span class="p">))</span>
+<span class="n">println</span><span class="p">(</span><span class="n">A</span><span class="o">*</span><span class="n">eigen_vectors</span> <span class="o">-</span> <span class="n">eigen_vectors</span> <span class="o">*</span> <span class="n">diagm</span><span class="p">(</span><span class="n">eigen_values</span><span class="p">),</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+
+<span class="n">println</span><span class="p">(</span><span class="n">inv</span><span class="p">(</span><span class="n">eigen_vectors</span><span class="p">)</span><span class="o">*</span><span class="n">A</span><span class="o">*</span><span class="n">eigen_vectors</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -285,6 +287,9 @@ Eigen{Float64,Float64}([-0.3999999999999999,1.0],[-0.7071067811865475 -0.6000000
 
 [1.1102230246251565e-16 1.1102230246251565e-16
  0.0 -1.1102230246251565e-16]
+
+[-0.4 -3.885780586188048e-16
+ 0.0 1.0]
 </pre>
 </div>
 </div>
