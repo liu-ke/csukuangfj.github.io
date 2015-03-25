@@ -27,6 +27,7 @@ tags:
  - [Julia@EuroSciPy.pdf][7]
  - [Julia cheatsheet][15]
  - [QUANTITATIVE ECONOMICS with Julia][26]
+ - [The Julia Express][27]
 
 # Julia Notebook
  - [An IJulia Notebook][8]
@@ -45,6 +46,8 @@ tags:
  - [An Introduction to Gadfly][24]
  - [Plotly Julia Library][22]    
 
+
+[27]: http://bogumilkaminski.pl/files/julia_express.pdf
 [26]: http://quant-econ.net/_static/pdfs/jl-quant-econ.pdf
 [25]: http://en.wikibooks.org/wiki/Introducing_Julia/Plotting
 [24]: http://nbviewer.ipython.org/github/john9631/JuliaDocs/blob/master/GadflyTutorial/GadflyTutorial.ipynb
