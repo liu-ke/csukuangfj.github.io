@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Julia Language References
+title: Linear Algebra in Julia
 useMath: [latex]
 showSource: 'no'
 categories:
