@@ -6,7 +6,7 @@ showSource: 'no'
 categories:
 - Research
 tags:
-- julia
+- Julia
 - Machine Learning
 ---
 
@@ -26,6 +26,7 @@ tags:
 # PDF files
  - [Julia@EuroSciPy.pdf][7]
  - [Julia cheatsheet][15]
+ - [QUANTITATIVE ECONOMICS with Julia][26]
 
 # Julia Notebook
  - [An IJulia Notebook][8]
@@ -44,7 +45,7 @@ tags:
  - [An Introduction to Gadfly][24]
  - [Plotly Julia Library][22]    
 
-
+[26]: http://quant-econ.net/_static/pdfs/jl-quant-econ.pdf
 [25]: http://en.wikibooks.org/wiki/Introducing_Julia/Plotting
 [24]: http://nbviewer.ipython.org/github/john9631/JuliaDocs/blob/master/GadflyTutorial/GadflyTutorial.ipynb
 [23]: http://www.scolvin.com/juliabyexample/
