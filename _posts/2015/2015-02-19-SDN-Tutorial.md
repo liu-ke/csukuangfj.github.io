@@ -16,6 +16,9 @@ tags:
  - [OpenFlow Tutorial][13]
  - [OpenFlow Switch Specification Version 1.0.0][14]
 
+# Labs
+ - [Lab 8 (IP Load Balancer)][16], or my local [copy][17]
+
 # Persons
  - Minlan Yu [Homepage][10] and [LinkedIn][12]
  - [Martìn Casado][4]
@@ -45,6 +48,8 @@ tags:
 # Companies
  - [Nicira][7]
 
+[17]: /pdf/sdn/lab/mySDN_Lab8.pdf
+[16]: http://csie.nqu.edu.tw/smallko/sdn/mySDN_Lab8.pdf
 [1]: http://www.csg.ethz.ch/education/lectures/ATCN/hs2014
 [2]: https://www.youtube.com/watch?v=YHeyuD89n1Y
 [3]: https://www.youtube.com/watch?v=c9-K5O_qYgA
