@@ -18,6 +18,7 @@ tags:
 
 # Labs
  - [Lab 8 (IP Load Balancer)][16], or my local [copy][17]
+ - [Lab 9 (Traffic Measurement)][18], or my local [copy][19]
 
 # Persons
  - Minlan Yu [Homepage][10] and [LinkedIn][12]
@@ -48,6 +49,9 @@ tags:
 # Companies
  - [Nicira][7]
 
+
+[19]: /pdf/sdn/lab/measure_traffic.pdf
+[18]: http://csie.nqu.edu.tw/smallko/sdn/measure_traffic.pdf
 [17]: /pdf/sdn/lab/mySDN_Lab8.pdf
 [16]: http://csie.nqu.edu.tw/smallko/sdn/mySDN_Lab8.pdf
 [1]: http://www.csg.ethz.ch/education/lectures/ATCN/hs2014
