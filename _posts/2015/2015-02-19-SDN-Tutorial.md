@@ -33,6 +33,7 @@ tags:
  - [Martìn Casado][4]
  - [Kyriakos Zarifis][8] and this [link][9]
  - [Murphy McCauley][11]
+ - [Guru Parulkar][32]
 
 
 # Courses
@@ -58,7 +59,7 @@ tags:
  - [Nicira][7]
 
 
-
+[32]: http://parulkar.com/
 [31]: http://yuba.stanford.edu/~nickm/
 [30]: http://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html
 [29]: /pdf/sdn/lab/mySDN.pdf
