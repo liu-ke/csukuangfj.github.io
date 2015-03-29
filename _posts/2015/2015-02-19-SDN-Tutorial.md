@@ -34,6 +34,7 @@ tags:
  - [Kyriakos Zarifis][8] and this [link][9]
  - [Murphy McCauley][11]
  - [Guru Parulkar][32]
+ - [柯志亨][33] (Chih-Heng Ke)]
 
 
 # Courses
@@ -59,6 +60,8 @@ tags:
  - [Nicira][7]
 
 
+
+[33]: http://csie.nqu.edu.tw/smallko/
 [32]: http://parulkar.com/
 [31]: http://yuba.stanford.edu/~nickm/
 [30]: http://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html
