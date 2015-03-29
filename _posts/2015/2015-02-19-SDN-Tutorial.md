@@ -16,9 +16,15 @@ tags:
  - [OpenFlow Tutorial][13]
  - [OpenFlow Switch Specification Version 1.0.0][14]
 
-# Labs
+# Labs from <http://csie.nqu.edu.tw/smallko/sdn>
+ - [Software Defined Network (SDN) experiment using Mininet and POX Controller][28], or my local [copy][29]
  - [Lab 8 (IP Load Balancer)][16], or my local [copy][17]
  - [Lab 9 (Traffic Measurement)][18], or my local [copy][19]
+ - [Lab 5: set traffic to different output queues (QoS issue)][26], or my local [copy][27]
+ - [Lab 6 (FlowVisor)][20], or my local [copy][21]
+ - [Lab 7 (Multiple Tables Test)][22], or my local [copy][23]
+ - [H.264 SVC performance evaluation over SDN (2)][24], or my local [copy][25]
+ - for more information, please refer to <http://csie.nqu.edu.tw/smallko/sdn/sdn.htm>
 
 # Persons
  - Minlan Yu [Homepage][10] and [LinkedIn][12]
@@ -50,6 +56,17 @@ tags:
  - [Nicira][7]
 
 
+
+[29]: /pdf/sdn/lab/mySDN.pdf
+[28]: http://csie.nqu.edu.tw/smallko/sdn/mySDN.pdf
+[27]: /pdf/sdn/lab/mySDN_Lab5.pdf
+[26]: http://csie.nqu.edu.tw/smallko/sdn/mySDN_Lab5.pdf
+[25]: /pdf/sdn/lab/h264_eva2.pdf
+[24]: http://csie.nqu.edu.tw/smallko/sdn/h264_eva2.pdf
+[23]: /pdf/sdn/lab/mySDN_Lab7.pdf
+[22]: http://csie.nqu.edu.tw/smallko/sdn/mySDN_Lab7.pdf
+[21]: /pdf/sdn/lab/mySDN_Lab6.pdf
+[20]: http://csie.nqu.edu.tw/smallko/sdn/mySDN_Lab6.pdf
 [19]: /pdf/sdn/lab/measure_traffic.pdf
 [18]: http://csie.nqu.edu.tw/smallko/sdn/measure_traffic.pdf
 [17]: /pdf/sdn/lab/mySDN_Lab8.pdf
