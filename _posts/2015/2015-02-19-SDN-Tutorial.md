@@ -18,11 +18,11 @@ tags:
 
 # Labs from <http://csie.nqu.edu.tw/smallko/sdn>
  - [Software Defined Network (SDN) experiment using Mininet and POX Controller][28], or my local [copy][29]
- - [Lab 8 (IP Load Balancer)][16], or my local [copy][17]
- - [Lab 9 (Traffic Measurement)][18], or my local [copy][19]
  - [Lab 5: set traffic to different output queues (QoS issue)][26], or my local [copy][27]
  - [Lab 6 (FlowVisor)][20], or my local [copy][21]
  - [Lab 7 (Multiple Tables Test)][22], or my local [copy][23]
+ - [Lab 8 (IP Load Balancer)][16], or my local [copy][17]
+ - [Lab 9 (Traffic Measurement)][18], or my local [copy][19]
  - [H.264 SVC performance evaluation over SDN (2)][24], or my local [copy][25]
  - for more information, please refer to <http://csie.nqu.edu.tw/smallko/sdn/sdn.htm>
 
