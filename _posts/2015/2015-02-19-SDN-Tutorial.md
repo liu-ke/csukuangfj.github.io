@@ -28,6 +28,8 @@ tags:
 
 # Persons
  - Minlan Yu [Homepage][10] and [LinkedIn][12]
+ - [Scott Shenker][30]
+ - [Nick McKeown][31]
  - [Martìn Casado][4]
  - [Kyriakos Zarifis][8] and this [link][9]
  - [Murphy McCauley][11]
@@ -57,6 +59,8 @@ tags:
 
 
 
+[31]: http://yuba.stanford.edu/~nickm/
+[30]: http://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html
 [29]: /pdf/sdn/lab/mySDN.pdf
 [28]: http://csie.nqu.edu.tw/smallko/sdn/mySDN.pdf
 [27]: /pdf/sdn/lab/mySDN_Lab5.pdf
