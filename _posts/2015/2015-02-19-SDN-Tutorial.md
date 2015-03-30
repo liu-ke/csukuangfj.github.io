@@ -35,10 +35,12 @@ tags:
  - [Murphy McCauley][11]
  - [Guru Parulkar][32]
  - [柯志亨][33] (Chih-Heng Ke)]
+ - [Yujia Li][34], 李宇佳
 
 
 # Courses
  - [Advanced Topics in Communication Networks HS 2014: Software-Defined Networking][1]
+ - [CS 838:Systems and Networking Challenges in Cloud Computing: Toward Software-Defined Clouds][36] Fall '12: Course Home Page
 
 
 
@@ -46,6 +48,8 @@ tags:
  - [The Future of Networking, and the Past of Protocols - Scott Shenker][2]
  - [How SDN will Shape Networking - Nick McKeown][3]
 
+# Tools
+ - [NetVis][35], a really useful tool !!!
 
 # Articles
  - N. McKeown, T. Anderson, H. Balakrishnan, G. Parulkar, L. Peterson, J. Rexford, S. Shenker and J. Turner. "**OpenFlow: enabling innovation in campus networks**". ACM SIGCOMM Computer Communication Review 38.2 (2008): 69-74.
@@ -55,6 +59,7 @@ tags:
 # Blogs
  - [Software Defined Network (SDN)---Mininet Learning Guide][6]
  - [Cheng Li][5] http://www.muzixing.com/
+ - [Windy's Software Defined Networks][37]
 
 # Websites
  - <http://onlab.us/>
@@ -64,8 +69,10 @@ tags:
 # Companies
  - [Nicira][7]
 
-
-
+[37]: http://windysdn.blogspot.tw/
+[36]: http://pages.cs.wisc.edu/~akella/CS838/F12/index.html
+[35]: http://www.cs.toronto.edu/~yujiali/proj/netvis.html
+[34]: http://www.cs.toronto.edu/~yujiali/projects.html
 [33]: http://csie.nqu.edu.tw/smallko/
 [32]: http://parulkar.com/
 [31]: http://yuba.stanford.edu/~nickm/
