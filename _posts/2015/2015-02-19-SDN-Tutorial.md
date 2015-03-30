@@ -13,6 +13,8 @@ tags:
 
 # Tutorials
  - [Packet Structures of OpenFlow 1.0.0][15]  OpenFlow 1.0.0 数据结构
+ - [Mininet Walkthrough][40]
+ - [Introduction to Mininet][41]
  - [OpenFlow Tutorial][13]
  - [OpenFlow Switch Specification Version 1.0.0][14]
 
@@ -71,6 +73,11 @@ tags:
  - [Nicira][7]
 
 
+
+
+
+[41]: https://github.com/mininet/mininet/wiki/Introduction-to-Mininet
+[40]: http://mininet.org/walkthrough/
 [39]: http://www.slideshare.net/limura/how-to-use-miniedit
 [38]: http://techandtrains.com/category/miniedit/
 [37]: http://windysdn.blogspot.tw/
