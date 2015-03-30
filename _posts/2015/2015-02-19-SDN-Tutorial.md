@@ -50,6 +50,7 @@ tags:
 
 # Tools
  - [NetVis][35], a really useful tool !!!
+ - [MiniEdit][38], [How to use miniedit][39]
 
 # Articles
  - N. McKeown, T. Anderson, H. Balakrishnan, G. Parulkar, L. Peterson, J. Rexford, S. Shenker and J. Turner. "**OpenFlow: enabling innovation in campus networks**". ACM SIGCOMM Computer Communication Review 38.2 (2008): 69-74.
@@ -69,6 +70,9 @@ tags:
 # Companies
  - [Nicira][7]
 
+
+[39]: http://www.slideshare.net/limura/how-to-use-miniedit
+[38]: http://techandtrains.com/category/miniedit/
 [37]: http://windysdn.blogspot.tw/
 [36]: http://pages.cs.wisc.edu/~akella/CS838/F12/index.html
 [35]: http://www.cs.toronto.edu/~yujiali/proj/netvis.html
