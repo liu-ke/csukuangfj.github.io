@@ -12,11 +12,17 @@ tags:
 ---
 
 # Tutorials
- - [Packet Structures of OpenFlow 1.0.0][15]  OpenFlow 1.0.0 数据结构
  - [Mininet Walkthrough][40]
  - [Introduction to Mininet][41]
  - [OpenFlow Tutorial][13]
  - [OpenFlow Switch Specification Version 1.0.0][14]
+
+# OpenFlow Tutorials
+ - [Packet Structures of OpenFlow 1.0.0][15]  OpenFlow 1.0.0 数据结构
+ - [Openflow_packet_format][42], or my local [copy][43]
+ - [OpenFlow v1.2 Messages and Structures][46]
+ - [OpenFlow v1.3 Messages and Structures][44]
+ - [OpenFlow v1.4 Messages and Structures][45]
 
 # Labs from <http://csie.nqu.edu.tw/smallko/sdn/sdn.htm>
  - [Software Defined Network (SDN) experiment using Mininet and POX Controller][28], or my local [copy][29]
@@ -74,8 +80,11 @@ tags:
 
 
 
-
-
+[46]: http://ryu.readthedocs.org/en/latest/ofproto_v1_2_ref.html
+[45]: http://ryu.readthedocs.org/en/latest/ofproto_v1_4_ref.html
+[44]: http://ryu.readthedocs.org/en/latest/ofproto_v1_3_ref.html
+[43]: /pdf/openflow/Openflow_packet_format.pdf
+[42]: http://archive.openflow.org/wk/images/c/c5/Openflow_packet_format.pdf
 [41]: https://github.com/mininet/mininet/wiki/Introduction-to-Mininet
 [40]: http://mininet.org/walkthrough/
 [39]: http://www.slideshare.net/limura/how-to-use-miniedit
