@@ -28,10 +28,13 @@ tags:
  - [CS229 Machine Learning][7]
  - [CS42Contemporary JavaScript][13]
  - [CS101 Computer Science 101][11] and [here][12]
+ - [CS42 Contemporary JavaScript][19]
  - 
  - [Course Schedule Autumn 2014-2015][9] of Stanford
  - 
 
+
+[19]: http://callbackjs.me/
 [18]: http://web.stanford.edu/class/cs106x/
 [17]: http://cs.stanford.edu/courses/schedules/2014-2015.autumn.php
 [16]: http://web.stanford.edu/class/cs106b/
