@@ -29,9 +29,9 @@ tags:
  - [CS42Contemporary JavaScript][13]
  - [CS101 Computer Science 101][11] and [here][12]
  - [CS42 Contemporary JavaScript][19]
- - 
+
  - [Course Schedule Autumn 2014-2015][9] of Stanford
- - 
+
 
 
 [19]: http://callbackjs.me/
