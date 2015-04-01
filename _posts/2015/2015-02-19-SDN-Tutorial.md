@@ -31,7 +31,7 @@ tags:
 # Open vSwitch
  - [Homepage][51]
 
-# Labs from <http://csie.nqu.edu.tw/smallko/sdn/sdn.htm>
+# Labs from [smallko](http://csie.nqu.edu.tw/smallko/sdn/sdn.htm)
  - [Software Defined Network (SDN) experiment using Mininet and POX Controller][28], or my local [copy][29]
  - [Lab 5: set traffic to different output queues (QoS issue)][26], or my local [copy][27]
  - [Lab 6 (FlowVisor)][20], or my local [copy][21]
