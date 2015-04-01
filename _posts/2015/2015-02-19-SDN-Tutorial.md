@@ -19,6 +19,7 @@ tags:
  - [SDN Hub][47]
  - [Pox tutorials][49]
  - [POX Wiki][50]
+ - [Programming in POX][52]
 
 # OpenFlow Tutorials
  - [Packet Structures of OpenFlow 1.0.0][15]  OpenFlow 1.0.0 数据结构
@@ -40,6 +41,11 @@ tags:
  - [Lab 9 (Traffic Measurement)][18], or my local [copy][19]
  - [H.264 SVC performance evaluation over SDN (2)][24], or my local [copy][25]
  - for more information, please refer to <http://csie.nqu.edu.tw/smallko/sdn/sdn.htm>
+ 
+# Labs
+ - [CS 91 Lab 2][53] , Software-defined networking / OpenFlow
+ - [Assignment 7: SDN and Firewalls][54]
+ - [POX Programming Assignment][55]
 
 # Persons
  - Minlan Yu [Homepage][10] and [LinkedIn][12]
@@ -56,6 +62,7 @@ tags:
 # Courses
  - [Advanced Topics in Communication Networks HS 2014: Software-Defined Networking][1]
  - [CS 838:Systems and Networking Challenges in Cloud Computing: Toward Software-Defined Clouds][36] Fall '12: Course Home Page
+ - [Software Defined Networking][56] on coursera
 
 
 
@@ -87,6 +94,13 @@ tags:
 
 
 
+
+
+[56]: https://www.coursera.org/course/sdn1
+[55]: https://coruja.di.fc.ul.pt/file.php/725/tp/ProgrammingAssignment2_POX_PRD.pdf
+[54]: https://www.udacity.com/wiki/cn/assignment7-sdn-firewall
+[53]: http://web.cs.swarthmore.edu/~kwebb/cs91/f14/labs/lab2.html
+[52]: https://openflow.stanford.edu/display/ONL/Programming+in+POX
 [51]: http://openvswitch.github.io/
 [50]: https://openflow.stanford.edu/display/ONL/POX+Wiki
 [49]: https://github.com/hip2b2/poxstuff

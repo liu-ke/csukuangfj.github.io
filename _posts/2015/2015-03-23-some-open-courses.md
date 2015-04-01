@@ -15,11 +15,12 @@ tags:
 
 # Computer Science
  - cs1U [**Practical Unix**][8] and [video courses][10]
+ - [**cs107 Computer Organization and Systems**][14], 2015
+ - [**6.828 Operating System Engineering**][20], 2014
  - [CS 106A: Programming Methodology (Java) Spring 2015][15]
  - [CS 106B: Programming Abstractions (C++) Spring 2015][16]
  - [CS106L Standard C++ Programming Laboratory][17]
  - [CS106X: Programming Abstractions][18]
- - [**cs107 Computer Organization and Systems**][14], 2015
  - [CS144 Introduction to Computer Networking][5], 2015
  - [CS144: Introduction to Computer Networking][6], Fall 2011
  - [CS140: Operating Systems][3]
@@ -34,6 +35,7 @@ tags:
 
 
 
+[20]: http://pdos.csail.mit.edu/6.828/2014/schedule.html
 [19]: http://callbackjs.me/
 [18]: http://web.stanford.edu/class/cs106x/
 [17]: http://cs.stanford.edu/courses/schedules/2014-2015.autumn.php
