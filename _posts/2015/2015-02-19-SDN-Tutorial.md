@@ -17,6 +17,8 @@ tags:
  - [OpenFlow Tutorial][13]
  - [OpenFlow Switch Specification Version 1.0.0][14]
  - [SDN Hub][47]
+ - [Pox tutorials][49]
+ - [POX Wiki][50]
 
 # OpenFlow Tutorials
  - [Packet Structures of OpenFlow 1.0.0][15]  OpenFlow 1.0.0 数据结构
@@ -24,6 +26,10 @@ tags:
  - [OpenFlow v1.2 Messages and Structures][46]
  - [OpenFlow v1.3 Messages and Structures][44]
  - [OpenFlow v1.4 Messages and Structures][45]
+ - [Understanding OpenFlow Barrier Messages on Devices Running Junos OS][48]
+
+# Open vSwitch
+ - [Homepage][51]
 
 # Labs from <http://csie.nqu.edu.tw/smallko/sdn/sdn.htm>
  - [Software Defined Network (SDN) experiment using Mininet and POX Controller][28], or my local [copy][29]
@@ -80,6 +86,11 @@ tags:
  - [Nicira][7]
 
 
+
+[51]: http://openvswitch.github.io/
+[50]: https://openflow.stanford.edu/display/ONL/POX+Wiki
+[49]: https://github.com/hip2b2/poxstuff
+[48]: http://www.juniper.net/techpubs/en_US/junos13.2/topics/concept/junos-sdn-openflow-messages-barrier-overview.html
 [47]: http://sdnhub.org/
 [46]: http://ryu.readthedocs.org/en/latest/ofproto_v1_2_ref.html
 [45]: http://ryu.readthedocs.org/en/latest/ofproto_v1_4_ref.html
