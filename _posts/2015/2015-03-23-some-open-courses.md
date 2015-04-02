@@ -38,7 +38,7 @@ tags:
 [20]: http://pdos.csail.mit.edu/6.828/2014/schedule.html
 [19]: http://callbackjs.me/
 [18]: http://web.stanford.edu/class/cs106x/
-[17]: http://cs.stanford.edu/courses/schedules/2014-2015.autumn.php
+[17]: http://web.stanford.edu/class/cs106l/
 [16]: http://web.stanford.edu/class/cs106b/
 [15]: http://web.stanford.edu/class/cs106a/
 [14]: http://web.stanford.edu/class/cs107/syllabus.html
