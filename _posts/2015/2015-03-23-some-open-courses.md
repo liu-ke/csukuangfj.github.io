@@ -13,10 +13,15 @@ tags:
 # Linear Algebra
  - [EE103/CME103][1] Introduction to Matrix Methods
 
-# Computer Science
+# Computer Science MIT
+ - [**6.828 Operating System Engineering**][20], 2014 
+ - [6.824: Distributed Systems][30], Spring 2015
+ - [6.033: Computer Systems Engineering][31], Spring 2015
+ - [Course 6: Electrical Engineering and Computer Science IAP / Spring 2015][29]
+
+# Computer Science Stanford
  - cs1U [**Practical Unix**][8] and [video courses][10]
  - [**cs107 Computer Organization and Systems**][14], 2015
- - [**6.828 Operating System Engineering**][20], 2014
  - [**CS 106B: Programming Abstractions (C++) Spring 2015**][16] and [2013][21] 
  - [**CS106L Standard C++ Programming Laboratory**][17] 
  - [CS 106A: Programming Methodology (Java) Spring 2015][15]
@@ -41,6 +46,10 @@ tags:
  - [Course Schedule Winter 2014-2015][27] of Stanford
 
 
+
+[31]: http://web.mit.edu/6.033/www/schedule.shtml
+[30]: http://nil.csail.mit.edu/6.824/2015/index.html
+[29]: http://student.mit.edu/catalog/m6a.html
 [28]: http://www.scs.stanford.edu/15wi-cs140/
 [27]: http://cs.stanford.edu/courses/schedules/2014-2015.winter.php
 [26]: http://web.stanford.edu/class/cs108/
