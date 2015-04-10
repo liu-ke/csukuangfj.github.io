@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Programming Languages References
+title: LaTeX Resources
 useMath: [latex]
 showSource: 'no'
 categories:
