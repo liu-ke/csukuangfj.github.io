@@ -12,7 +12,7 @@ tags:
 
 ## Useful packages
  - [Drawstack.sty: Easily draw stack frames in LaTeX][1] and an [example][2]
- - 
+
  
 
 ## Tutorials
