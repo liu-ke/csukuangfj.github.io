@@ -28,6 +28,7 @@ tags:
  - [Advanced use of Git][4]
 
 
+[9]: http://en.wikibooks.org/wiki/X86_Disassembly
 [8]: /pdf/programming/x86%20Disassembly.pdf
 [7]: /pdf/programming/psABI-i386.pdf
 [6]: http://www.uclibc.org/docs/psABI-i386.pdf
