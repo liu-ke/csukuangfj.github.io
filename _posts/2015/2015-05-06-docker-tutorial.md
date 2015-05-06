@@ -14,6 +14,7 @@ tags:
  - [The best way to understand Docker is to try it!][2], learn basic docker commands on a provided machine
  - [Welcome to the Docker User Guide][3], official docker tutorial
  - [orchestrating-docker-with-machine-swarm-and-compose][4], deploy docker containers over multiple hosts
+ - [**Swarm: a Docker-native clustering system**][5]
 
 
 
@@ -24,3 +25,4 @@ tags:
 [2]: https://www.docker.com/tryit/
 [3]: https://docs.docker.com/userguide/
 [4]: https://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-compose/
+[5]: https://github.com/docker/swarm
