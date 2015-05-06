@@ -9,15 +9,23 @@ tags:
 - Programming
 ---
 
+## Persons
+ - [Eric S. Raymond's Home Page][10]
 
 ## Assembly
- - [Professional Assembly Language][1], Richard Blum (see cloud disk)
+ - [**Professional Assembly Language**][1], Richard Blum (see cloud disk)
  - [x86 Disassembly][8] Exploring the relationship between C, x86 Assembly, and Machine Code, and HTML format [wiki-book][9]
 
 ## C/C++
  - [The C Programming Language][2], K&R, Kernighan, Ritchie
  - [Advanced Programming in the UNIX Environment (2nd Edition)][3]
  - [My collection of C and C++ funny programs][5]
+ - [The Lost Art of C Structure Packing][11]
+ - A Guide to Undefined Behavior in C and C++ [Part 1][12], [Part 2][13], [Part 3][14]
+ - [Time, Clock, and Calendar Programming In C][15]
+ - [Writing Efficient C and C Code Optimization][16]
+ - [Real-time and Embedded Software Design][17]
+ - [Optimization of Computer Programs in C][18]
 
 
 ## Operating system
@@ -28,6 +36,17 @@ tags:
  - [Advanced use of Git][4]
 
 
+
+
+[18]: http://leto.net/docs/C-optimization.php
+[17]: https://www.eventhelix.com/RealtimeMantra/basics/#.VSrcMPmUcXc
+[16]: http://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
+[15]: http://www.catb.org/esr/time-programming/
+[14]: http://blog.regehr.org/archives/232
+[13]: http://blog.regehr.org/archives/226
+[12]: http://blog.regehr.org/archives/213
+[11]: http://www.catb.org/esr/structure-packing/
+[10]: http://www.catb.org/~esr/
 [9]: http://en.wikibooks.org/wiki/X86_Disassembly
 [8]: /pdf/programming/x86%20Disassembly.pdf
 [7]: /pdf/programming/psABI-i386.pdf
