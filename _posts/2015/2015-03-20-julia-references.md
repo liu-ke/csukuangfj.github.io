@@ -11,12 +11,15 @@ tags:
 ---
 
 # Tutorials
+ - [julia-tutorial.pdf][39]
+ - [Statistics with Julia: Linear Algebra with LAPACK][38]
+ - [Linear algebra in Julia][37]
  - [The Julia Manual][2]
  - [**Programming in Julia**][1] , a very good tutorial for julia beginners!
  - [**julia web brain**][11]
  - [**julia-studio/tutorials/**][21]
  - [Julia blog][18]
- - [Why We Created Julia][3]
+ - [**Why We Created Julia**][3]
  - [Julia Tutorial][4]
  - [Julia at EuroSciPy 2014][6]
  - [**Julia in the classroom**][12]
@@ -54,6 +57,19 @@ tags:
 
 
 
+
+
+
+
+
+
+
+
+
+
+[39]: http://www.cs.toronto.edu/~jsnell/assets/julia-tutorial.pdf
+[38]: http://www.statsblogs.com/2012/04/15/statistics-with-julia-linear-algebra-with-lapack/
+[37]: http://julia.readthedocs.org/en/latest/manual/linear-algebra/
 [36]: http://www.datacommunitydc.org/blog/2013/07/a-julia-meta-tutorial
 [35]: https://github.com/heike/stat590f
 [34]: http://web.stanford.edu/class/aa222/#!index.md
