@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chef tutorial
+title: Rust tutorial
 useMath: [latex]
 showSource: 'no'
 categories:
