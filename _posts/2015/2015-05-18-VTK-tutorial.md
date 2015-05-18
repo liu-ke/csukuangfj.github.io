@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rust tutorial
+title: VTK tutorial
 useMath: [latex]
 showSource: 'no'
 categories:
