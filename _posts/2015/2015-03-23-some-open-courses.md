@@ -10,6 +10,9 @@ tags:
 ---
 
 
+# Computer Architecture and Organization
+ - [Great Ideas in Computer Architecture (Machine Structures). Spring 2015, UC Berkeley][32]
+
 # Linear Algebra
  - [EE103/CME103][1] Introduction to Matrix Methods
 
@@ -47,6 +50,10 @@ tags:
 
 
 
+
+
+
+[32]: http://www-inst.eecs.berkeley.edu/~cs61c/sp15/
 [31]: http://web.mit.edu/6.033/www/schedule.shtml
 [30]: http://nil.csail.mit.edu/6.824/2015/index.html
 [29]: http://student.mit.edu/catalog/m6a.html

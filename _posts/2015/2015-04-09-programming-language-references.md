@@ -26,10 +26,12 @@ tags:
  - [Writing Efficient C and C Code Optimization][16]
  - [Real-time and Embedded Software Design][17]
  - [Optimization of Computer Programs in C][18]
+ - [Harvey notes on C][19]
 
 
 ## Operating system
  - [System V Application Binary Interface Intel386 Architecture Processor Supplement Version 1.0][6] and my [local copy][7]
+ - [Hilfinger notes on Memory Management][20]
 
 
 ## Git
@@ -38,6 +40,10 @@ tags:
 
 
 
+
+
+[20]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/pnh.stg.mgmt.pdf
+[19]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/HarveyNotesC1-3.pdf
 [18]: http://leto.net/docs/C-optimization.php
 [17]: https://www.eventhelix.com/RealtimeMantra/basics/#.VSrcMPmUcXc
 [16]: http://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
