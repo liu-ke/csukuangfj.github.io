@@ -32,6 +32,7 @@ tags:
 ## Operating system
  - [System V Application Binary Interface Intel386 Architecture Processor Supplement Version 1.0][6] and my [local copy][7]
  - [Hilfinger notes on Memory Management][20]
+ - [You can be a kernel hacker!][21]
 
 
 ## Git
@@ -41,7 +42,7 @@ tags:
 
 
 
-
+[21]: http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
 [20]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/pnh.stg.mgmt.pdf
 [19]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/HarveyNotesC1-3.pdf
 [18]: http://leto.net/docs/C-optimization.php
