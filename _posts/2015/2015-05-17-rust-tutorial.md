@@ -14,7 +14,7 @@ tags:
  - [**Projects using Rust**][3]
  - [Rust references][1], contains lots of links 
  - [Why Rust (and why this blog)?][2]
- - [The classic first community tutorial to Rust][4], Rust for Rubyists
+ - [The classic first community tutorial to Rust][4], Rust for Rubyists, my [local copy][5]
  
 
 
@@ -23,6 +23,7 @@ tags:
 
 
 
+[5]: /pdf/programming/rust-for-rubyists-pdf.tgz
 [4]: http://www.rustforrubyists.com/
 [3]: http://rust-ci.org/projects/
 [2]: http://matej-lach.me/why-rust-and-why-this-blog/
