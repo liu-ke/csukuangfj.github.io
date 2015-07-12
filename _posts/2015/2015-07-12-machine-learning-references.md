@@ -9,7 +9,7 @@ tags:
 - Machine Learning
 ---
 
-## books
+## Books
  - [The Gaussian Processes Web Site][1] contains many resources, including a book [Gaussian Processes for Machine Learning][2]
  - [Mathematics for Econometrics][4], chapter 5 introduces vector and matrix differentiation
  - [The Elements of Statistical Learning][5]
