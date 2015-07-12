@@ -15,7 +15,7 @@ tags:
  - [The Elements of Statistical Learning][5]
 
 ## Math Basics
- - [Matrix Differentiation][3]
+ - [Matrix Differentiation][3], very basic!
 
 
 
