@@ -28,6 +28,9 @@ tags:
  - [Optimization of Computer Programs in C][18]
  - [Harvey notes on C][19]
 
+## Python
+ - [Core Python Programming (2nd Edition)][23]
+
 
 ## Operating system
  - [System V Application Binary Interface Intel386 Architecture Processor Supplement Version 1.0][6] and my [local copy][7]
@@ -42,7 +45,7 @@ tags:
 
 
 
-
+[23]: http://www.amazon.com/Core-Python-Programming-2nd-Edition/dp/0132269937
 [22]: http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811
 [21]: http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
 [20]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/pnh.stg.mgmt.pdf
