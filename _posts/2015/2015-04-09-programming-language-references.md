@@ -34,6 +34,8 @@ tags:
  - [Hilfinger notes on Memory Management][20]
  - [You can be a kernel hacker!][21]
 
+## Compiler
+ - [Compilers: Principles, Techniques, and Tools (2nd Edition)][22]
 
 ## Git
  - [Advanced use of Git][4]
@@ -41,7 +43,7 @@ tags:
 
 
 
-
+[22]: http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811
 [21]: http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
 [20]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/pnh.stg.mgmt.pdf
 [19]: http://www-inst.eecs.berkeley.edu/~cs61c/resources/HarveyNotesC1-3.pdf
