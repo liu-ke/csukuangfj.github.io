@@ -30,6 +30,8 @@ tags:
 
 ## Python
  - [Core Python Programming (2nd Edition)][23]
+ - [How methods work in Python][24]
+ - [Difference between @staticmethod and @classmethod in Python][25]
 
 
 ## Operating system
@@ -45,6 +47,9 @@ tags:
 
 
 
+
+[25]: http://www.pythoncentral.io/difference-between-staticmethod-and-classmethod-in-python/
+[24]: https://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods
 [23]: http://www.amazon.com/Core-Python-Programming-2nd-Edition/dp/0132269937
 [22]: http://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811
 [21]: http://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
