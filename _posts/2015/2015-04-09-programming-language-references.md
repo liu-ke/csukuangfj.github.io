@@ -29,6 +29,7 @@ tags:
  - [Harvey notes on C][19]
 
 ## Python
+ - [Anaconda Scientific Python Distribution][27]
  - [Core Python Programming (2nd Edition)][23]
  - [How methods work in Python][24]
  - [Difference between @staticmethod and @classmethod in Python][25]
@@ -51,7 +52,7 @@ tags:
 
 
 
-
+[27]: https://store.continuum.io/cshop/anaconda/
 [26]: https://docs.python.org/2/howto/regex.html
 [25]: http://www.pythoncentral.io/difference-between-staticmethod-and-classmethod-in-python/
 [24]: https://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods
