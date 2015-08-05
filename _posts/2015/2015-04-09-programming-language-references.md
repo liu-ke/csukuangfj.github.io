@@ -33,7 +33,7 @@ tags:
  - [Core Python Programming (2nd Edition)][23]
  - [How methods work in Python][24]
  - [Difference between @staticmethod and @classmethod in Python][25]
- - [Regular Expression HOWT][26]
+ - [Regular Expression HOWTO][26]
 
 
 ## Operating system
