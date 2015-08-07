@@ -17,9 +17,10 @@ tags:
 
 ## Courses
  - [EE368/CS232 Digital Image Processing][3] at Stanford
- - [CS/BIOEN 6640 Fall 2014 Introduction to Image Processing][6] at Utah
+ - [**CS/BIOEN 6640 Fall 2014 Introduction to Image Processing**][6] at Utah
  - [CS/BIOEN 6640 Fall 2012 Image Processing][4] at Utah
  - [CS/BIONENG 6640 - Image Processing - Fall 2013][5] at Utah
+ - [**DT228/4 Digital Image Processing**][7]
 
 
 
@@ -36,6 +37,7 @@ tags:
 
 
 
+[7]: http://www.comp.dit.ie/bmacnamee/gaip.htm
 [6]: http://www.sci.utah.edu/~gerig/CS6640-F2014/CS6640-F2014.html
 [5]: http://www.eng.utah.edu/~cs6640/
 [4]: http://www.sci.utah.edu/~gerig/CS6640-F2012/CS6640-F2012.html
