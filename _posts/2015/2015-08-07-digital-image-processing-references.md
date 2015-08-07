@@ -13,7 +13,7 @@ tags:
 ## References
  - [Histogram Equalization][1], pdf file
  - [Image Processing Toolbox User's Guide - MathWorks][2], pdf file
-
+ - [Beau Lotto: Optical illusions show how we see][8]
 
 ## Courses
  - [EE368/CS232 Digital Image Processing][3] at Stanford
@@ -36,7 +36,7 @@ tags:
 
 
 
-
+[8]: http://www.ted.com/talks/beau_lotto_optical_illusions_show_how_we_see?language=en
 [7]: http://www.comp.dit.ie/bmacnamee/gaip.htm
 [6]: http://www.sci.utah.edu/~gerig/CS6640-F2014/CS6640-F2014.html
 [5]: http://www.eng.utah.edu/~cs6640/
