@@ -11,6 +11,7 @@ tags:
 ---
 
 ## References
+ - [**Computer Vision / Image Processing/ Machine Vision Courses**][13]
  - [Histogram Equalization][1], pdf file
  - [Image Processing Toolbox User's Guide - MathWorks][2], pdf file
  - [Beau Lotto: Optical illusions show how we see][8]
@@ -19,6 +20,7 @@ tags:
 
 
 ## Courses
+ - [EE E4830: Digital Image Processing, Spring 2005][14]
  - [EE368/CS232 Digital Image Processing][3] at Stanford
  - [**CS/BIOEN 6640 Fall 2014 Introduction to Image Processing**][6] at Utah
  - [CS/BIOEN 6640 Fall 2012 Image Processing][4] at Utah
@@ -26,6 +28,11 @@ tags:
  - [**DT228/4 Digital Image Processing**][7]
  - [EE 465 Introduction to Digital Image Processing][11]
  - [EE225B, Spring 2014 Digital Image Processing][12] at Berkeley
+ - [ECE 417: Image Processing][15]
+
+# Medical image processing
+ - [CS473/673: Medical Image Processing][16]
+ - [Methods In Medical Image Analysis - Spring 2015][17]   
 
 
 
@@ -34,10 +41,11 @@ tags:
 
 
 
-
-
-
-
+[17]: http://www.cs.cmu.edu/~galeotti/methods_course/
+[16]: https://cs.uwaterloo.ca/~jorchard/cs473/CS473/Lectures.html
+[15]: https://ece.uwaterloo.ca/~ece417/outline.html
+[14]: http://www.ee.columbia.edu/~sfchang/course/dip/
+[13]: http://homepages.inf.ed.ac.uk/rbf/IAPR/researchers/D2PAGES/d2courseSyllabi.htm
 [12]: http://inst.eecs.berkeley.edu/~ee225b/sp14/#lectures
 [11]: http://www.csee.wvu.edu/~xinl/courses/ee465/ee465.html
 [10]: http://homepages.cae.wisc.edu/~ece533/matlab/index.html
