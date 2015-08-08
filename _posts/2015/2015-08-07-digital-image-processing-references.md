@@ -15,6 +15,7 @@ tags:
  - [Image Processing Toolbox User's Guide - MathWorks][2], pdf file
  - [Beau Lotto: Optical illusions show how we see][8]
  - Website of [Digital Image Processing, 3rd edition][9], book
+ - [ECE/CS 533 Matlab Mfiles][10]
 
 
 ## Courses
@@ -23,6 +24,8 @@ tags:
  - [CS/BIOEN 6640 Fall 2012 Image Processing][4] at Utah
  - [CS/BIONENG 6640 - Image Processing - Fall 2013][5] at Utah
  - [**DT228/4 Digital Image Processing**][7]
+ - [EE 465 Introduction to Digital Image Processing][11]
+ - [EE225B, Spring 2014 Digital Image Processing][12] at Berkeley
 
 
 
@@ -35,9 +38,9 @@ tags:
 
 
 
-
-
-
+[12]: http://inst.eecs.berkeley.edu/~ee225b/sp14/#lectures
+[11]: http://www.csee.wvu.edu/~xinl/courses/ee465/ee465.html
+[10]: http://homepages.cae.wisc.edu/~ece533/matlab/index.html
 [9]: http://www.imageprocessingplace.com/DIP-3E/dip3e_main_page.htm
 [8]: http://www.ted.com/talks/beau_lotto_optical_illusions_show_how_we_see?language=en
 [7]: http://www.comp.dit.ie/bmacnamee/gaip.htm
