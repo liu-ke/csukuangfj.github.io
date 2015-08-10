@@ -32,7 +32,13 @@ tags:
 
 # Medical image processing
  - [CS473/673: Medical Image Processing][16]
- - [Methods In Medical Image Analysis - Spring 2015][17]   
+ - [**Methods In Medical Image Analysis - Spring 2015**][17]   
+ - [EE225E / BIOE265: Principles of Magnetic Resonance Imaging][18], 2012
+ - [EE225E / BIOE265: Principles of Magnetic Resonance Imaging][19], 2014
+ - [Biomedical Signal and Image Processing][20] at MIT
+ - [EL6813/BE6203 ---- Medical Imaging][21]
+ - [BME 530 /Med Phys 530 Medical Imaging Systems Spring 2009][22]
+ - [Principles of Medical Imaging][23]
 
 
 
@@ -41,6 +47,17 @@ tags:
 
 
 
+
+
+
+
+
+[23]: http://ocw.mit.edu/courses/nuclear-engineering/22-058-principles-of-medical-imaging-fall-2002/index.htm
+[22]: http://www.medphysics.wisc.edu/~block/bme_530_lectures.html
+[21]: http://eeweb.poly.edu/~yao/EL5823/
+[20]:http://ocw.mit.edu/courses/health-sciences-and-technology/hst-582j-biomedical-signal-and-image-processing-spring-2007/index.htm
+[19]: http://inst.eecs.berkeley.edu/~ee225e/sp14/
+[18]: http://inst.eecs.berkeley.edu/~ee225e/sp12/
 [17]: http://www.cs.cmu.edu/~galeotti/methods_course/
 [16]: https://cs.uwaterloo.ca/~jorchard/cs473/CS473/Lectures.html
 [15]: https://ece.uwaterloo.ca/~ece417/outline.html
