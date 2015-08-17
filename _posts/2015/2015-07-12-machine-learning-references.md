@@ -15,6 +15,7 @@ tags:
 
 ## Tools
  - [Pattern Recognition Toolbox for MATLAB][20]
+ - [BRMLtoolbox (matlab)][22], accompanied by a book, this toolbox is moving to Julia !
 
 ## Videos
  - [Embracing Uncertainty: The New Machine Intelligence][21], **Christopher M. Bishop**
@@ -29,12 +30,13 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
      - [Introduction to Pattern Recognition][13], CS3555, exam papers !
      - [Engineering 8801/9881 Pattern Recognition, Spring 2006, MUN][17], exercises and past exam papers
 
-## Courses
+## Machine Learning Courses
  - [CS229  Machine Learning  Autumn 2014][7], **Stanford**
  - [Machine Learning Fall 2007 10-701 and 15-781 Carlos Guestrin School of Computer Science, Carnegie Mellon University][8], **CMU**
  - [CS221: Artificial Intelligence: Principles and Techniques][9], **Stanford**
  - [Intro to Artificial Intelligence][10], online course, udacity
  - [STA561 COMPSCI571: Probabilistic Machine Learning: Fall 2014][19], many useful video links
+ - [CS 277: Reference Texts on Data Mining and Machine Learning][23]
 
 ## Books
  - [The Gaussian Processes Web Site][1] contains many resources, including a book [Gaussian Processes for Machine Learning][2]
@@ -44,6 +46,25 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 ## Math Basics
  - [Matrix Differentiation][3], very basic!
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[23]: http://www.ics.uci.edu/~smyth/courses/cs277/data_mining_texts.xhtml
+[22]: http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Software
 [21]: http://scpro.streamuk.com/uk/player/Default.aspx?wid=7739
 [20]: https://github.com/covartech/PRT
 [19]: https://stat.duke.edu/~sayan/561/
