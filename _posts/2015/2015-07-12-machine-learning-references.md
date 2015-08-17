@@ -13,9 +13,15 @@ tags:
 ## Tutorials
  - [Statistical Data Mining Tutorials][6], **very good** !
 
+## Tools
+ - [Pattern Recognition Toolbox for MATLAB][20]
+
+## Videos
+ - [Embracing Uncertainty: The New Machine Intelligence][21], **Christopher M. Bishop**
+
 ## Pattern Recognition
  - [Courses on Statistical Pattern Recognition][11], a list of courses
-     - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programming practice**, data set
+t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programming practice**, data set
      - [**EE E6887 Statistical Pattern Recognition**][14], exercises and **SOLUTIONS**
      - [CSci 6966: Statistical and Learning Techniques for Computer Vision][18], exercises
      - [CISC 859 Pattern Recognition, Fall 2014][15], exercises, projects and useful links
@@ -28,6 +34,7 @@ tags:
  - [Machine Learning Fall 2007 10-701 and 15-781 Carlos Guestrin School of Computer Science, Carnegie Mellon University][8], **CMU**
  - [CS221: Artificial Intelligence: Principles and Techniques][9], **Stanford**
  - [Intro to Artificial Intelligence][10], online course, udacity
+ - [STA561 COMPSCI571: Probabilistic Machine Learning: Fall 2014][19], many useful video links
 
 ## Books
  - [The Gaussian Processes Web Site][1] contains many resources, including a book [Gaussian Processes for Machine Learning][2]
@@ -37,7 +44,9 @@ tags:
 ## Math Basics
  - [Matrix Differentiation][3], very basic!
  
-
+[21]: http://scpro.streamuk.com/uk/player/Default.aspx?wid=7739
+[20]: https://github.com/covartech/PRT
+[19]: https://stat.duke.edu/~sayan/561/
 [18]: http://www.cs.rpi.edu/~stewart/sltcv/
 [17]: http://www.engr.mun.ca/~charlesr/9881/index.html
 [16]: http://www.cse.msu.edu/~rossarun/courses/sp15/cse802/index.html#details
