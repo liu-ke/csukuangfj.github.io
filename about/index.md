@@ -7,8 +7,10 @@ comments: yes
 I am currently a Master student of Universität Stuttgart.  
 
 My research interests include:  
- - Software Defined Networking (SDN)  
  - Machine Learning  
+ - Computer Vison
+ - Digital Image Processing
+ - Software Defined Networking (SDN)  
  - Network Security  
  - ......
    
