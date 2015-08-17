@@ -8,8 +8,8 @@ I am currently a Master student of Universität Stuttgart.
 
 My research interests include:  
  - Machine Learning  
- - Computer Vison
- - Digital Image Processing
+ - Computer Vison  
+ - Digital Image Processing  
  - Software Defined Networking (SDN)  
  - Network Security  
  - ......
