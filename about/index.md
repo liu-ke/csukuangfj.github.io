@@ -7,6 +7,7 @@ comments: yes
 I am currently a Master student of Universität Stuttgart.  
 
 My research interests include:  
+ - Embedded Systems
  - Machine Learning  
  - Computer Vison  
  - Digital Image Processing  
