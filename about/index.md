@@ -7,7 +7,7 @@ comments: yes
 I am currently a Master student of Universität Stuttgart.  
 
 My research interests include:  
- - Embedded Systems
+ - Embedded Systems  
  - Machine Learning  
  - Computer Vison  
  - Digital Image Processing  
@@ -16,4 +16,4 @@ My research interests include:
  - ......
    
 You can contact me with the following email address (base64 encoded):  
-  Y3N1a3VhbmdmakBnbWFpbC5jb20=
+  Y3N1a3VhbmdmakBnbWFpbC5jb20= 
