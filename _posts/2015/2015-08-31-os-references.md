@@ -13,7 +13,7 @@ tags:
 
 
 ## Books
- - [Operating Systems: Three Easy Pieces][1], online available for free
+ - [Operating Systems: Three Easy Pieces][1], [online][3] available for free,
 
 
 ## Condition variables
@@ -24,6 +24,6 @@ tags:
 
 
 
-
+[3]: http://ejahn.net/files/ostep.pdf
 [2]: http://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf
 [1]: http://pages.cs.wisc.edu/~remzi/OSTEP/
