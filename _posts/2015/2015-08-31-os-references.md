@@ -16,6 +16,8 @@ tags:
  - [Operating Systems: Three Easy Pieces][1], online available for free
 
 
+## Condition variables
+ - [Condition variables][2], an excellant tutorial on condition variables using C
 
 
 
@@ -23,5 +25,5 @@ tags:
 
 
 
-
+[2]: http://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf
 [1]: http://pages.cs.wisc.edu/~remzi/OSTEP/
