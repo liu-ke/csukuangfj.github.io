@@ -21,6 +21,7 @@ tags:
  - [Embracing Uncertainty: The New Machine Intelligence][21], **Christopher M. Bishop**
 
 ## Pattern Recognition
+ - [**Celebi Tutorial: Neural Networks and Pattern Recognition Using MATLAB**][24]
  - [Courses on Statistical Pattern Recognition][11], a list of courses
 t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programming practice**, data set
      - [**EE E6887 Statistical Pattern Recognition**][14], exercises and **SOLUTIONS**
@@ -62,7 +63,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
+[24]: https://www.byclb.com/TR/Tutorials/neural_networks/
 [23]: http://www.ics.uci.edu/~smyth/courses/cs277/data_mining_texts.xhtml
 [22]: http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Software
 [21]: http://scpro.streamuk.com/uk/player/Default.aspx?wid=7739
