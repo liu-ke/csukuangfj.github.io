@@ -49,6 +49,8 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
  
 
 
+## SVM
+ - [A training algorithm for optimal margin classifiers][25], 1992
 
 
 
@@ -63,6 +65,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
+[25]: http://w.svms.org/training/BOGV92.pdf
 [24]: https://www.byclb.com/TR/Tutorials/neural_networks/
 [23]: http://www.ics.uci.edu/~smyth/courses/cs277/data_mining_texts.xhtml
 [22]: http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Software
