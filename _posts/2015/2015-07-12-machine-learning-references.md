@@ -10,6 +10,9 @@ tags:
 ---
 
 
+## Lecture Notes
+ - [Machine Learning lecture notes][26] by [Aaron Hertzmann][27]
+
 ## Tutorials
  - [Statistical Data Mining Tutorials][6], **very good** !
 
@@ -46,6 +49,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 ## Math Basics
  - [Matrix Differentiation][3], very basic!
+ - [Linear Algebra Review and Reference][28], cs229
  
 
 
@@ -63,8 +67,9 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
-
+[28]: http://cs229.stanford.edu/section/cs229-linalg.pdf
+[27]: http://www.dgp.toronto.edu/~hertzman/index.html
+[26]: http://www.dgp.toronto.edu/~hertzman/411notes.pdf
 [25]: http://w.svms.org/training/BOGV92.pdf
 [24]: https://www.byclb.com/TR/Tutorials/neural_networks/
 [23]: http://www.ics.uci.edu/~smyth/courses/cs277/data_mining_texts.xhtml
