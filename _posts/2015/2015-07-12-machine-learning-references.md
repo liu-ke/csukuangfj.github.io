@@ -9,6 +9,9 @@ tags:
 - Machine Learning
 ---
 
+## People
+ - [Marc Toussaint][29]
+ - [Aaron Hertzmann][27]
 
 ## Lecture Notes
  - [Machine Learning lecture notes][26] by [Aaron Hertzmann][27]
@@ -67,6 +70,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
+[29]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/
 [28]: http://cs229.stanford.edu/section/cs229-linalg.pdf
 [27]: http://www.dgp.toronto.edu/~hertzman/index.html
 [26]: http://www.dgp.toronto.edu/~hertzman/411notes.pdf
