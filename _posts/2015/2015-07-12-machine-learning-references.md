@@ -15,6 +15,7 @@ tags:
 
 ## Lecture Notes
  - [Machine Learning lecture notes][26] by [Aaron Hertzmann][27]
+ - [Pattern recogition, speech processing][30]
 
 ## Tutorials
  - [Statistical Data Mining Tutorials][6], **very good** !
@@ -69,7 +70,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
+[30]: http://psi.cse.tamu.edu/teaching/lecture_notes/
 [29]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/
 [28]: http://cs229.stanford.edu/section/cs229-linalg.pdf
 [27]: http://www.dgp.toronto.edu/~hertzman/index.html
