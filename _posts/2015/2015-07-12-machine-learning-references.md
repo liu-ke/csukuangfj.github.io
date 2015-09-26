@@ -26,7 +26,7 @@ tags:
 `\[
 (\mathbf{A}+\mathbf{J}^T \mathbf{B} \mathbf{J})^{-1} 
 \mathbf{B} = \mathbf{A}^{-1} \mathbf{J}^T
-(\mathbf{B}^{-1} + \mathbf{J} \mathbf{A}^{-1} \mathbf{J}^T)
+(\mathbf{B}^{-1} + \mathbf{J} \mathbf{A}^{-1} \mathbf{J}^T)^{-1} 
 \]`
 
 `\[
