@@ -13,9 +13,45 @@ tags:
  - [Marc Toussaint][29]
  - [Aaron Hertzmann][27]
 
+## Blogs
+ - [Machine Learning Rumination][31]
+
 ## Lecture Notes
  - [Machine Learning lecture notes][26] by [Aaron Hertzmann][27]
  - [Pattern recogition, speech processing][30]
+
+## Kernal Tricks
+
+### Woodbury Identity
+`\[
+(\mathbf{A}+\mathbf{J}^T \mathbf{B} \mathbf{J})^{-1} 
+\mathbf{B} = \mathbf{A}^{-1} \mathbf{J}^T
+(\mathbf{B}^{-1} + \mathbf{J} \mathbf{A}^{-1} \mathbf{J}^T)
+\]`
+
+`\[
+ (\lambda  \mathbf{I}_k + \mathbf{X}^T \mathbf{X})^{-1} 
+ \mathbf{X}^T \mathbf{y}
+\]`
+
+
+`\[
+\mathbf{X} \in  \mathbb{R}^{n \times k }, \,\,
+\mathbf{B} = \mathbf{I}_n,\,\,
+\mathbf{A} = \lambda \mathbf{I}_k
+\]`
+
+`\[
+ (\lambda  \mathbf{I}_k + \mathbf{X}^T \mathbf{X})^{-1} 
+ \mathbf{X}^T \mathbf{y} =
+ (\lambda  \mathbf{I}_k)^{-1} \mathbf{X}
+ (\mathbf{I}_n + \mathbf{X} (\lambda \mathbf{I}_k)^{-1} \mathbf{X}^T)^{-1}
+ \mathbf{y} = \mathbf{X}
+ (\lambda \mathbf{I}_n + \mathbf{X}  \mathbf{X}^T)^{-1}
+ \mathbf{y}
+\]`
+
+
 
 ## Tutorials
  - [Statistical Data Mining Tutorials][6], **very good** !
@@ -69,7 +105,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
+[31]: https://statinfer.wordpress.com/
 [30]: http://psi.cse.tamu.edu/teaching/lecture_notes/
 [29]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/
 [28]: http://cs229.stanford.edu/section/cs229-linalg.pdf
