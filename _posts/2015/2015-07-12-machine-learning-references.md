@@ -22,7 +22,7 @@ tags:
 
 ## Kernal Tricks
 
-### Woodbury Identity
+### [Woodbury Identity][32]
 `\[
 (\mathbf{A}+\mathbf{J}^T \mathbf{B} \mathbf{J})^{-1} 
 \mathbf{B} = \mathbf{A}^{-1} \mathbf{J}^T
@@ -104,7 +104,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
+[32]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/gaussians.pdf
 [31]: https://statinfer.wordpress.com/
 [30]: http://psi.cse.tamu.edu/teaching/lecture_notes/
 [29]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/
