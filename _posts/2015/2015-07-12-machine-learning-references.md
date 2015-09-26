@@ -21,7 +21,8 @@ tags:
  - [Pattern recogition, speech processing][30]
 
 ## Kernal Tricks
- - [Lecture 15 - Kernel Methods][33]
+ - [Lecture 15 - Kernel Methods][33], youtube videos or from the [course website][35]
+ - [Lecture 16 - Radial Basis Functions][34], youtube videos, or 
 
 ### [Woodbury Identity][32]
 `\[
@@ -104,7 +105,8 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
+[35]: http://work.caltech.edu/lectures.html
+[34]: https://www.youtube.com/watch?v=O8CfrnOPtLc
 [33]: https://www.youtube.com/watch?v=XUj5JbQihlU&t=25m53s
 [32]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/gaussians.pdf
 [31]: https://statinfer.wordpress.com/
