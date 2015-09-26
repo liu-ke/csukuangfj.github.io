@@ -21,6 +21,7 @@ tags:
  - [Pattern recogition, speech processing][30]
 
 ## Kernal Tricks
+ - [Lecture 15 - Kernel Methods][33]
 
 ### [Woodbury Identity][32]
 `\[
@@ -104,6 +105,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
+[33]: https://www.youtube.com/watch?v=XUj5JbQihlU&t=25m53s
 [32]: https://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/gaussians.pdf
 [31]: https://statinfer.wordpress.com/
 [30]: http://psi.cse.tamu.edu/teaching/lecture_notes/
