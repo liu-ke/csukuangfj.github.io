@@ -19,6 +19,8 @@ tags:
 ## Lecture Notes
  - [Machine Learning lecture notes][26] by [Aaron Hertzmann][27]
  - [Pattern recogition, speech processing][30]
+ - [BST 764 Applied Statistical Modeling for Medicine and Public Health][36]
+ - [Max Welling's Classnotes in Machine Learning][37]
 
 ## Kernal Tricks
  - [Lecture 15 - Kernel Methods][33], youtube videos or from the [course website][35]
@@ -78,6 +80,7 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 ## Machine Learning Courses
  - [CS229  Machine Learning  Autumn 2014][7], **Stanford**
+ - [**Machine Learning CS 273A Fall 2011**][38]
  - [Machine Learning Fall 2007 10-701 and 15-781 Carlos Guestrin School of Computer Science, Carnegie Mellon University][8], **CMU**
  - [CS221: Artificial Intelligence: Principles and Techniques][9], **Stanford**
  - [Intro to Artificial Intelligence][10], online course, udacity
@@ -102,9 +105,9 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
-
-
+[38]: http://www.ics.uci.edu/~welling/teaching/ICS273Afall11/ICS273Afall11.html
+[37]: http://www.ics.uci.edu/~welling/classnotes/classnotes.html
+[36]: http://web.as.uky.edu/statistics/users/pbreheny/764-F11/notes.html
 [35]: http://work.caltech.edu/lectures.html
 [34]: https://www.youtube.com/watch?v=O8CfrnOPtLc
 [33]: https://www.youtube.com/watch?v=XUj5JbQihlU&t=25m53s
