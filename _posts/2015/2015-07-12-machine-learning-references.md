@@ -21,6 +21,7 @@ tags:
  - [Pattern recogition, speech processing][30]
  - [BST 764 Applied Statistical Modeling for Medicine and Public Health][36]
  - [Max Welling's Classnotes in Machine Learning][37]
+ - [Machine Learning CS5350/6350 Fall 2011][39]
 
 ## Kernal Tricks
  - [Lecture 15 - Kernel Methods][33], youtube videos or from the [course website][35]
@@ -100,11 +101,12 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 ## SVM
  - [A training algorithm for optimal margin classifiers][25], 1992
+ - [Machine Learning Software: Design and Practical Use][40]
 
 
 
-
-
+[40]: http://www.csie.ntu.edu.tw/~cjlin/talks/mlss_kyoto.pdf
+[39]: http://www.cs.utah.edu/~piyush/teaching/cs5350.html
 [38]: http://www.ics.uci.edu/~welling/teaching/ICS273Afall11/ICS273Afall11.html
 [37]: http://www.ics.uci.edu/~welling/classnotes/classnotes.html
 [36]: http://web.as.uky.edu/statistics/users/pbreheny/764-F11/notes.html
