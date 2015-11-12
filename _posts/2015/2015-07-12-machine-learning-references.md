@@ -61,6 +61,9 @@ tags:
 ## Tutorials
  - [Statistical Data Mining Tutorials][6], **very good** !
 
+## kNN Tutorial
+ - [Implement kNN using Julia][41], use Leave-One-Out-Fold-Cross-Validation (LOOF-CV) to determine k.
+
 ## Tools
  - [Pattern Recognition Toolbox for MATLAB][20]
  - [BRMLtoolbox (matlab)][22], accompanied by a book, this toolbox is moving to Julia !
@@ -105,6 +108,9 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
+
+
+[41]: https://www.kaggle.com/c/street-view-getting-started-with-julia/details/knn-tutorial
 [40]: http://www.csie.ntu.edu.tw/~cjlin/talks/mlss_kyoto.pdf
 [39]: http://www.cs.utah.edu/~piyush/teaching/cs5350.html
 [38]: http://www.ics.uci.edu/~welling/teaching/ICS273Afall11/ICS273Afall11.html
