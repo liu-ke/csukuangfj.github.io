@@ -63,6 +63,7 @@ tags:
 
 ## kNN Tutorial
  - [Implement kNN using Julia][41], use Leave-One-Out-Fold-Cross-Validation (LOOF-CV) to determine k.
+ - [Tutorial To Implement k-Nearest Neighbors in Python From Scratch][42]
 
 ## Tools
  - [Pattern Recognition Toolbox for MATLAB][20]
@@ -110,6 +111,10 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
+
+
+
+[42]: http://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
 [41]: https://www.kaggle.com/c/street-view-getting-started-with-julia/details/knn-tutorial
 [40]: http://www.csie.ntu.edu.tw/~cjlin/talks/mlss_kyoto.pdf
 [39]: http://www.cs.utah.edu/~piyush/teaching/cs5350.html
