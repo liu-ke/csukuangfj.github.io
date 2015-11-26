@@ -61,6 +61,10 @@ tags:
 ## Tutorials
  - [Statistical Data Mining Tutorials][6], **very good** !
 
+## Gaussian Mixture Model
+ - [Gaussian Mixture Models][43], a paper
+ - [Maximum likelihood from incomplete data via the EM algorithm][44]
+
 ## kNN Tutorial
  - [Implement kNN using Julia][41], use Leave-One-Out-Fold-Cross-Validation (LOOF-CV) to determine k.
  - [Tutorial To Implement k-Nearest Neighbors in Python From Scratch][42]
@@ -75,7 +79,7 @@ tags:
 ## Pattern Recognition
  - [**Celebi Tutorial: Neural Networks and Pattern Recognition Using MATLAB**][24]
  - [Courses on Statistical Pattern Recognition][11], a list of courses
-t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programming practice**, data set
+ - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programming practice**, data set
      - [**EE E6887 Statistical Pattern Recognition**][14], exercises and **SOLUTIONS**
      - [CSci 6966: Statistical and Learning Techniques for Computer Vision][18], exercises
      - [CISC 859 Pattern Recognition, Fall 2014][15], exercises, projects and useful links
@@ -112,8 +116,8 @@ t      - [CSE 802 - Pattern Recognition and Analysis][16], exercises, **programm
 
 
 
-
-
+[44]: http://web.mit.edu/6.435/www/Dempster77.pdf
+[43]: https://www.ll.mit.edu/mission/cybersec/publications/publication-files/full_papers/0802_Reynolds_Biometrics-GMM.pdf
 [42]: http://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
 [41]: https://www.kaggle.com/c/street-view-getting-started-with-julia/details/knn-tutorial
 [40]: http://www.csie.ntu.edu.tw/~cjlin/talks/mlss_kyoto.pdf
