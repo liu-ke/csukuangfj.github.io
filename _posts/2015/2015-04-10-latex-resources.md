@@ -14,6 +14,9 @@ tags:
  - [Drawstack.sty: Easily draw stack frames in LaTeX][1] and an [example][2]
  - [uml.sty, a package for writing UML diagrams in LATEX][5] manual
 
+## How to draw a tree
+ - [Example: Drawing a graph using the PG 3.0 graphdrawing library][8]
+ - [Add label on edges][9]
 
 ## Math
  - [Math alphabets][6], or my [local copy][7]
@@ -23,6 +26,8 @@ tags:
  - [TikZ and PGF examples][4]
 
 
+[9]: http://www.tcs.uni-luebeck.de/downloads/mitarbeiter/tantau/2012-gd-presentation.pdf
+[8]: http://www.texample.net/tikz/examples/drawing-graphs/
 [7]: /images/eZdhj.png
 [6]: http://tex.stackexchange.com/questions/58098/what-are-all-the-font-styles-i-can-use-in-math-mode
 [5]: http://ctan.math.washington.edu/tex-archive/graphics/pstricks/contrib/uml/uml.pdf
