@@ -2,7 +2,7 @@ safe: true
 markdown: rdiscount
 permalink: /:year/:month/:title/
 url: http://csukuangfj.github.io
-author: csukuangfj
+author: Kuang,Fangjun
 pygments: true
 paginate: 24
 timezone: "Asia/Shanghai"
