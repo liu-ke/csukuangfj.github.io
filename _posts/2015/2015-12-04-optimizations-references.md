@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful Resources
+title: Optimization References
 useMath: [latex]
 showSource: 'no'
 categories:
