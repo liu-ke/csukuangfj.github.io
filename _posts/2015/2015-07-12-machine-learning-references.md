@@ -16,6 +16,11 @@ tags:
 ## Blogs
  - [Machine Learning Rumination][31]
 
+## Probability and statistics
+ - [**Introduction to STAT 414**][45]
+ - [**Probability, Mathematical Statistics, Stochastic Processes**][46]
+ - [ECO 21: Introduction to Econometrics][47]
+
 ## Lecture Notes
  - [Machine Learning lecture notes][26] by [Aaron Hertzmann][27]
  - [Pattern recogition, speech processing][30]
@@ -113,9 +118,9 @@ tags:
 
 
 
-
-
-
+[47]: http://www.stat.ucla.edu/~nchristo/introeconometrics/
+[46]: http://www.math.uah.edu/stat/index.html
+[45]: https://onlinecourses.science.psu.edu/stat414/node/287
 [44]: http://web.mit.edu/6.435/www/Dempster77.pdf
 [43]: https://www.ll.mit.edu/mission/cybersec/publications/publication-files/full_papers/0802_Reynolds_Biometrics-GMM.pdf
 [42]: http://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
