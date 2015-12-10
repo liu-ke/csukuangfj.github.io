@@ -92,7 +92,12 @@ tags:
      - [Introduction to Pattern Recognition][13], CS3555, exam papers !
      - [Engineering 8801/9881 Pattern Recognition, Spring 2006, MUN][17], exercises and past exam papers
 
+
+
 ## Machine Learning Courses
+ - [Courses of Interest to the SLMC group][50], **University fo Edinburgh**
+ - [PROBABILISTIC MODELLING AND REASONING][51], **University fo Edinburgh**
+ - [**MACHINE LEARNING AND PATTERN RECOGNITION**][52], **University fo Edinburgh**
  - [CS229  Machine Learning  Autumn 2014][7], **Stanford**
  - [**Machine Learning CS 273A Fall 2011**][38]
  - [Machine Learning Fall 2007 10-701 and 15-781 Carlos Guestrin School of Computer Science, Carnegie Mellon University][8], **CMU**
@@ -102,6 +107,7 @@ tags:
  - [CS 277: Reference Texts on Data Mining and Machine Learning][23]
 
 ## Books
+ - [**Bayesian Reasoning and Machine Learning**][53], available online, an **excellant** book
  - [The Gaussian Processes Web Site][1] contains many resources, including a book [Gaussian Processes for Machine Learning][2]
  - [Mathematics for Econometrics][4], chapter 5 introduces vector and matrix differentiation
  - [The Elements of Statistical Learning][5]
@@ -117,7 +123,10 @@ tags:
  - [Machine Learning Software: Design and Practical Use][40]
 
 
-
+[53]: http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.HomePage
+[52]: http://www.inf.ed.ac.uk/teaching/courses/mlpr/
+[51]: http://www.inf.ed.ac.uk/teaching/courses/pmr/
+[50]: http://wcms.inf.ed.ac.uk/ipab/slmc/courses
 [47]: http://www.stat.ucla.edu/~nchristo/introeconometrics/
 [46]: http://www.math.uah.edu/stat/index.html
 [45]: https://onlinecourses.science.psu.edu/stat414/node/287
