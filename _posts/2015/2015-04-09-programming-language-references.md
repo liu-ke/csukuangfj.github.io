@@ -27,6 +27,7 @@ tags:
  - [Real-time and Embedded Software Design][17]
  - [Optimization of Computer Programs in C][18]
  - [Harvey notes on C][19]
+ - [FFTW3 library][28] for FFT, which is implemented in C. A example file can be bound under [here][29] or my [local copy][30]
 
 ## Python
  - [Anaconda Scientific Python Distribution][27], including **spyder** editor
@@ -49,9 +50,9 @@ tags:
 
 
 
-
-
-
+[30]: /src/cpp-and-c/fftw3_prb.c
+[29]: https://people.sc.fsu.edu/~jburkardt/c_src/fftw3/fftw3_prb.c
+[28]: http://www.fftw.org/
 [27]: https://store.continuum.io/cshop/anaconda/
 [26]: https://docs.python.org/2/howto/regex.html
 [25]: http://www.pythoncentral.io/difference-between-staticmethod-and-classmethod-in-python/
