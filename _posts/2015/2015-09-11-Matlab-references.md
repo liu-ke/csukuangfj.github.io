@@ -25,6 +25,7 @@ tags:
  - tutorial [Matlab – External interfaces][6] or [local copy][7] (It has an example for **Makefile**)
  - tutorial [Writing MATLAB C/MEX Code][8] or [local copy][9]
  - There are some examples under *matlabroot/extern/examples/mex*
+ - Pass user defined class object to mex, refer to [here][12] and one function **mxGetProperty**.
 
 ### Java Interface
  - Help->Matlab->User Guide->External Interfaces->Using Sun Java Classes in MATLAB Software
@@ -45,6 +46,7 @@ tags:
 
 
 
+[12]: http://www.mathworks.com/matlabcentral/answers/79242-how-can-i-pass-a-user-defined-class-to-a-mex-file
 [11]: /pdf/matlab/matopt.pdf
 [10]: https://classes.soe.ucsc.edu/ee264/Fall11/matopt.pdf
 [9]: /pdf/matlab/cmex.pdf
