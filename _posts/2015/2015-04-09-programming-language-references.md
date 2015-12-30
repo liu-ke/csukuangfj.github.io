@@ -18,6 +18,7 @@ tags:
 
 ## C/C++
  - [The C Programming Language][2], K&R, Kernighan, Ritchie
+ - [The development of the C language][31]<-webpage, or =--[pdf][32]
  - [Advanced Programming in the UNIX Environment (2nd Edition)][3]
  - [My collection of C and C++ funny programs][5]
  - [The Lost Art of C Structure Packing][11]
@@ -50,6 +51,8 @@ tags:
 
 
 
+[32]: http://delivery.acm.org/10.1145/160000/155580/p201-ritchie.pdf?ip=141.72.245.91&id=155580&acc=ACTIVE%20SERVICE&key=2BA2C432AB83DA15%2EA83A5A66E0DD4B84%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=564615910&CFTOKEN=99021349&__acm__=1451509704_b42fa3dadd0c7f655eb790047bc4b9ea
+[31]: https://www.bell-labs.com/usr/dmr/www/chist.html
 [30]: /src/cpp-and-c/fftw3_prb.c
 [29]: https://people.sc.fsu.edu/~jburkardt/c_src/fftw3/fftw3_prb.c
 [28]: http://www.fftw.org/
