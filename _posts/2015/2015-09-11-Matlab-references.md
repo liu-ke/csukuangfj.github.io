@@ -41,11 +41,44 @@ tags:
   - for version below 2014a fullfile(matlabroot, '\toolbox\images\imdemos');
 
 
+## data memory layout
+```language-matlab
+a(:,:,1,1) = [1 2
+              3 4];
+a(:,:,1,2) = [5 6
+              7 8];
+a(:,:,2,1) = [9 10
+              11 12];
+a(:,:,2,2) = [13 14
+              15 16];
+a = int16(a);          
+          
+save a.mat
+```
+is stored in memory as
+    1 3 2 4 9 11 10 12 5 7 6 8 13 15 14 16
+<hr />
+```language-matlab
+a(:,:,1) =
+
+      1      2
+      3      4
 
 
+a(:,:,2) =
+
+      5      6
+      7      8
+```      
+is stored in meory as
+    1 3 2 4 5 7 6 8
 
 
+Tips: use matio to read mat file into memory and view them in debug mode.
+Useful tools: [Online Binary-Decimal Converter][13]
 
+
+[13]: http://www.binaryconvert.com/
 [12]: http://www.mathworks.com/matlabcentral/answers/79242-how-can-i-pass-a-user-defined-class-to-a-mex-file
 [11]: /pdf/matlab/matopt.pdf
 [10]: https://classes.soe.ucsc.edu/ee264/Fall11/matopt.pdf
