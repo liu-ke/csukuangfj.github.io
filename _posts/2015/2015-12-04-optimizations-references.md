@@ -19,6 +19,8 @@ tags:
 
 # convex optimizations
  - [Crash-Course on Convex Optimization][9], or my [local copy][10]
+ - [Convex Optimization][11] a course at ETHZ, 
+ - [Recovering the solution of optimization problem from the dual problem][14]
 
 # People
  - [**Guilherme Freitas**][8], has some very good course notes.
@@ -33,8 +35,14 @@ tags:
 
 ## Books
  - [Introduction to Linear Optimization][4], 1997, by Dimitris Bertsimas and John N. Tsitsiklis 
+ - [Numerical Optimization (Springer Series in Operations Research and Financial Engineering)][12]
+ - [Convex Optimization][13]
 
 
+[14]: http://math.stackexchange.com/questions/622552/recovering-the-solution-of-optimization-problem-from-the-dual-problem/622638#622638
+[13]: http://web.stanford.edu/~boyd/cvxbook/
+[12]: http://www.amazon.com/Numerical-Optimization-Operations-Financial-Engineering/dp/0387303030
+[11]: http://www.ifor.math.ethz.ch/teaching/Courses/Spring_2013/Convex_Optimization/
 [10]: /pdf/math/convexopt.pdf
 [9]: http://people.hss.caltech.edu/~gpf/static/convexopt.pdf
 [8]: http://people.hss.caltech.edu/~gpf/
