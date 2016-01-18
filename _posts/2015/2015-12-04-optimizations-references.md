@@ -20,7 +20,7 @@ tags:
 # convex optimizations
  - [Crash-Course on Convex Optimization][9], or my [local copy][10]
  - [Convex Optimization][11] a course at ETHZ, 
- - [Recovering the solution of optimization problem from the dual problem][14]
+ - [Recovering the solution of optimization problem from the dual problem][14], an excellant explanation about dual problem.
 
 # People
  - [**Guilherme Freitas**][8], has some very good course notes.
@@ -31,14 +31,21 @@ tags:
  - [**ORIE 6300: Mathematical Programming I**][3]
  - [15-859(E): Linear and Semidefinite Programming (Advanced Algorithms) Fall 2011][2] at Carnegie Mellon University
  - [**10-725 Optimization Fall 2012**][6], School of Computer Science, Carnegie Mellon University
+ - [Introduction to Mathematical Programming - MIT][16], by [Prof. Dimitris Bertsimas][17]
 
 
 ## Books
  - [Introduction to Linear Optimization][4], 1997, by Dimitris Bertsimas and John N. Tsitsiklis 
  - [Numerical Optimization (Springer Series in Operations Research and Financial Engineering)][12]
  - [Convex Optimization][13]
+ - [Convex Analysis and Variational Problems (Classics in Applied Mathematics)][15]
 
 
+
+
+[17]: http://www.mit.edu/~dbertsim/index.html
+[16]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
+[15]: http://www.amazon.com/Analysis-Variational-Problems-Classics-Mathematics/dp/0898714508
 [14]: http://math.stackexchange.com/questions/622552/recovering-the-solution-of-optimization-problem-from-the-dual-problem/622638#622638
 [13]: http://web.stanford.edu/~boyd/cvxbook/
 [12]: http://www.amazon.com/Numerical-Optimization-Operations-Financial-Engineering/dp/0387303030
