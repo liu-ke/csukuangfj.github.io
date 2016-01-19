@@ -23,8 +23,12 @@ tags:
  - [Condition variables][2], an excellant tutorial on condition variables using C
 
 
+## Memory
+ - [CSE 598 Project Report - Memory leak detection using Electric fence and Valgrind][6], or local [copy][7]
 
 
+[7]: /pdf/os/CSE_598_Memory_leak_detection.pdf
+[6]: http://rts.lab.asu.edu/web_438/project_final/CSE_598_Memory_leak_detection.pdf
 [5]: /pdf/os/Hints-for-computer-system-design.pdf
 [4]: https://www.bell-labs.com/usr/dmr/www/retro.pdf
 [3]: http://ejahn.net/files/ostep.pdf
