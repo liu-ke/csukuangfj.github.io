@@ -10,6 +10,13 @@ tags:
 - image processing
 ---
 
+
+## Standard test image
+ Refer to wikipedia for the definition of [Standard test image][24]. You can find some comonly used databse there,
+such as 
+  - [The USC-SIPI Image Database][25]
+  - [Computer Vision website][26], it contains a lot of links to other image databses
+
 ## References
  - [**Computer Vision / Image Processing/ Machine Vision Courses**][13]
  - [Histogram Equalization][1], pdf file
@@ -49,8 +56,9 @@ tags:
 
 
 
-
-
+[26]: http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-images.html
+[25]: http://sipi.usc.edu/database/
+[24]: https://en.wikipedia.org/wiki/Standard_test_image
 
 [23]: http://ocw.mit.edu/courses/nuclear-engineering/22-058-principles-of-medical-imaging-fall-2002/index.htm
 [22]: http://www.medphysics.wisc.edu/~block/bme_530_lectures.html
