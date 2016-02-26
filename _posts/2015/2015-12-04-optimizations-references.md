@@ -22,6 +22,13 @@ tags:
  - [Convex Optimization][11] a course at ETHZ, 
  - [Recovering the solution of optimization problem from the dual problem][14], an excellant explanation about dual problem.
 
+## convex optimization 20160226
+ - LECTURES ON MODERN CONVEX OPTIMIZATION [book][18] and [slides][19], and there are many useful lecture notes 
+ about optimisations on this [web page][20]
+ - [CS 709: Convex Optimization][21], it contains a lot of links, such as [**this**][22]. Its course [calendar][23] 
+ contains lecture slides.
+
+
 # People
  - [**Guilherme Freitas**][8], has some very good course notes.
 
@@ -42,7 +49,12 @@ tags:
 
 
 
-
+[23]: https://www.cse.iitb.ac.in/~cs709/2015a/calendar.html
+[22]: https://docs.google.com/spreadsheets/d/1OhJuzPPN1T7UZ2UVlXwnrt5KwHrdpgVwCWopsaUkc30/edit#gid=5
+[21]: https://www.cse.iitb.ac.in/~cs709/
+[20]: http://www2.isye.gatech.edu/~nemirovs/
+[19]: http://www2.isye.gatech.edu/~nemirovs/Trans_ModConvOpt.pdf
+[18]: http://www2.isye.gatech.edu/~nemirovs/Lect_ModConvOpt.pdf
 [17]: http://www.mit.edu/~dbertsim/index.html
 [16]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-251j-introduction-to-mathematical-programming-fall-2009/lecture-notes/
 [15]: http://www.amazon.com/Analysis-Variational-Problems-Classics-Mathematics/dp/0898714508
