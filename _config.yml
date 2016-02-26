@@ -1,5 +1,4 @@
 safe: true
-markdown: rdiscount
 permalink: /:year/:month/:title/
 url: http://csukuangfj.github.io
 author: Kuang,Fangjun
