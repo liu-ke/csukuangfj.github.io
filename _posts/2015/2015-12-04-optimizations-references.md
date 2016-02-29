@@ -27,6 +27,7 @@ tags:
  about optimisations on this [web page][20]
  - [CS 709: Convex Optimization][21], it contains a lot of links, such as [**this**][22]. Its course [calendar][23] 
  contains lecture slides.
+ - [Papers, Reports, Slides, and Other Material by Dimitri Bertsekas][24]
 
 
 # People
@@ -48,7 +49,7 @@ tags:
  - [Convex Analysis and Variational Problems (Classics in Applied Mathematics)][15]
 
 
-
+[24]: http://www.mit.edu/~dimitrib/publ.html
 [23]: https://www.cse.iitb.ac.in/~cs709/2015a/calendar.html
 [22]: https://docs.google.com/spreadsheets/d/1OhJuzPPN1T7UZ2UVlXwnrt5KwHrdpgVwCWopsaUkc30/edit#gid=5
 [21]: https://www.cse.iitb.ac.in/~cs709/
