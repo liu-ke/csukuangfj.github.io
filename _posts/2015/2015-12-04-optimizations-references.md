@@ -21,6 +21,7 @@ tags:
  - [Crash-Course on Convex Optimization][9], or my [local copy][10]
  - [Convex Optimization][11] a course at ETHZ, 
  - [Recovering the solution of optimization problem from the dual problem][14], an excellant explanation about dual problem.
+ - [What is a convex set?][25]
 
 ## convex optimization 20160226
  - LECTURES ON MODERN CONVEX OPTIMIZATION [book][18] and [slides][19], and there are many useful lecture notes 
@@ -48,7 +49,7 @@ tags:
  - [Convex Optimization][13]
  - [Convex Analysis and Variational Problems (Classics in Applied Mathematics)][15]
 
-
+[25]: https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/VictorKlee.pdf
 [24]: http://www.mit.edu/~dimitrib/publ.html
 [23]: https://www.cse.iitb.ac.in/~cs709/2015a/calendar.html
 [22]: https://docs.google.com/spreadsheets/d/1OhJuzPPN1T7UZ2UVlXwnrt5KwHrdpgVwCWopsaUkc30/edit#gid=5
