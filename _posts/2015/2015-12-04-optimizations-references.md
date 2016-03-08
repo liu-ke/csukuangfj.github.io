@@ -22,6 +22,11 @@ tags:
  - [Convex Optimization][11] a course at ETHZ, 
  - [Recovering the solution of optimization problem from the dual problem][14], an excellant explanation about dual problem.
  - [What is a convex set?][25]
+ - [A short history of convexity][26]
+ - [Convexity][27] , Marcel Berger, The American Mathematical Monthly, Vol. 97, No. 8, Special Geometry Issue (Oct., 1990), pp. 650-678
+ 
+ 
+ 
 
 ## convex optimization 20160226
  - LECTURES ON MODERN CONVEX OPTIMIZATION [book][18] and [slides][19], and there are many useful lecture notes 
@@ -49,6 +54,12 @@ tags:
  - [Convex Optimization][13]
  - [Convex Analysis and Variational Problems (Classics in Applied Mathematics)][15]
 
+
+
+
+
+[27]: http://www.ime.usp.br/~pleite/pub/artigos/berger/convexity.pdf
+[26]: http://www.mathem.pub.ro/dgds/v11/D11-DW.pdf
 [25]: https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/VictorKlee.pdf
 [24]: http://www.mit.edu/~dimitrib/publ.html
 [23]: https://www.cse.iitb.ac.in/~cs709/2015a/calendar.html
