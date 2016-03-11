@@ -34,6 +34,7 @@ tags:
  - [CS 709: Convex Optimization][21], it contains a lot of links, such as [**this**][22]. Its course [calendar][23] 
  contains lecture slides.
  - [Papers, Reports, Slides, and Other Material by Dimitri Bertsekas][24]
+ - [**10-725 Optimization Fall 2012**][6], School of Computer Science, Carnegie Mellon University
 
 
 # People
@@ -44,7 +45,6 @@ tags:
  - [**Convex Optimization – Boyd and Vandenberghe**][7]
  - [**ORIE 6300: Mathematical Programming I**][3]
  - [15-859(E): Linear and Semidefinite Programming (Advanced Algorithms) Fall 2011][2] at Carnegie Mellon University
- - [**10-725 Optimization Fall 2012**][6], School of Computer Science, Carnegie Mellon University
  - [Introduction to Mathematical Programming - MIT][16], by [Prof. Dimitris Bertsimas][17]
 
 
