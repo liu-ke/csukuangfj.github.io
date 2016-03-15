@@ -39,6 +39,8 @@ tags:
 ### C++ internal
  - Inside C++ object model
  - [C++: Under the hood][36]
+ - [C++ Tutorial: Pointer-to-Member Function][38]
+ - [Reversing C++][39]
 
 
 ## Python
@@ -64,6 +66,8 @@ tags:
 
 
 
+[39]: https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf
+[38]: http://www.codeguru.com/cpp/cpp/article.php/c17401/C-Tutorial-PointertoMember-Function.htm
 [37]: http://www.unix.org/version2/whatsnew/lp64_wp.html 
 [36]: http://www.openrce.org/articles/files/jangrayhood.pdf
 [35]: http://www.unix.org/whitepapers/64bit.html
