@@ -35,12 +35,17 @@ tags:
  - [64-bit and Data Size Neutrality][35], data size of int, long and pointer in 32 bits
     and 64 bits architecture
  - [64-Bit Programming Models: Why LP64?][37]
+ 
+ - [The Definitive Guide to GCC][40]
+ - [GCC online documentation][51]
+ - [Scott Meyers][53], writes a lot of tutorials and books
 
 ### C++ internal
  - Inside C++ object model
  - [C++: Under the hood][36]
  - [C++ Tutorial: Pointer-to-Member Function][38]
  - [Reversing C++][39]
+ - [C++ Under the Hood][52], another version
 
 
 ## Python
@@ -64,8 +69,10 @@ tags:
 
 
 
-
-
+[53]: http://www.aristeia.com
+[52]: http://www.han-ese.nl/~ewout/ESE/INF2/CPP_onder_de_motorkap.pdf
+[51]: https://gcc.gnu.org/onlinedocs/
+[40]: https://sensperiodit.files.wordpress.com/2011/04/hagen-the-definitive-guide-to-gcc-2e-apress-2006.pdf
 [39]: https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf
 [38]: http://www.codeguru.com/cpp/cpp/article.php/c17401/C-Tutorial-PointertoMember-Function.htm
 [37]: http://www.unix.org/version2/whatsnew/lp64_wp.html 
