@@ -34,6 +34,7 @@ tags:
 
  - [64-bit and Data Size Neutrality][35], data size of int, long and pointer in 32 bits
     and 64 bits architecture
+ - [64-Bit Programming Models: Why LP64?][37]
 
 ### C++ internal
  - Inside C++ object model
@@ -61,6 +62,9 @@ tags:
 
 
 
+
+
+[37]: http://www.unix.org/version2/whatsnew/lp64_wp.html 
 [36]: http://www.openrce.org/articles/files/jangrayhood.pdf
 [35]: http://www.unix.org/whitepapers/64bit.html
 [34]: http://www.stroustrup.com/crc.pdf
