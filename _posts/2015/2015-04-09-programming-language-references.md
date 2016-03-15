@@ -32,6 +32,14 @@ tags:
  - [Harvey notes on C][19]
  - [FFTW3 library][28] for FFT, which is implemented in C. A example file can be bound under [here][29] or my [local copy][30]
 
+ - [64-bit and Data Size Neutrality][35], data size of int, long and pointer in 32 bits
+    and 64 bits architecture
+
+### C++ internal
+ - Inside C++ object model
+ - [C++: Under the hood][36]
+
+
 ## Python
  - [Anaconda Scientific Python Distribution][27], including **spyder** editor
  - [Core Python Programming (2nd Edition)][23]
@@ -53,7 +61,8 @@ tags:
 
 
 
-
+[36]: http://www.openrce.org/articles/files/jangrayhood.pdf
+[35]: http://www.unix.org/whitepapers/64bit.html
 [34]: http://www.stroustrup.com/crc.pdf
 [33]: http://www.stroustrup.com/books.html
 [32]: http://delivery.acm.org/10.1145/160000/155580/p201-ritchie.pdf?ip=141.72.245.91&id=155580&acc=ACTIVE%20SERVICE&key=2BA2C432AB83DA15%2EA83A5A66E0DD4B84%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=564615910&CFTOKEN=99021349&__acm__=1451509704_b42fa3dadd0c7f655eb790047bc4b9ea
