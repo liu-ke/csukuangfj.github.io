@@ -12,6 +12,7 @@ tags:
 ## Persons
  - [Eric S. Raymond's Home Page][10]
  - [Scott Meyers][53], writes a lot of tutorials and books
+ - [Bruce Eckel][57]
 
 ## Assembly
  - [**Professional Assembly Language**][1], Richard Blum (see cloud disk)
@@ -40,6 +41,11 @@ tags:
  - [The Definitive Guide to GCC][40]
  - [GCC online documentation][51]
  
+ - [The Definitive C++ Book Guide and List][61]
+ 
+ 
+### C internals
+ - [System V Application Binary Interface][60], generic ABI
 
 ### C++ internals
  - [Inside C++ object model][56]
@@ -48,7 +54,14 @@ tags:
  - [Reversing C++][39]
  - [C++ Under the Hood][52], another version
  - [Memory Layout for Multiple and Virtual Inheritance][54]
-- Thinking in C++, 2nd ed. Volume 1, [15: Polymorphism & Virtual Functions][55]
+ - Thinking in C++, 2nd ed. Volume 1, [15: Polymorphism & Virtual Functions][55]
+ 
+ - [C++ ABI Summary][58]
+ - [Itanium C++ ABI][59]
+
+ #### Todo
+  - What is the RTTI (Runtime type identification ) and its relationship with virtual table?
+  - a book: Ruminations on C++
 
 
 ## Python
@@ -72,7 +85,11 @@ tags:
 
 
 
-
+[61]: http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
+[60]: http://www.sco.com/developers/devspecs/gabi41.pdf
+[59]: http://mentorembedded.github.io/cxx-abi/abi.html
+[58]: https://mentorembedded.github.io/cxx-abi/
+[57]: http://www.mindviewinc.com/Index.php
 [56]: /pdf/programming/inside.the.c++.object.model.pdf
 [55]: http://www.drbio.cornell.edu/pl47/programming/TICPP-2nd-ed-Vol-one-html/Chapter15.html
 [54]: http://www.phpcompiler.org/articles/virtualinheritance.html
