@@ -11,6 +11,7 @@ tags:
 
 ## Persons
  - [Eric S. Raymond's Home Page][10]
+ - [Scott Meyers][53], writes a lot of tutorials and books
 
 ## Assembly
  - [**Professional Assembly Language**][1], Richard Blum (see cloud disk)
@@ -38,14 +39,16 @@ tags:
  
  - [The Definitive Guide to GCC][40]
  - [GCC online documentation][51]
- - [Scott Meyers][53], writes a lot of tutorials and books
+ 
 
-### C++ internal
- - Inside C++ object model
+### C++ internals
+ - [Inside C++ object model][56]
  - [C++: Under the hood][36]
  - [C++ Tutorial: Pointer-to-Member Function][38]
  - [Reversing C++][39]
  - [C++ Under the Hood][52], another version
+ - [Memory Layout for Multiple and Virtual Inheritance][54]
+- Thinking in C++, 2nd ed. Volume 1, [15: Polymorphism & Virtual Functions][55]
 
 
 ## Python
@@ -69,6 +72,10 @@ tags:
 
 
 
+
+[56]: /pdf/programming/inside.the.c++.object.model.pdf
+[55]: http://www.drbio.cornell.edu/pl47/programming/TICPP-2nd-ed-Vol-one-html/Chapter15.html
+[54]: http://www.phpcompiler.org/articles/virtualinheritance.html
 [53]: http://www.aristeia.com
 [52]: http://www.han-ese.nl/~ewout/ESE/INF2/CPP_onder_de_motorkap.pdf
 [51]: https://gcc.gnu.org/onlinedocs/
