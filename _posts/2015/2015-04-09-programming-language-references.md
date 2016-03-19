@@ -43,9 +43,14 @@ tags:
  
  - [The Definitive C++ Book Guide and List][61]
  
+ - [Effective c++][63]
+ 
  
 ### C internals
  - [System V Application Binary Interface][60], generic ABI
+
+### C courses
+ - [6.S096 2014 Effective Programming in C and C++][62]
 
 ### C++ internals
  - [Inside C++ object model][56]
@@ -58,8 +63,9 @@ tags:
  
  - [C++ ABI Summary][58]
  - [Itanium C++ ABI][59]
+ - [C++ Vtable Example]64[]
 
- #### Todo
+### Todo
   - What is the RTTI (Runtime type identification ) and its relationship with virtual table?
   - a book: Ruminations on C++
 
@@ -85,6 +91,9 @@ tags:
 
 
 
+[64]: http://mentorembedded.github.io/cxx-abi/cxx-vtable-ex.html
+[63]: http://ptgmedia.pearsoncmg.com/images/9780321334879/samplepages/0321334876.pdf
+[62]: http://web.mit.edu/6.s096/www/
 [61]: http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list
 [60]: http://www.sco.com/developers/devspecs/gabi41.pdf
 [59]: http://mentorembedded.github.io/cxx-abi/abi.html
