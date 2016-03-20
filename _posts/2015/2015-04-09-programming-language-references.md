@@ -63,7 +63,10 @@ tags:
  
  - [C++ ABI Summary][58]
  - [Itanium C++ ABI][59]
- - [C++ Vtable Example]64[]
+ - [C++ Vtable Example][64]
+ - [Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI][65]
+ 
+ - [C++ Programming/RTTI][66]
 
 ### Todo
   - What is the RTTI (Runtime type identification ) and its relationship with virtual table?
@@ -91,6 +94,8 @@ tags:
 
 
 
+[66]: https://en.wikibooks.org/wiki/C%2B%2B_Programming/RTTI
+[65]: http://www.openrce.org/articles/full_view/23
 [64]: http://mentorembedded.github.io/cxx-abi/cxx-vtable-ex.html
 [63]: http://ptgmedia.pearsoncmg.com/images/9780321334879/samplepages/0321334876.pdf
 [62]: http://web.mit.edu/6.s096/www/
