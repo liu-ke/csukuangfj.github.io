@@ -45,6 +45,7 @@ tags:
  
  - [Effective c++][63]
  
+ - [Executable and Linkable Format][69]
  
 ### C internals
  - [System V Application Binary Interface][60], generic ABI
@@ -67,6 +68,9 @@ tags:
  - [Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI][65]
  
  - [C++ Programming/RTTI][66]
+ 
+ - [What every C++ programmer should know, The simple part][67]
+ - [What every C++ programmer should know, The hard part][68]
 
 ### Todo
   - What is the RTTI (Runtime type identification ) and its relationship with virtual table?
@@ -93,7 +97,9 @@ tags:
  - [Advanced use of Git][4]
 
 
-
+[69]: http://web.archive.org/web/20131210040248/https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
+[68]: http://web.archive.org/web/20131210001207/http://thomas-sanchez.net/computer-sciences/2011/08/15/what-every-c-programmer-should-know-the-hard-part/
+[67]: http://web.archive.org/web/20131210000337/http://thomas-sanchez.net/computer-sciences/2011/08/07/what-every-c-programmer-should-know-the-simple-part/
 [66]: https://en.wikibooks.org/wiki/C%2B%2B_Programming/RTTI
 [65]: http://www.openrce.org/articles/full_view/23
 [64]: http://mentorembedded.github.io/cxx-abi/cxx-vtable-ex.html
