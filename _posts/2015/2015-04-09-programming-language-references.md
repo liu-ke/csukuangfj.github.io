@@ -54,6 +54,7 @@ tags:
  - [6.S096 2014 Effective Programming in C and C++][62]
 
 ### C++ internals
+ - [** US Patent 5297284: Method and system for implementing virtual functions and virtual base classes and setting a this pointer for an object-oriented programming language**][70]
  - [Inside C++ object model][56]
  - [C++: Under the hood][36]
  - [C++ Tutorial: Pointer-to-Member Function][38]
@@ -96,7 +97,7 @@ tags:
 ## Git
  - [Advanced use of Git][4]
 
-
+[70]: /pdf/programming/US5297284.pdf
 [69]: http://web.archive.org/web/20131210040248/https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 [68]: http://web.archive.org/web/20131210001207/http://thomas-sanchez.net/computer-sciences/2011/08/15/what-every-c-programmer-should-know-the-hard-part/
 [67]: http://web.archive.org/web/20131210000337/http://thomas-sanchez.net/computer-sciences/2011/08/07/what-every-c-programmer-should-know-the-simple-part/
