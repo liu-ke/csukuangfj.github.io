@@ -11,13 +11,21 @@ tags:
 - Mininet
 ---
 
+
 # Tutorials
+ - [Publications about mininet][62]
+ - [Teaching and Learning with Mininet][63]
+ - [SIGCOMM 2014 Tutorial: Teaching Computer Networking with Mininet][64]
+ - [Simple Router][65]
+
  - [Download/Get Started With Mininet][57]
  - [Mininet Sample Workflow][58]
  - [Mininet Walkthrough][40]
  - [Introduction to Mininet][41]
  - [OpenFlow Tutorial][13]
  - [mininet examples directory in source code distribution][59]
+ - [Mininet Python API Reference Manual][60]
+ - [Welcome to the OpenFlow tutorial!][61]
  - [OpenFlow Switch Specification Version 1.0.0][14]
  - [SDN Hub][47]
  - [Pox tutorials][49]
@@ -98,8 +106,12 @@ tags:
 
 
 
-
-
+[65]: https://github.com/mininet/mininet/wiki/Simple-Router
+[64]: https://github.com/mininet/mininet/wiki/SIGCOMM-2014-Tutorial%3A-Teaching-Computer-Networking-with-Mininet
+[63]: https://github.com/mininet/mininet/wiki/Teaching-and-Learning-with-Mininet
+[62]: https://github.com/mininet/mininet/wiki/publications
+[61]: https://github.com/mininet/openflow-tutorial/wiki
+[60]: http://mininet.org/api/annotated.html
 [59]: https://github.com/mininet/mininet/tree/master/examples
 [58]: http://mininet.org/sample-workflow/
 [57]: http://mininet.org/download/
