@@ -39,8 +39,8 @@ cd ..
 ~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-installation
 cd opencv-3.1.0-kfj-build/
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/fangjun/shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON ../opencv-3.1.0
-make`
-make install`
+make
+make install
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/media/sf_shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation/lib
 export PYTHONPATH=${PYTHONPATH}:/media/sf_shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation/lib/python2.7/dist-packages
 ldconfig
