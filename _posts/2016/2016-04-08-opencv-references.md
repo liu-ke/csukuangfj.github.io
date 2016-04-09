@@ -57,7 +57,23 @@ tags:
  - xcode preference--locations tab---advanced, choose legacy
  - refer to [HOWTO: Setup XCode 6.1 to work with OpenCV3 libraries][6]
  
- 
+## Environment variables (.bash_profile) 
+```
+export PATH=${PATH}:/Applications/CMake.app/Contents/bin
+
+# static lib
+# export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-staticLib/lib
+
+# shared lib
+export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib/lib
+
+# shared lib
+export C_INCLUDE_PATH=${C_INCLUDE_PATH}:/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib/include
+export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}:/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib/include
+
+# for cmake
+export OpenCV_DIR=/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib
+``
  
 ## Tutorials
  - [Introduction to OpenCV-Python Tutorials][2]
