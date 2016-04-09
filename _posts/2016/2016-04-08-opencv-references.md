@@ -17,7 +17,10 @@ tags:
 
 ##  installation on ubuntu 15.10
  - first shutdown vm and exit virtual box, then on mac os x, run 
+```
 	VBoxManage setextradata ubuntu-15.10 VBoxInternal2/SharedFoldersEnableSymlinksCreate/shared 1
+```
+
  where `ubuntu-15.10` is the name of the virtual machine and `shared` is the name of the shared folder
  - then install dependencies:
 ```
@@ -28,8 +31,8 @@ sudo apt-get install --assume-yes libopencv-dev build-essential cmake git libgtk
  - `cd ~/shared/software/opencv/3.1.0/opencv-3.1.0`
  - `cd ..`
  - `~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-build`
- - `~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-installation
- - `cd opencv-3.1.0-kfj-build/
+ - `~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-installation`
+ - `cd opencv-3.1.0-kfj-build/`
  - `cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/fangjun/shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON ../opencv-3.1.0`
  - `make`
  - `make install`
