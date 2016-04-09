@@ -66,7 +66,7 @@ print cv2.__version__ # should print 3.1.0
 `
  - add search path for header files and libraries
  
- - add environment variables to run configurations: `DYLD_LIBRARY_PATH`, which value `${DYLD_LIBRARY_PATH}:/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib/lib`
+ - add environment variables to run configurations: `DYLD_LIBRARY_PATH`, whose value is `${DYLD_LIBRARY_PATH}:/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib/lib`
  - xcode preference--locations tab---advanced, choose legacy
  - refer to [HOWTO: Setup XCode 6.1 to work with OpenCV3 libraries][6]
  
