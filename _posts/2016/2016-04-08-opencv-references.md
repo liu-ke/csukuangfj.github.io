@@ -73,7 +73,7 @@ export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}:/Users/fangjun/software/opencv/3
 
 # for cmake
 export OpenCV_DIR=/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib
-``
+```
  
 ## Tutorials
  - [Introduction to OpenCV-Python Tutorials][2]
