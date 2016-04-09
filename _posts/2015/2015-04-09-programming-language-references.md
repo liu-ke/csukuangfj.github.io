@@ -59,7 +59,8 @@ tags:
  - [C++: Under the hood][36]
  - [C++ Tutorial: Pointer-to-Member Function][38]
  - [Reversing C++][39]
- - [C++ Under the Hood][52], another version
+ - [C++ Under the Hood][52], another version 
+ － [VC++类继承内存布局][71]
  - [Memory Layout for Multiple and Virtual Inheritance][54]
  - Thinking in C++, 2nd ed. Volume 1, [15: Polymorphism & Virtual Functions][55]
  
@@ -97,6 +98,8 @@ tags:
 ## Git
  - [Advanced use of Git][4]
 
+
+[71]: http://blog.csdn.net/u013071074/article/details/38661747
 [70]: /pdf/programming/US5297284.pdf
 [69]: http://web.archive.org/web/20131210040248/https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 [68]: http://web.archive.org/web/20131210001207/http://thomas-sanchez.net/computer-sciences/2011/08/15/what-every-c-programmer-should-know-the-hard-part/
