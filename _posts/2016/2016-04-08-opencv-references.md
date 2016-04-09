@@ -32,6 +32,7 @@ sudo apt-get install --assume-yes libopencv-dev build-essential cmake git libgtk
 ```
 
  - download `opencv-3.1.0.zip` and unzip it into directory `~/shared/software/opencv/3.1.0/opencv-3.1.0`
+ 
 ```
 cd ~/shared/software/opencv/3.1.0/opencv-3.1.0
 cd ..
