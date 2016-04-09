@@ -19,8 +19,8 @@ tags:
 	VBoxManage setextradata ubuntu-15.10 VBoxInternal2/SharedFoldersEnableSymlinksCreate/shared 1
  where `ubuntu-15.10` is the name of the virtual machine and `shared` is the name of the shared folder
  - then install dependencies:
-	sudo apt-get -qq remove ffmpeg x264 libx264-dev
-	sudo apt-get install --assume-yes libopencv-dev build-essential cmake git libgtk2.0-dev pkg-config python-dev python-numpy libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils unzip 
+    sudo apt-get -qq remove ffmpeg x264 libx264-dev
+    sudo apt-get install --assume-yes libopencv-dev build-essential cmake git libgtk2.0-dev pkg-config python-dev python-numpy libdc1394-22 libdc1394-22-dev libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libxine2-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libtbb-dev libqt4-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils unzip 
  - download `opencv-3.1.0.zip` and unzip it into directory `~/shared/software/opencv/3.1.0/opencv-3.1.0`
  - `cd ~/shared/software/opencv/3.1.0/opencv-3.1.0`
  - `cd ..`
