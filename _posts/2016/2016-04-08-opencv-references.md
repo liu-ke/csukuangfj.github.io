@@ -88,6 +88,17 @@ export CPLUS_INCLUDE_PATH=${CPLUS_INCLUDE_PATH}:/Users/fangjun/software/opencv/3
 export OpenCV_DIR=/Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib
 ```
  
+## Minimum cmake file
+
+```
+cmake_minimum_required(VERSION 2.8)
+project( BlurImage )
+find_package( OpenCV )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( BlurImage BlurImage.cpp )
+target_link_libraries( BlurImage ${OpenCV_LIBS} )
+```
+
 ## Tutorials
  - [Introduction to OpenCV-Python Tutorials][2]
  - [Mat(rix) object (Image Container)][3]
