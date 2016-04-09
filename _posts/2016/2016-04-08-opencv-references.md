@@ -23,6 +23,7 @@ VBoxManage setextradata ubuntu-15.10 VBoxInternal2/SharedFoldersEnableSymlinksCr
 ```
 
  where `ubuntu-15.10` is the name of the virtual machine and `shared` is the name of the shared folder
+ 
  - then install dependencies:
  
 ```
@@ -31,24 +32,27 @@ sudo apt-get install --assume-yes libopencv-dev build-essential cmake git libgtk
 ```
 
  - download `opencv-3.1.0.zip` and unzip it into directory `~/shared/software/opencv/3.1.0/opencv-3.1.0`
- - `cd ~/shared/software/opencv/3.1.0/opencv-3.1.0`
- - `cd ..`
- - `~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-build`
- - `~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-installation`
- - `cd opencv-3.1.0-kfj-build/`
- - `cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/fangjun/shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON ../opencv-3.1.0`
- - `make`
- - `make install`
- - `export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/media/sf_shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation/lib`
-
- - `export PYTHONPATH=${PYTHONPATH}:/media/sf_shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation/lib/python2.7/dist-packages`
- - `ldconfig
+```
+cd ~/shared/software/opencv/3.1.0/opencv-3.1.0
+cd ..
+~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-build
+~/shared/software/opencv/3.1.0$ mkdir opencv-3.1.0-kfj-installation
+cd opencv-3.1.0-kfj-build/
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/fangjun/shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON ../opencv-3.1.0
+make`
+make install`
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/media/sf_shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation/lib
+export PYTHONPATH=${PYTHONPATH}:/media/sf_shared/software/opencv/3.1.0/opencv-3.1.0-kfj-installation/lib/python2.7/dist-packages
+ldconfig
+```
 
  - to test:
-    python
-    import cv2
-    print cv2.__version__ # should print 3.1.0
-    
+ 
+```
+python
+import cv2
+print cv2.__version__ # should print 3.1.0
+```    
     
 ## Installation on Mac OS X 10.11
  - first download and unzip opencv-3.1.0
