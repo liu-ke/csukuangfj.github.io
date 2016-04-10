@@ -107,6 +107,11 @@ target_link_libraries( BlurImage ${OpenCV_LIBS} )
  - [Introduction to OpenCV][17]
  - [Load and Display an Image][18] contains very detailed explanation!
  - [Load, Modify, and Save an Image][19], convert a RGB color image to a gray scale image.
+ - [Writing documentation for OpenCV][20]
+ - [Mat - The Basic Image Container][21]
+ - [How to scan images, lookup tables and time measurement with OpenCV][22] list three methods to iterate pixels of an image.
+ Example source code can be found inside `samples/cpp/tutorial_code/core/how_to_scan_images`
+ 
  
 ## Color order
  - It is `BGR` !!! 
@@ -127,6 +132,12 @@ target_link_libraries( BlurImage ${OpenCV_LIBS} )
 
 
 
+
+
+
+[22]: http://docs.opencv.org/3.1.0/db/da5/tutorial_how_to_scan_images.html#gsc.tab=0
+[21]: http://docs.opencv.org/3.1.0/d6/d6d/tutorial_mat_the_basic_image_container.html#gsc.tab=0
+[20]: http://docs.opencv.org/3.1.0/d4/db1/tutorial_documentation.html#gsc.tab=0
 [19]: http://docs.opencv.org/3.1.0/db/d64/tutorial_load_save_image.html#gsc.tab=0
 [18]: http://docs.opencv.org/3.1.0/db/deb/tutorial_display_image.html#gsc.tab=0
 [17]: http://docs.opencv.org/3.1.0/df/d65/tutorial_table_of_content_introduction.html#gsc.tab=0
