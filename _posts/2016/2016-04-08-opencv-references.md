@@ -103,8 +103,43 @@ target_link_libraries( BlurImage ${OpenCV_LIBS} )
  - [Introduction to OpenCV-Python Tutorials][2]
  - [Mat(rix) object (Image Container)][3]
  - [Creating Mat Objects][4]
+ - [Using OpenCV with gcc and CMake][16], a very small example demonstrating the usage of CMake with OpenCV
+ - [Introduction to OpenCV][17]
+ - [Load and Display an Image][18] contains very detailed explanation!
+ - [Load, Modify, and Save an Image][19], convert a RGB color image to a gray scale image.
+ 
+## Color order
+ - It is `BGR` !!! 
+ 
+## OpenCV source repository
+ - [CMakeLists.txt][7] example
+ - [display image][8]
 
 
+## OpenCV classes
+ - [OpenCV modules][15]
+ - [Basic structures][13]
+ - [cv::Point_< _Tp > Class Template Reference][9]
+ - [cv::Size_< _Tp > Class Template Reference][10]
+ - [cv::Rect_< _Tp > Class Template Reference][11]
+ - [cv::Mat Class Reference][12]
+ - [cv::Vec< _Tp, cn > Class Template Reference][14]
+
+
+
+[19]: http://docs.opencv.org/3.1.0/db/d64/tutorial_load_save_image.html#gsc.tab=0
+[18]: http://docs.opencv.org/3.1.0/db/deb/tutorial_display_image.html#gsc.tab=0
+[17]: http://docs.opencv.org/3.1.0/df/d65/tutorial_table_of_content_introduction.html#gsc.tab=0
+[16]: http://docs.opencv.org/3.1.0/db/df5/tutorial_linux_gcc_cmake.html#gsc.tab=0
+[15]: http://docs.opencv.org/3.1.0/#gsc.tab=0
+[14]: http://docs.opencv.org/3.1.0/d6/dcf/classcv_1_1Vec.html#gsc.tab=0
+[13]: http://docs.opencv.org/3.1.0/dc/d84/group__core__basic.html#ga346f563897249351a34549137c8532a0&gsc.tab=0
+[12]: http://docs.opencv.org/3.1.0/d3/d63/classcv_1_1Mat.html#gsc.tab=0
+[11]: http://docs.opencv.org/3.1.0/d2/d44/classcv_1_1Rect__.html#afb53dd5c7f9a57ecb3d50d62d2d6dd14&gsc.tab=0
+[10]: http://docs.opencv.org/3.1.0/d6/d50/classcv_1_1Size__.html#gsc.tab=0
+[9]: http://docs.opencv.org/3.1.0/db/d4e/classcv_1_1Point__.html#details
+[8]: https://github.com/Itseez/opencv/blob/master/samples/cpp/tutorial_code/introduction/display_image/display_image.cpp
+[7]: https://github.com/Itseez/opencv/blob/master/samples/cpp/example_cmake/CMakeLists.txt
 [6]: http://blogs.wcode.org/2014/11/howto-setup-xcode-6-1-to-work-with-opencv-libraries/
 [5]: http://blogs.wcode.org/2014/10/howto-install-build-and-use-opencv-macosx-10-10/
 [4]: http://www.bogotobogo.com/OpenCV/opencv_3_tutorial_creating_mat_objects.php
