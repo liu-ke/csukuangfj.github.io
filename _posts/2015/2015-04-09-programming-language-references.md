@@ -9,6 +9,9 @@ tags:
 - Programming
 ---
 
+## Floating point number
+ - [Floating points IEEE Standard unifies arithmetic model][72]
+
 ## Persons
  - [Eric S. Raymond's Home Page][10]
  - [Scott Meyers][53], writes a lot of tutorials and books
@@ -99,6 +102,8 @@ tags:
  - [Advanced use of Git][4]
 
 
+
+[72]: http://www.mathworks.com/company/newsletters/news_notes/pdf/Fall96Cleve.pdf
 [71]: http://blog.csdn.net/u013071074/article/details/38661747
 [70]: /pdf/programming/US5297284.pdf
 [69]: http://web.archive.org/web/20131210040248/https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
