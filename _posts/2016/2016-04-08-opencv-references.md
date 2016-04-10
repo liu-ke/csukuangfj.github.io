@@ -110,8 +110,11 @@ target_link_libraries( BlurImage ${OpenCV_LIBS} )
  - [Writing documentation for OpenCV][20]
  - [Mat - The Basic Image Container][21]
  - [How to scan images, lookup tables and time measurement with OpenCV][22] list three methods to iterate pixels of an image.
- Example source code can be found inside `samples/cpp/tutorial_code/core/how_to_scan_images`
- 
+Example source code can be found inside `samples/cpp/tutorial_code/core/how_to_scan_images`
+ - [Mask operations on matrices][23], Example source code can be found 
+inside `samples/cpp/tutorial_code/core/mat_mask_operations/mat_mask_operations.cpp`. 2-D filtering with a customised 
+kernel.
+ - [Operations with images][24]
  
 ## Color order
  - It is `BGR` !!! 
@@ -135,6 +138,9 @@ target_link_libraries( BlurImage ${OpenCV_LIBS} )
 
 
 
+
+[24]: http://docs.opencv.org/3.1.0/d5/d98/tutorial_mat_operations.html#gsc.tab=0
+[23]: http://docs.opencv.org/3.1.0/d7/d37/tutorial_mat_mask_operations.html#gsc.tab=0
 [22]: http://docs.opencv.org/3.1.0/db/da5/tutorial_how_to_scan_images.html#gsc.tab=0
 [21]: http://docs.opencv.org/3.1.0/d6/d6d/tutorial_mat_the_basic_image_container.html#gsc.tab=0
 [20]: http://docs.opencv.org/3.1.0/d4/db1/tutorial_documentation.html#gsc.tab=0
