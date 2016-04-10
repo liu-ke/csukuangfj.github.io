@@ -109,12 +109,17 @@ target_link_libraries( BlurImage ${OpenCV_LIBS} )
  - [Load, Modify, and Save an Image][19], convert a RGB color image to a gray scale image.
  - [Writing documentation for OpenCV][20]
  - [Mat - The Basic Image Container][21]
- - [How to scan images, lookup tables and time measurement with OpenCV][22] list three methods to iterate pixels of an image.
+ - [**How to scan images, lookup tables and time measurement with OpenCV**][22] list three methods to iterate pixels of an image.
 Example source code can be found inside `samples/cpp/tutorial_code/core/how_to_scan_images`
- - [Mask operations on matrices][23], Example source code can be found 
+ - [**Mask operations on matrices**][23], Example source code can be found 
 inside `samples/cpp/tutorial_code/core/mat_mask_operations/mat_mask_operations.cpp`. 2-D filtering with a customised 
 kernel.
- - [Operations with images][24]
+ - [**Operations with images**][24]
+ - [Adding (blending) two images using OpenCV][25]
+ - [Changing the contrast and brightness of an image!][26]
+ - [Basic Drawing][27]
+ - [Discrete Fourier Transform][28], source code example can be found inside 
+`samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp`
  
 ## Color order
  - It is `BGR` !!! 
@@ -133,12 +138,15 @@ kernel.
  - [cv::Mat Class Reference][12]
  - [cv::Vec< _Tp, cn > Class Template Reference][14]
 
+## OpenCV with Qt
+- [OpenCV with Qt][29]
 
 
-
-
-
-
+[29]: https://wiki.qt.io/OpenCV_with_Qt
+[28]: http://docs.opencv.org/3.1.0/d8/d01/tutorial_discrete_fourier_transform.html#gsc.tab=0
+[27]: http://docs.opencv.org/3.1.0/d3/d96/tutorial_basic_geometric_drawing.html#gsc.tab=0
+[26]: http://docs.opencv.org/3.1.0/d3/dc1/tutorial_basic_linear_transform.html#gsc.tab=0
+[25]: http://docs.opencv.org/3.1.0/d5/dc4/tutorial_adding_images.html#gsc.tab=0
 [24]: http://docs.opencv.org/3.1.0/d5/d98/tutorial_mat_operations.html#gsc.tab=0
 [23]: http://docs.opencv.org/3.1.0/d7/d37/tutorial_mat_mask_operations.html#gsc.tab=0
 [22]: http://docs.opencv.org/3.1.0/db/da5/tutorial_how_to_scan_images.html#gsc.tab=0
