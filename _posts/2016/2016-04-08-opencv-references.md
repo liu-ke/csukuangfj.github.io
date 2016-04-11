@@ -142,6 +142,12 @@ kernel.
 - [OpenCV with Qt][29]
 
 
+## Courses
+ - [CS485/685: Computer Vision (Spring 2012)][30]
+
+
+
+[30]: http://www.cse.unr.edu/~bebis/CS485/
 [29]: https://wiki.qt.io/OpenCV_with_Qt
 [28]: http://docs.opencv.org/3.1.0/d8/d01/tutorial_discrete_fourier_transform.html#gsc.tab=0
 [27]: http://docs.opencv.org/3.1.0/d3/d96/tutorial_basic_geometric_drawing.html#gsc.tab=0
