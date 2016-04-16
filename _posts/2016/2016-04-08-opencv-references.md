@@ -152,7 +152,10 @@ kernel.
  - [Vadim Pisarevsky][31]
  
 
+## Companies
+ - [http://itseez.com][33]
 
+[33]: http://itseez.com
 [32]: http://16423.courses.cs.cmu.edu
 [31]: https://www.linkedin.com/in/vadim-pisarevsky-308a9a25
 [30]: http://www.cse.unr.edu/~bebis/CS485/
