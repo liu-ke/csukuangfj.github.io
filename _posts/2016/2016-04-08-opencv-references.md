@@ -144,9 +144,17 @@ kernel.
 
 ## Courses
  - [CS485/685: Computer Vision (Spring 2012)][30]
+ - [16423 – Designing Computer Vision Apps][32] @ CMU
 
 
 
+## People
+ - [Vadim Pisarevsky][31]
+ 
+
+
+[32]: http://16423.courses.cs.cmu.edu
+[31]: https://www.linkedin.com/in/vadim-pisarevsky-308a9a25
 [30]: http://www.cse.unr.edu/~bebis/CS485/
 [29]: https://wiki.qt.io/OpenCV_with_Qt
 [28]: http://docs.opencv.org/3.1.0/d8/d01/tutorial_discrete_fourier_transform.html#gsc.tab=0
