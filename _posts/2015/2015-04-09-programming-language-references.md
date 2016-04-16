@@ -56,6 +56,9 @@ tags:
 ### C courses
  - [6.S096 2014 Effective Programming in C and C++][62]
 
+### C Marcos
+ - [Token-Pasting Operator (##)][73]
+
 ### C++ internals
  - [** US Patent 5297284: Method and system for implementing virtual functions and virtual base classes and setting a this pointer for an object-oriented programming language**][70]
  - [Inside C++ object model][56]
@@ -102,7 +105,7 @@ tags:
  - [Advanced use of Git][4]
 
 
-
+[73]: https://msdn.microsoft.com/en-us/library/09dwwt6y.aspx
 [72]: http://www.mathworks.com/company/newsletters/news_notes/pdf/Fall96Cleve.pdf
 [71]: http://blog.csdn.net/u013071074/article/details/38661747
 [70]: /pdf/programming/US5297284.pdf
