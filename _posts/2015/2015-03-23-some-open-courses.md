@@ -9,6 +9,9 @@ tags:
 - Open Courses
 ---
 
+# 2016-04-17
+ - [**CIS 610, Spring 2015 Advanced Geometric Methods in Computer Science**][33]
+
 
 # Computer Architecture and Organization
  - [Great Ideas in Computer Architecture (Machine Structures). Spring 2015, UC Berkeley][32]
@@ -17,7 +20,7 @@ tags:
  - [EE103/CME103][1] Introduction to Matrix Methods
 
 # Computer Science MIT
- - [**6.828 Operating System Engineering**][20], 2014 
+ - [**6.828 Operating System Engineering**][20], 2014
  - [6.824: Distributed Systems][30], Spring 2015
  - [6.033: Computer Systems Engineering][31], Spring 2015
  - [Course 6: Electrical Engineering and Computer Science IAP / Spring 2015][29]
@@ -25,8 +28,8 @@ tags:
 # Computer Science Stanford
  - cs1U [**Practical Unix**][8] and [video courses][10]
  - [**cs107 Computer Organization and Systems**][14], 2015
- - [**CS 106B: Programming Abstractions (C++) Spring 2015**][16] and [2013][21] 
- - [**CS106L Standard C++ Programming Laboratory**][17] 
+ - [**CS 106B: Programming Abstractions (C++) Spring 2015**][16] and [2013][21]
+ - [**CS106L Standard C++ Programming Laboratory**][17]
  - [CS 106A: Programming Methodology (Java) Spring 2015][15]
  - [CS106X: Programming Abstractions][18]
  - [CS144 Introduction to Computer Networking][5], 2015
@@ -52,7 +55,7 @@ tags:
 
 
 
-
+[33]: http://www.seas.upenn.edu/~cis610/
 [32]: http://www-inst.eecs.berkeley.edu/~cs61c/sp15/
 [31]: http://web.mit.edu/6.033/www/schedule.shtml
 [30]: http://nil.csail.mit.edu/6.824/2015/index.html
@@ -85,4 +88,3 @@ tags:
 [3]: http://www.scs.stanford.edu/15wi-cs140/
 [2]: http://web.stanford.edu/class/cs244/
 [1]: http://web.stanford.edu/class/ee103/index.html
-
