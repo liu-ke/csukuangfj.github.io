@@ -11,7 +11,7 @@ tags:
 ---
 
 ## 2016-04-24
- - [The Hypermedia Image Processing Reference][], image processing learning resources
+ - [The Hypermedia Image Processing Reference][27], image processing learning resources
 
 ## Standard test image
  Refer to wikipedia for the definition of [Standard test image][24]. You can find some comonly used databse there,
