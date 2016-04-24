@@ -66,7 +66,7 @@ such as
 [23]: http://ocw.mit.edu/courses/nuclear-engineering/22-058-principles-of-medical-imaging-fall-2002/index.htm
 [22]: http://www.medphysics.wisc.edu/~block/bme_530_lectures.html
 [21]: http://eeweb.poly.edu/~yao/EL5823/
-[20]:http://ocw.mit.edu/courses/health-sciences-and-technology/hst-582j-biomedical-signal-and-image-processing-spring-2007/index.htm
+[20]: http://ocw.mit.edu/courses/health-sciences-and-technology/hst-582j-biomedical-signal-and-image-processing-spring-2007/index.htm
 [19]: http://inst.eecs.berkeley.edu/~ee225e/sp14/
 [18]: http://inst.eecs.berkeley.edu/~ee225e/sp12/
 [17]: http://www.cs.cmu.edu/~galeotti/methods_course/
