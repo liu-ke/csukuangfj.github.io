@@ -10,10 +10,12 @@ tags:
 - image processing
 ---
 
+## 2016-04-24
+ - [The Hypermedia Image Processing Reference][], image processing learning resources
 
 ## Standard test image
  Refer to wikipedia for the definition of [Standard test image][24]. You can find some comonly used databse there,
-such as 
+such as
   - [The USC-SIPI Image Database][25]
   - [Computer Vision website][26], it contains a lot of links to other image databses
 
@@ -39,7 +41,7 @@ such as
 
 # Medical image processing
  - [CS473/673: Medical Image Processing][16]
- - [**Methods In Medical Image Analysis - Spring 2015**][17]   
+ - [**Methods In Medical Image Analysis - Spring 2015**][17]
  - [EE225E / BIOE265: Principles of Magnetic Resonance Imaging][18], 2012
  - [EE225E / BIOE265: Principles of Magnetic Resonance Imaging][19], 2014
  - [Biomedical Signal and Image Processing][20] at MIT
@@ -55,6 +57,7 @@ such as
 
 
 
+[27]: http://homepages.inf.ed.ac.uk/rbf/HIPR2/
 
 [26]: http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-images.html
 [25]: http://sipi.usc.edu/database/
