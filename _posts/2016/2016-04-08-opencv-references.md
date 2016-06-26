@@ -99,6 +99,31 @@ add_executable( BlurImage BlurImage.cpp )
 target_link_libraries( BlurImage ${OpenCV_LIBS} )
 ```
 
+## My cmake file
+```
+cmake_minimum_required(VERSION 3.5)
+project(linear_algebra)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/build")
+
+set(SOURCE_FILES src/main.cpp)
+
+# set the environment variable OpenCV_DIR in .bash_profile
+# set (OpenCV_DIR /Users/fangjun/software/opencv/3.1.0/mac-os-opencv-install-sharedLib
+
+find_package( OpenCV REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+
+include_directories( ./inc )
+
+# for eigen
+# include_directories( /Users/fangjun/software/eigen/eigen )
+
+add_executable(linear_algebra ${SOURCE_FILES})
+target_link_libraries( linear_algebra ${OpenCV_LIBS} )
+```
+
 ## Tutorials
  - [Introduction to OpenCV-Python Tutorials][2]
  - [Mat(rix) object (Image Container)][3]
