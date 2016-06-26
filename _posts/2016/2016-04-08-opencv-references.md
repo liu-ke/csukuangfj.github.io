@@ -12,10 +12,10 @@ tags:
 ---
 
 # Table of contents
-[Installation](#Installation)
-  [Installation on ubuntu 15.10](#install-ubuntu)
-  [Installation on Mac OS X 10.11](#install-mac)
-  [configuration for xcode](#xcode)
+[Installation](#Installation)  
+  [Installation on ubuntu 15.10](#install-ubuntu)  
+  [Installation on Mac OS X 10.11](#install-mac)  
+  [configuration for xcode](#xcode)  
 
 
 # Installation <a name=“Installation”></a>
