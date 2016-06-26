@@ -11,11 +11,18 @@ tags:
 - OpenCV
 ---
 
-## Installation
+# Table of contents
+[Installation](#Installation)
+  [Installation on ubuntu 15.10](#install-ubuntu)
+  [Installation on Mac OS X 10.11](#install-mac)
+  [configuration for xcode](#xcode)
+
+
+# Installation <a name=“Installation”></a>
  - Refer to [Ubuntu 15.10 OpenCV 3.1 Installation Guide][1]
  - [HOWTO: Install, Build and Use openCV (MacOSX 10.10)][5]
 
-##  installation on ubuntu 15.10
+##  Installation on ubuntu 15.10 <a name=“install-ubuntu”></a>
  - first shutdown vm and exit virtual box, then on mac os x, run
  
 ```
@@ -55,13 +62,13 @@ import cv2
 print cv2.__version__ # should print 3.1.0
 ```    
     
-## Installation on Mac OS X 10.11
+## Installation on Mac OS X 10.11 <a name=“install-mac”></a>
  - first download and unzip opencv-3.1.0
  - install cmake (download .dmg file from official website and move it to Applications folder, then add `/Applications/CMake.app/Contents/bin` to PATH) 
  - run cmake (just click the icon, or run cmake-gui from command line)
  - then follow [HOWTO: Install, Build and Use openCV (MacOSX 10.10)][5]
 
-## configuration for xcode
+## configuration for xcode <a name=“xcode”></a>
  - other link flags: `-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_ts -lopencv_video -lopencv_videoio -lopencv_videostab
 `
  - add search path for header files and libraries
