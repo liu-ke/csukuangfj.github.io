@@ -168,6 +168,7 @@ kernel.
 
 
 ## Courses
+ - [Assignment for course CS 512 COMPUTER VISION (FALL 2015)][34] @ lllinois Institute of Technology
  - [CS485/685: Computer Vision (Spring 2012)][30]
  - [16423 – Designing Computer Vision Apps][32] @ CMU
 
@@ -180,6 +181,9 @@ kernel.
 ## Companies
  - [http://itseez.com][33]
 
+
+
+[34]: http://www.cs.iit.edu/~agam/cs512/#assignments
 [33]: http://itseez.com
 [32]: http://16423.courses.cs.cmu.edu
 [31]: https://www.linkedin.com/in/vadim-pisarevsky-308a9a25
