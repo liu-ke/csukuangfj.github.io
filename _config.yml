@@ -1,7 +1,7 @@
 permalink: /:year/:month/:title/
 url: http://csukuangfj.github.io
 author: Kuang,Fangjun
-pygments: true
+rouge: true
 paginate: 24
 timezone: "Asia/Shanghai"
 github: csukuangfj
