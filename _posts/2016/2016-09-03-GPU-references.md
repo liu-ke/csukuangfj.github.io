@@ -31,6 +31,9 @@ since version 2.1 (Nov. 16, 2015)
  - [**The OpenCL C++ Wrapper API**][17], wrapper for OpenCL C API, support OpenCL version 1.2 or below
 
 
+## khronos
+ - [OpenCL Resources][18]
+
 ## Mac OS X
  - /System/Library/Frameworks/OpenCL.framework
  - `gcc -o foo foo.c -framework OpenCL`
@@ -42,8 +45,29 @@ since version 2.1 (Nov. 16, 2015)
  - [AMD APP SDK][13], AMD OpenCL Accelerated Parallel Processing (APP)
  - [NVIDIA OpenCL SDK][14], see also [CUDA Code Samples][15]
 
+## Tutorials
+ - [Tutorial: Simple start with OpenCL and C++][19], which uses OpenCL C++ wrapper
+to compute the sum of two vectors.
+
+## OpenCL data type
+ - [a stripped-down subset of cl.h and cl_platform.h, for BOINC][20]
+ - all of the following are just **pointers** !
+```
+typedef struct _cl_platform_id *    cl_platform_id;
+typedef struct _cl_device_id *      cl_device_id;
+typedef struct _cl_context *        cl_context;
+typedef struct _cl_command_queue *  cl_command_queue;
+typedef struct _cl_mem *            cl_mem;
+typedef struct _cl_program *        cl_program;
+typedef struct _cl_kernel *         cl_kernel;
+typedef struct _cl_event *          cl_event;
+typedef struct _cl_sampler *        cl_sampler;
+```
 
 
+[20]: http://boinc.berkeley.edu/android-boinc/boinc/lib/cl_boinc.h
+[19]: http://simpleopencl.blogspot.de/2013/06/tutorial-simple-start-with-opencl-and-c.html
+[18]: https://www.khronos.org/opencl/resources
 [17]: https://www.khronos.org/registry/cl/specs/opencl-cplusplus-1.2.pdf
 [16]: https://www.khronos.org/assets/uploads/developers/resources/Intro-to-OpenCL-C++-Whitepaper-May15.pdf
 [15]: https://developer.nvidia.com/cuda-code-samples
