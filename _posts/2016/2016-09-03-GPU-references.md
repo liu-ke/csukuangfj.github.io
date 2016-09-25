@@ -29,7 +29,11 @@ tags:
  - [An Introduction to OpenCL C++][16]. OpenCL C++ (a subset of C++ 14) support is introduced
 since version 2.1 (Nov. 16, 2015)
  - [**The OpenCL C++ Wrapper API**][17], wrapper for OpenCL C API, support OpenCL version 1.2 or below
+  - [cl.hpp][22] can be downloaded from here
 
+## Lab
+ - github: [https://github.com/csukuangfj/Exercises-Solutions][23]
+ - github: [http://boostorg.github.io/compute/][24]
 
 ## khronos
  - [OpenCL Resources][18]
@@ -51,7 +55,8 @@ to compute the sum of two vectors.
 
 ## OpenCL data type
  - [a stripped-down subset of cl.h and cl_platform.h, for BOINC][20]
- - all of the following are just **pointers** !
+ - all of the following are just **pointers** ! For detailed struct definition,
+refer to [cl_internal.h][21]
 ```
 typedef struct _cl_platform_id *    cl_platform_id;
 typedef struct _cl_device_id *      cl_device_id;
@@ -64,7 +69,17 @@ typedef struct _cl_event *          cl_event;
 typedef struct _cl_sampler *        cl_sampler;
 ```
 
+# OpenGL
+ - [OGL dev - Modern OpenGL tutorials][25]
 
+
+
+
+[25]: http://ogldev.atspace.co.uk/index.html
+[24]: http://boostorg.github.io/compute/
+[23]: https://github.com/csukuangfj/Exercises-Solutions
+[22]: https://www.khronos.org/registry/cl/
+[21]: https://raw.githubusercontent.com/pcpratts/gcc_opencl/master/cl/cl_internal.h
 [20]: http://boinc.berkeley.edu/android-boinc/boinc/lib/cl_boinc.h
 [19]: http://simpleopencl.blogspot.de/2013/06/tutorial-simple-start-with-opencl-and-c.html
 [18]: https://www.khronos.org/opencl/resources
