@@ -40,16 +40,16 @@ tags:
  - [64-bit and Data Size Neutrality][35], data size of int, long and pointer in 32 bits
     and 64 bits architecture
  - [64-Bit Programming Models: Why LP64?][37]
- 
+
  - [The Definitive Guide to GCC][40]
  - [GCC online documentation][51]
- 
+
  - [The Definitive C++ Book Guide and List][61]
- 
+
  - [Effective c++][63]
- 
+
  - [Executable and Linkable Format][69]
- 
+
 ### C internals
  - [System V Application Binary Interface][60], generic ABI
 
@@ -60,23 +60,24 @@ tags:
  - [Token-Pasting Operator (##)][73]
 
 ### C++ internals
+ - [C++ Internals][74], a blog !
  - [** US Patent 5297284: Method and system for implementing virtual functions and virtual base classes and setting a this pointer for an object-oriented programming language**][70]
  - [Inside C++ object model][56]
  - [C++: Under the hood][36]
  - [C++ Tutorial: Pointer-to-Member Function][38]
  - [Reversing C++][39]
- - [C++ Under the Hood][52], another version 
+ - [C++ Under the Hood][52], another version
  － [VC++类继承内存布局][71]
  - [Memory Layout for Multiple and Virtual Inheritance][54]
  - Thinking in C++, 2nd ed. Volume 1, [15: Polymorphism & Virtual Functions][55]
- 
+
  - [C++ ABI Summary][58]
  - [Itanium C++ ABI][59]
  - [C++ Vtable Example][64]
  - [Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI][65]
- 
+
  - [C++ Programming/RTTI][66]
- 
+
  - [What every C++ programmer should know, The simple part][67]
  - [What every C++ programmer should know, The hard part][68]
 
@@ -105,6 +106,8 @@ tags:
  - [Advanced use of Git][4]
 
 
+
+[74]: http://www.avabodh.com/cxxin/cxx.html
 [73]: https://msdn.microsoft.com/en-us/library/09dwwt6y.aspx
 [72]: http://www.mathworks.com/company/newsletters/news_notes/pdf/Fall96Cleve.pdf
 [71]: http://blog.csdn.net/u013071074/article/details/38661747
@@ -131,7 +134,7 @@ tags:
 [40]: https://sensperiodit.files.wordpress.com/2011/04/hagen-the-definitive-guide-to-gcc-2e-apress-2006.pdf
 [39]: https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf
 [38]: http://www.codeguru.com/cpp/cpp/article.php/c17401/C-Tutorial-PointertoMember-Function.htm
-[37]: http://www.unix.org/version2/whatsnew/lp64_wp.html 
+[37]: http://www.unix.org/version2/whatsnew/lp64_wp.html
 [36]: http://www.openrce.org/articles/files/jangrayhood.pdf
 [35]: http://www.unix.org/whitepapers/64bit.html
 [34]: http://www.stroustrup.com/crc.pdf
