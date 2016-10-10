@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 收集的一些资料
+title: Some materials for WiFi
 categories:
 - Notes
 tags:
@@ -8,18 +8,18 @@ tags:
 ---
 
 
- - Android：Wi-Fi NFC和GPS
- - WiFi_P2P_Technical_Specification_v1.2
- - Wi-Fi_Simple_Configuration_Technical_Specification_v2-0-2
+ - [Android：Wi-Fi NFC和GPS][1]
+ - [WiFi_P2P_Technical_Specification_v1.2][2]
+ - [Wi-Fi_Simple_Configuration_Technical_Specification_v2-0-2][3]
  - [IEEE_Std_802.11][4]
- - 802.11无线网络权威指南
+ - [802.11无线网络权威指南][5]
  - [WPA_Supplicant development manual][7]
  - [TL-WR800N_V1_详细配置指南.pdf][13]
  
 ## programming
- - The.Art.of.Exploitation.2nd.Edition.Feb.2008
+ - [The.Art.of.Exploitation.2nd.Edition.Feb.2008][6]
  - [A commentary on the sixth edition unix operating system][8],latex [源文件][9], 参考[网页][10]
- - Professional.Assembly.Language
+ - [Professional.Assembly.Language][11]
  - [Embedded Programming with the GNU Toolchain][12], 最基础的知识， arm bare metal, linker script 等， 讲的非常清楚
  - [java notes][14], 一本关于 java 的书，写的不错
 
