@@ -9,6 +9,7 @@ I am currently a Master student at Universität Stuttgart.
 My research interests include:
 
   - Computer Vison
+  - Robotics
   - ......
 
 You can contact me with the following email address (base64 encoded):
