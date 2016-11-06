@@ -4,16 +4,11 @@ layout: post
 comments: yes
 ---
 
-I am currently a Master student of Universität Stuttgart.  
+I am currently a Master student at Universität Stuttgart.
 
-My research interests include:  
- - Embedded Systems  
- - Machine Learning  
- - Computer Vison  
- - Digital Image Processing  
- - Software Defined Networking (SDN)  
- - Network Security  
+My research interests include:
+ - Computer Vison
  - ......
-   
-You can contact me with the following email address (base64 encoded):  
-  Y3N1a3VhbmdmakBnbWFpbC5jb20= 
+
+You can contact me with the following email address (base64 encoded):
+  Y3N1a3VhbmdmakBnbWFpbC5jb20=
