@@ -15,7 +15,7 @@ tags:
 
 
 # KKT conditions
- - [a cuorse slide][5]
+ - [a course slide][5]
 
 # convex optimizations
  - [Crash-Course on Convex Optimization][9], or my [local copy][10]
