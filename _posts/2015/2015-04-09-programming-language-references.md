@@ -11,6 +11,10 @@ tags:
 
 ## Floating point number
  - [Floating points IEEE Standard unifies arithmetic model][72]
+ 
+## Magic number (programming)
+ - Wikipedia: https://en.wikipedia.org/wiki/Magic_number_(programming)
+ - List of file signatures: https://en.wikipedia.org/wiki/List_of_file_signatures
 
 ## Persons
  - [Eric S. Raymond's Home Page][10]
