@@ -12,7 +12,7 @@ tags:
 
 The following code is a minimal example showing how to create a context inside OpenCV 3.x.
 
-```language-c
+{% highlight tex linenos=table %}
 #include <iostream>
 #include <opencv2/core/ocl.hpp>
 
@@ -29,8 +29,7 @@ int main()
 // output:
 //1
 //false
-
-```
+{% endhighlight %}
 
 ### References
  - ocl.hpp: <https://github.com/opencv/opencv/blob/master/modules/core/include/opencv2/core/ocl.hpp>
