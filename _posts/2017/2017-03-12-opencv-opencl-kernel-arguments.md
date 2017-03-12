@@ -10,12 +10,13 @@ tags:
 - OpenCL
 ---
 
-There are some Flags defined as enum inside `KernelArg`:
+There are some Flags defined as enum inside [KernelArg](https://github.com/opencv/opencv/blob/master/modules/core/include/opencv2/core/ocl.hpp#L357):
+
 <script src="https://gist.github.com/csukuangfj/9417c6aa2adb8e20b21505ef96869804.js"></script>
 
 If we have an object `Mat mat` and want to pass it to the OpenCL kernel, the prototype of the kernel depends on the enums defined above and the dimension of the `Mat`. Currently, it supports only 2-d and 3-d `Mat`.
 
-Now let us look some examples:
+Now let us look at some examples:
 <script src="https://gist.github.com/csukuangfj/d32b2685bf25fcae06957bad5d53ad20.js"></script>
 
 One of the biggest advantage of using `ocl::KernelArg` is that we do not need to
