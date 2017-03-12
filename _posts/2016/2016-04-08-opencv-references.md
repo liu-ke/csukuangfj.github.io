@@ -11,6 +11,10 @@ tags:
 - OpenCV
 ---
 
+## Online documentation
+ - [Fossies][35] provides the [online documentation][36] for OpenCV, which is, I think, better than the official website.
+
+
 ## Installation
  - Refer to [Ubuntu 15.10 OpenCV 3.1 Installation Guide][1]
  - [HOWTO: Install, Build and Use openCV (MacOSX 10.10)][5]
@@ -181,8 +185,8 @@ kernel.
 ## Companies
  - [http://itseez.com][33]
 
-
-
+[36]: https://fossies.org/dox/opencv-3.2.0/
+[35]: https://fossies.org
 [34]: http://www.cs.iit.edu/~agam/cs512/#assignments
 [33]: http://itseez.com
 [32]: http://16423.courses.cs.cmu.edu
