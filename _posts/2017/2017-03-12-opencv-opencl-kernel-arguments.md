@@ -22,3 +22,6 @@ One of the biggest advantage of using `ocl::KernelArg` is that we do not need to
 create a `cl_mem`.
 
 You can, of course, create an object of `cl_mem` and call the method of `ocl::Kernel`: `int set(int i, const void* value, size_t sz);` directly.
+
+### References
+ `int Kernel::set(int i, const KernelArg& arg)` in [ocl.cpp](https://github.com/opencv/opencv/blob/master/modules/core/src/ocl.cpp#L3366)
