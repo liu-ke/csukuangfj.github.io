@@ -12,7 +12,7 @@ tags:
 
 The following code is a minimal example showing how to create a context inside OpenCV 3.x.
 
-{% highlight tex linenos=table %}
+{% highlight c linenos=table %}
 #include <iostream>
 #include <opencv2/core/ocl.hpp>
 
