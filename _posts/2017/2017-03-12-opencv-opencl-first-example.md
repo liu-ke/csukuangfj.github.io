@@ -12,24 +12,7 @@ tags:
 
 The following code is a minimal example showing how to create a context inside OpenCV 3.x.
 
-{% highlight c linenos=table %}
-#include <iostream>
-#include <opencv2/core/ocl.hpp>
-
-int main()
-{
-  cv::ocl::Context ctx;
-  ctx.create(cv::ocl::Device::TYPE_CPU);
-  std::cout << ctx.ndevices() << std::endl;
-
-  std::cout << (ctx.create() ? "true":"false") << std::endl;
-
-  return 0;
-}
-// output:
-//1
-//false
-{% endhighlight %}
+<script src="https://gist.github.com/csukuangfj/49d6e8fb4bf4b694f2235b8fcfd1ca8b.js"></script>
 
 ### References
  - ocl.hpp: <https://github.com/opencv/opencv/blob/master/modules/core/include/opencv2/core/ocl.hpp>
