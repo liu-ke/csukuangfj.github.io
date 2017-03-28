@@ -25,6 +25,7 @@ tags:
  - [Specification Version 1.2][6]
  - [ELF Tutorial][7] at osdev.org
  - [The ELF Object File Format by Dissection][10]
+ - [libelf by Example][11], pdf file
 
 ## gcc notes.
  - [3.20 Environment Variables Affecting GCC][3], 
@@ -32,7 +33,7 @@ tags:
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
 
-
+[11]: ftp://ftp2.uk.freebsd.org/sites/downloads.sourceforge.net/e/el/elftoolchain/Documentation/libelf-by-example/20120308/libelf-by-example.pdf
 [10]: http://www.linuxjournal.com/article/1060
 [9]: http://www.thegeekstuff.com/2011/10/c-program-to-an-executable/
 [8]: http://www.thegeekstuff.com/2012/06/linux-shared-libraries/
