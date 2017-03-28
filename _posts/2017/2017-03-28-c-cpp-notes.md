@@ -22,12 +22,15 @@ tags:
 ## Executable and Linkable Format (ELF)
  - [Wikipedia][5]
  - [Specification Version 1.2][6]
+ - [ELF Tutorial][7] at osdev.org
 
 ## gcc notes.
  - [3.20 Environment Variables Affecting GCC][3], 
    - Useful variables: **C_INCLUDE_PATH**, **CPLUS_INCLUDE_PATH**
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
+
+[7]: http://wiki.osdev.org/ELF_Tutorial
 [6]: http://refspecs.linuxbase.org/elf/elf.pdf
 [5]: https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 [4]: http://www.tenouk.com/cncplusplusbufferoverflow.html
