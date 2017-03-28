@@ -12,7 +12,8 @@ tags:
  - [MODULE 000-1 gcc, g++, gdb and friends 1][2]
  - [Compiler, assembler, linker and loader: a brief history][1]
  - [C/C++ and Buffer Overflow Topics][4]
-
+ - [Intro to Linux Shared Libraries (How to Create Shared Libraries)][8]
+ - [Journey of a C Program to Linux Executable in 4 Stages][9]
 
 ## Tools
  - make, cmake
@@ -23,6 +24,7 @@ tags:
  - [Wikipedia][5]
  - [Specification Version 1.2][6]
  - [ELF Tutorial][7] at osdev.org
+ - [The ELF Object File Format by Dissection][10]
 
 ## gcc notes.
  - [3.20 Environment Variables Affecting GCC][3], 
@@ -30,6 +32,10 @@ tags:
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
 
+
+[10]: http://www.linuxjournal.com/article/1060
+[9]: http://www.thegeekstuff.com/2011/10/c-program-to-an-executable/
+[8]: http://www.thegeekstuff.com/2012/06/linux-shared-libraries/
 [7]: http://wiki.osdev.org/ELF_Tutorial
 [6]: http://refspecs.linuxbase.org/elf/elf.pdf
 [5]: https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
