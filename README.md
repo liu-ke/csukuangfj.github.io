@@ -1,11 +1,10 @@
-本模板从 [Luke](https://github.com/kejinlu/kejinlu.github.com) 拷贝, [网址](https://github.com/kejinlu/kejinlu.github.com)。他的博客网址为 [Luke's Homepage](http://geeklu.com)
+This template is **copied** from [Luke](https://github.com/kejinlu/kejinlu.github.com) and his blog is [Luke's Homepage](http://geeklu.com).
 
-此Git库为我的博客  [csukuangfj's Homepage](http://csukuangfj.github.io)。
+------
 
-使用Jekyll进行搭建，Jekyll是一个Ruby写的程序，可以将Markdown写的文章通过模板生成最终的Html静态文件。
-博客文章的评论功能使用了Disqus。
+The home page for this repository is [csukuangfj's Homepage](http://csukuangfj.github.io).
 
-如果你直接拷贝或Fork本Git库作为自己的博客，一定不要忘记删除我写的文章。
+This template uses Jekyll based on Ruby, which can convert Markdown files to static HTML files.
+The commet system is using Disqus.
 
-最后感谢您的配合。
-
+In case of fork, please do remember to delete the articles written by me.
