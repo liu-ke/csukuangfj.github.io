@@ -19,6 +19,7 @@ tags:
  - make, cmake
  - gcc, g++
  - readelf, objdump, ldd, nm
+ - [GNU Binutils][11] at Wikipedia
  
 ## Executable and Linkable Format (ELF)
  - [Wikipedia][5]
@@ -33,7 +34,7 @@ tags:
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
 
-
+[11]: https://en.wikipedia.org/wiki/GNU_Binutils
 [10]: http://www.linuxjournal.com/article/1060
 [9]: http://www.thegeekstuff.com/2011/10/c-program-to-an-executable/
 [8]: http://www.thegeekstuff.com/2012/06/linux-shared-libraries/
