@@ -18,6 +18,20 @@ tags:
 ## Crt0
  - see [Wikipedia][12]
 
+## C++ name mangling
+ - `main` is not mangled, as if it is declared with `extern "C"`
+ - `int a;`, `a` is not mangled
+ - `const int a = 3`, `a` is mangled, `_ZL1a` (a const global variable is static implicitly)
+ - `const static b`, `b` is mangled, `_ZL1b`
+ - `static int c;`, `c` is mangled, `_ZL1c`
+```.cpp
+#ifdef _cplusplus
+extern "C"
+#endif
+void not_mangled()
+{}
+```
+ 
 ## Tools
  - make, cmake
  - gcc, g++
