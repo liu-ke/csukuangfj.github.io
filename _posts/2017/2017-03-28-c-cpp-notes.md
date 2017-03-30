@@ -19,6 +19,7 @@ tags:
  - see [Wikipedia][12]
 
 ## C++ name mangling
+ - [Name mangling][13] at Wikipedia
  - `main` is not mangled, as if it is declared with `extern "C"`
  - `int a;`, `a` is not mangled
  - `const int a = 3`, `a` is mangled, `_ZL1a` (a const global variable is static implicitly)
@@ -52,6 +53,10 @@ void not_mangled()
    - Useful variables: **C_INCLUDE_PATH**, **CPLUS_INCLUDE_PATH**
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
+
+
+
+[13]: https://en.wikipedia.org/wiki/Name_mangling#Name_mangling_in_C.2B.2B
 [12]: https://en.wikipedia.org/wiki/Crt0
 [11]: https://en.wikipedia.org/wiki/GNU_Binutils
 [10]: http://www.linuxjournal.com/article/1060
