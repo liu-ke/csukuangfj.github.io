@@ -31,6 +31,8 @@ extern "C"
 void not_mangled()
 {}
 ```
+  - For a given object file `a.o`, use `nm -C a.o` to demangle the symbols, or use `nm a.o | c++filt`
+ 
  
 ## Tools
  - make, cmake
