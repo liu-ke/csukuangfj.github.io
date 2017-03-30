@@ -15,6 +15,9 @@ tags:
  - [Intro to Linux Shared Libraries (How to Create Shared Libraries)][8]
  - [Journey of a C Program to Linux Executable in 4 Stages][9]
 
+## Crt0
+ - see [Wikipedia][12]
+
 ## Tools
  - make, cmake
  - gcc, g++
@@ -33,7 +36,7 @@ tags:
    - Useful variables: **C_INCLUDE_PATH**, **CPLUS_INCLUDE_PATH**
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
-
+[12]: https://en.wikipedia.org/wiki/Crt0
 [11]: https://en.wikipedia.org/wiki/GNU_Binutils
 [10]: http://www.linuxjournal.com/article/1060
 [9]: http://www.thegeekstuff.com/2011/10/c-program-to-an-executable/
