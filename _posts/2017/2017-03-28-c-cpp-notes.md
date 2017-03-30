@@ -33,6 +33,9 @@ void not_mangled()
 {}
 ```
   - For a given object file `a.o`, use `nm -C a.o` to demangle the symbols, or use `nm a.o | c++filt`
+  - Difference between `extern` and `extern "C"`
+     - `extern`: a function or a variable is defined elsewhere
+     - `extern "C"`: do not do name mangling
  
  
 ## Tools
