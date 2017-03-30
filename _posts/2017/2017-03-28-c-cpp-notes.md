@@ -14,6 +14,7 @@ tags:
  - [C/C++ and Buffer Overflow Topics][4]
  - [Intro to Linux Shared Libraries (How to Create Shared Libraries)][8]
  - [Journey of a C Program to Linux Executable in 4 Stages][9]
+ - [How to mix C and C++][14], <https://isocpp.org/wiki/faq/mixing-c-and-cpp>
 
 ## Crt0
  - see [Wikipedia][12]
@@ -58,7 +59,7 @@ void not_mangled()
 
 
 
-
+[14]: https://isocpp.org/wiki/faq/mixing-c-and-cpp
 [13]: https://en.wikipedia.org/wiki/Name_mangling#Name_mangling_in_C.2B.2B
 [12]: https://en.wikipedia.org/wiki/Crt0
 [11]: https://en.wikipedia.org/wiki/GNU_Binutils
