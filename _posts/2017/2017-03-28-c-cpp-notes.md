@@ -89,7 +89,7 @@ void not_mangled()
 #### GOT and PLT
  - GOT: global offset table
  - PLT: procedure linkage table
- - <font color="red">[PLT and GOT - the key to code sharing and dynamic libraries][28]</font>, **excellant tutorial** to GOT and PLT step by step!
+ - [PLT and GOT - the key to code sharing and dynamic libraries][28], <font color="red">**excellant tutorial**</font>to GOT and PLT step by step!
 
 
 
