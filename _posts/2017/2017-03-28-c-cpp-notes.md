@@ -84,15 +84,20 @@ void not_mangled()
  - [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux][25]
  - [The Art Of ELF: Analysis and Exploitations][26]
  - [What is the difference between `-fpic` and `-fPIC` gcc parameters?][27]
+ - [**Why symbol visibility is good**][29]
 
 
 #### GOT and PLT
  - GOT: global offset table
  - PLT: procedure linkage table
  - [PLT and GOT - the key to code sharing and dynamic libraries][28], **excellant tutorial** to GOT and PLT step by step!
+ - [Position Independent Code and x86-64 libraries][30]
 
 
 
+
+[30]: https://www.technovelty.org/category/c.html
+[29]: https://www.technovelty.org/code/why-symbol-visibility-is-good.html
 [28]: https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
 [27]: http://stackoverflow.com/questions/3544035/what-is-the-difference-between-fpic-and-fpic-gcc-parameters
 [26]: http://fluxius.handgrep.se/2011/10/20/the-art-of-elf-analysises-and-exploitations/
