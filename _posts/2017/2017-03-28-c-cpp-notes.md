@@ -86,6 +86,10 @@ void not_mangled()
  - [What is the difference between `-fpic` and `-fPIC` gcc parameters?][27]
 
 
+#### GOT and PLT
+ - GOT: global offset table, saving addresses of external variables
+ - PLT: procedure linkage table, saving addresses of external functions
+
 
 [27]: http://stackoverflow.com/questions/3544035/what-is-the-difference-between-fpic-and-fpic-gcc-parameters
 [26]: http://fluxius.handgrep.se/2011/10/20/the-art-of-elf-analysises-and-exploitations/
