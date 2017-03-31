@@ -9,6 +9,8 @@ tags:
 ---
 
 ## References
+ - **[C++ Programming Practice Guidelines][15]**
+ - **[C++ Programming Style Guidelines][16]**
  - [MODULE 000-1 gcc, g++, gdb and friends 1][2]
  - [Compiler, assembler, linker and loader: a brief history][1]
  - [C/C++ and Buffer Overflow Topics][4]
@@ -59,6 +61,8 @@ void not_mangled()
 
 
 
+[16]: http://geosoft.no/development/cppstyle.html
+[15]: http://geosoft.no/development/cpppractice.html
 [14]: https://isocpp.org/wiki/faq/mixing-c-and-cpp
 [13]: https://en.wikipedia.org/wiki/Name_mangling#Name_mangling_in_C.2B.2B
 [12]: https://en.wikipedia.org/wiki/Crt0
