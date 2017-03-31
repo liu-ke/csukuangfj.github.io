@@ -9,6 +9,7 @@ tags:
 ---
 
 ## References
+ - a book [Computer Science from the Bottom Up][33]
  - [MODULE 000-1 gcc, g++, gdb and friends 1][2]
  - [Compiler, assembler, linker and loader: a brief history][1]
  - [C/C++ and Buffer Overflow Topics][4]
@@ -96,6 +97,9 @@ void not_mangled()
 
 
 
+
+
+[33]: http://www.bottomupcs.com/
 [31]: https://www.technovelty.org/linux/stripping-shared-libraries.html
 [30]: https://www.technovelty.org/category/c.html
 [29]: https://www.technovelty.org/code/why-symbol-visibility-is-good.html
