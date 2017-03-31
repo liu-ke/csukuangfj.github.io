@@ -9,8 +9,6 @@ tags:
 ---
 
 ## References
- - **[C++ Programming Practice Guidelines][15]**
- - **[C++ Programming Style Guidelines][16]**
  - [MODULE 000-1 gcc, g++, gdb and friends 1][2]
  - [Compiler, assembler, linker and loader: a brief history][1]
  - [C/C++ and Buffer Overflow Topics][4]
@@ -60,7 +58,22 @@ void not_mangled()
  - Use option `-v` to view the verbose output, such as the searching directories for header files, example: `gcc -v a.c`
 
 
+## Styles
+ - **[C++ Programming Practice Guidelines][15]**
+ - **[C++ Programming Style Guidelines][16]**
+ - [Allman style][17]
 
+ - class, struct, enum: MyClass
+ - abstract class: IMyInterface
+ - functions, methods: myFunction()
+ - local variable: isStudent
+ - member variable: _isStudent
+ - constants, enum values, defines: MAX_NUMBER
+ - namespace: cv, std, kfj
+ - template: `<class TType1>`
+ 
+
+[17]: https://en.wikipedia.org/wiki/Indent_style#Allman_style
 [16]: http://geosoft.no/development/cppstyle.html
 [15]: http://geosoft.no/development/cpppractice.html
 [14]: https://isocpp.org/wiki/faq/mixing-c-and-cpp
