@@ -87,8 +87,8 @@ void not_mangled()
 
 
 #### GOT and PLT
- - GOT: global offset table, saving addresses of external variables
- - PLT: procedure linkage table, saving addresses of external functions
+ - GOT: global offset table
+ - PLT: procedure linkage table
 
 
 [27]: http://stackoverflow.com/questions/3544035/what-is-the-difference-between-fpic-and-fpic-gcc-parameters
