@@ -72,7 +72,28 @@ void not_mangled()
  - namespace: cv, std, kfj
  - template: `<class TType1>`
  
+ 
+## Shared libraries
+ - [How to write shared libraries][18], pdf
+ - [The inside story on shared libraries and dynamic loading][19], pdf
+ - [Anatomy of Linux dynamic libraries][20]
+ - [Resolving ELF Relocation Name / Symbols][21]
+ - [Linkers and Loaders][22]
+ - [Dynamic Linking (x86) Internals][23]
+ - [Static Linking (x86_64) Internals][24]
+ - [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux][25]
+ - [The Art Of ELF: Analysis and Exploitations][26]
 
+
+[26]: http://fluxius.handgrep.se/2011/10/20/the-art-of-elf-analysises-and-exploitations/
+[25]: http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+[24]: http://sploitfun.blogspot.de/2013/07/static-linking-x8664-internals.html
+[23]: http://sploitfun.blogspot.de/2013/06/dynamic-linking-internals.html
+[22]: http://www.linuxjournal.com/article/6463
+[21]: http://em386.blogspot.de/2006/10/resolving-elf-relocation-name-symbols.html
+[20]: https://www.ibm.com/developerworks/library/l-dynamic-libraries/
+[19]: https://cseweb.ucsd.edu/~gbournou/CSE131/the_inside_story_on_shared_libraries_and_dynamic_loading.pdf
+[18]: https://www.akkadia.org/drepper/dsohowto.pdf
 [17]: https://en.wikipedia.org/wiki/Indent_style#Allman_style
 [16]: http://geosoft.no/development/cppstyle.html
 [15]: http://geosoft.no/development/cpppractice.html
