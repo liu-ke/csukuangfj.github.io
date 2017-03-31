@@ -83,8 +83,11 @@ void not_mangled()
  - [Static Linking (x86_64) Internals][24]
  - [A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux][25]
  - [The Art Of ELF: Analysis and Exploitations][26]
+ - [What is the difference between `-fpic` and `-fPIC` gcc parameters?][27]
 
 
+
+[27]: http://stackoverflow.com/questions/3544035/what-is-the-difference-between-fpic-and-fpic-gcc-parameters
 [26]: http://fluxius.handgrep.se/2011/10/20/the-art-of-elf-analysises-and-exploitations/
 [25]: http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 [24]: http://sploitfun.blogspot.de/2013/07/static-linking-x8664-internals.html
