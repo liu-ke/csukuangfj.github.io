@@ -85,6 +85,7 @@ void not_mangled()
  - [The Art Of ELF: Analysis and Exploitations][26]
  - [What is the difference between `-fpic` and `-fPIC` gcc parameters?][27]
  - [**Why symbol visibility is good**][29]
+ - **[Stripping shared libraries][31]**, `--strip-unneeded`, `--strip-all`
 
 
 #### GOT and PLT
@@ -95,7 +96,7 @@ void not_mangled()
 
 
 
-
+[31]: https://www.technovelty.org/linux/stripping-shared-libraries.html
 [30]: https://www.technovelty.org/category/c.html
 [29]: https://www.technovelty.org/code/why-symbol-visibility-is-good.html
 [28]: https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
