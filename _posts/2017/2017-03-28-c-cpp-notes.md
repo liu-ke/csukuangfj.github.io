@@ -89,8 +89,11 @@ void not_mangled()
 #### GOT and PLT
  - GOT: global offset table
  - PLT: procedure linkage table
+ - <font color="red">[PLT and GOT - the key to code sharing and dynamic libraries][28]</font>, **excellant tutorial** to GOT and PLT step by step!
 
 
+
+[28]: https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
 [27]: http://stackoverflow.com/questions/3544035/what-is-the-difference-between-fpic-and-fpic-gcc-parameters
 [26]: http://fluxius.handgrep.se/2011/10/20/the-art-of-elf-analysises-and-exploitations/
 [25]: http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
