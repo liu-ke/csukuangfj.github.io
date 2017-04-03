@@ -77,6 +77,7 @@ void not_mangled()
 ## Shared libraries
  - [How to write shared libraries][18], pdf
  - [The inside story on shared libraries and dynamic loading][19], pdf
+ - [Program Library HOWTO][34], pdf at TLDP
  - [Anatomy of Linux dynamic libraries][20]
  - [Resolving ELF Relocation Name / Symbols][21]
  - [Linkers and Loaders][22]
@@ -98,7 +99,7 @@ void not_mangled()
 
 
 
-
+[34]: http://www.tldp.org/HOWTO/pdf/Program-Library-HOWTO.pdf
 [33]: http://www.bottomupcs.com/
 [31]: https://www.technovelty.org/linux/stripping-shared-libraries.html
 [30]: https://www.technovelty.org/category/c.html
