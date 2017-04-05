@@ -23,6 +23,9 @@ tags:
  - relocation entries
  - dynamic segment
  
+ 
+ 1. view file header
+ > readelf --file-header a.o
 
 
 
