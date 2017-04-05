@@ -97,8 +97,12 @@ void not_mangled()
  - [Position Independent Code and x86-64 libraries][30]
 
 
+## Memory
+ - [What Every Programmer Should Know About Memory][35] by [Ulrich Drepper][36], pdf
 
 
+[36]: https://www.akkadia.org/drepper/
+[35]: https://www.akkadia.org/drepper/cpumemory.pdf
 [34]: http://www.tldp.org/HOWTO/pdf/Program-Library-HOWTO.pdf
 [33]: http://www.bottomupcs.com/
 [31]: https://www.technovelty.org/linux/stripping-shared-libraries.html
