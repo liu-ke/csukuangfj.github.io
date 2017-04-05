@@ -8,6 +8,10 @@ tags:
 - programming
 ---
 
+# TODO
+ - IDA Pro: <https://www.hex-rays.com/products/ida/index.shtml>
+
+
 ## References
  - a book [Computer Science from the Bottom Up][33]
  - [MODULE 000-1 gcc, g++, gdb and friends 1][2]
