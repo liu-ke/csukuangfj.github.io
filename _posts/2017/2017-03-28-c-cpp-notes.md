@@ -88,6 +88,7 @@ void not_mangled()
  - [What is the difference between `-fpic` and `-fPIC` gcc parameters?][27]
  - [**Why symbol visibility is good**][29]
  - **[Stripping shared libraries][31]**, `--strip-unneeded`, `--strip-all`
+ - [Better understanding Linux secondary dependencies solving with examples][41]
 
 
 #### GOT and PLT
@@ -109,7 +110,7 @@ void not_mangled()
  - [What Every Programmer Should Know About Memory][35] by [Ulrich Drepper][36], pdf
  - [Anatomy of a Program in Memory][37]
 
-
+[41]: http://www.kaizou.org/2015/01/linux-libraries/
 [40]: https://en.wikipedia.org/wiki/Rpath
 [39]: http://man7.org/linux/man-pages/man8/ld.so.8.html
 [38]: https://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85).aspx
