@@ -106,6 +106,8 @@ void not_mangled()
  - [Dynamic-Link Library Search Order][38], MSDN
 
 ### Library search path (load time, Linux)
+Note that `LD_PRELOAD` is searched before `LD_LIBRARY_PATH` !
+
  - refer to manual of `ld.so`, [here][39], or use `man ld.so`
  - see also `man ldconfig`
  - rpath at [wikipedia][40]
