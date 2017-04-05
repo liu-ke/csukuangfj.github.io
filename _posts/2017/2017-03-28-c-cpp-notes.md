@@ -91,17 +91,17 @@ void not_mangled()
  - [Better understanding Linux secondary dependencies solving with examples][41]
 
 
-#### GOT and PLT
+### GOT and PLT
  - GOT: global offset table
  - PLT: procedure linkage table
  - [PLT and GOT - the key to code sharing and dynamic libraries][28], **excellant tutorial** to GOT and PLT step by step!
  - [Position Independent Code and x86-64 libraries][30]
 
 
-#### Library search path (load time, Windows)
+### Library search path (load time, Windows)
  - [Dynamic-Link Library Search Order][38], MSDN
 
-#### Library search path (load time, Linux)
+### Library search path (load time, Linux)
  - refer to manual of `ld.so`, [here][39], or use `man ld.so`
  - see also `man ldconfig`
  - rpath at [wikipedia][40]
