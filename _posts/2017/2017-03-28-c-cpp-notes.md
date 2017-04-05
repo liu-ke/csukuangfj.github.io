@@ -99,8 +99,10 @@ void not_mangled()
 
 ## Memory
  - [What Every Programmer Should Know About Memory][35] by [Ulrich Drepper][36], pdf
+ - [Anatomy of a Program in Memory][37]
 
 
+[37]: http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/
 [36]: https://www.akkadia.org/drepper/
 [35]: https://www.akkadia.org/drepper/cpumemory.pdf
 [34]: http://www.tldp.org/HOWTO/pdf/Program-Library-HOWTO.pdf
