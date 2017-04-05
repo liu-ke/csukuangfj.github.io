@@ -77,7 +77,7 @@ void not_mangled()
 ## Shared libraries
  - [How to write shared libraries][18], pdf
  - [The inside story on shared libraries and dynamic loading][19], pdf
- - [Program Library HOWTO][34], pdf at TLDP
+ - **[Program Library HOWTO][34]**, pdf at TLDP
  - [Anatomy of Linux dynamic libraries][20]
  - [Resolving ELF Relocation Name / Symbols][21]
  - [Linkers and Loaders][22]
@@ -97,11 +97,21 @@ void not_mangled()
  - [Position Independent Code and x86-64 libraries][30]
 
 
+#### Library search path (load time, Windows)
+ - [Dynamic-Link Library Search Order][38], MSDN
+
+#### Library search path (load time, Linux)
+ - refer to manual of `ld.so`, [here][39], or use `man ld.so`
+ - see also `man ldconfig`
+
 ## Memory
  - [What Every Programmer Should Know About Memory][35] by [Ulrich Drepper][36], pdf
  - [Anatomy of a Program in Memory][37]
 
 
+
+[39]: http://man7.org/linux/man-pages/man8/ld.so.8.html
+[38]: https://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85).aspx
 [37]: http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/
 [36]: https://www.akkadia.org/drepper/
 [35]: https://www.akkadia.org/drepper/cpumemory.pdf
