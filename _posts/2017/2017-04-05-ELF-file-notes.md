@@ -10,7 +10,7 @@ tags:
 ---
 
 # References
- - The ERESI Reverse Engineering Software Interface, at [GitHub][1]
+ - The ERESI Reverse Engineering Software Interface, at [GitHub][1], The ELF reverse engineering system interface
 
 ## Components
  - header
