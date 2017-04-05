@@ -103,13 +103,14 @@ void not_mangled()
 #### Library search path (load time, Linux)
  - refer to manual of `ld.so`, [here][39], or use `man ld.so`
  - see also `man ldconfig`
+ - rpath at [wikipedia][40]
 
 ## Memory
  - [What Every Programmer Should Know About Memory][35] by [Ulrich Drepper][36], pdf
  - [Anatomy of a Program in Memory][37]
 
 
-
+[40]: https://en.wikipedia.org/wiki/Rpath
 [39]: http://man7.org/linux/man-pages/man8/ld.so.8.html
 [38]: https://msdn.microsoft.com/en-us/library/windows/desktop/ms682586(v=vs.85).aspx
 [37]: http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory/
