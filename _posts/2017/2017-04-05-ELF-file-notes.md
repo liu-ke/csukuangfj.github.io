@@ -13,6 +13,7 @@ tags:
  - The ERESI Reverse Engineering Software Interface, at [GitHub][1], The ELF reverse engineering system interface
  - [specification pdf][2]
  - [specification txt][3]
+ - `man elf`
  
 ## Components
  - header
