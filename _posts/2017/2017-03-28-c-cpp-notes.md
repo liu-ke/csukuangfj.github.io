@@ -21,6 +21,9 @@ tags:
  - [Journey of a C Program to Linux Executable in 4 Stages][9]
  - [How to mix C and C++][14], <https://isocpp.org/wiki/faq/mixing-c-and-cpp>
 
+## stack layout
+ - <https://www.win.tue.nl/~aeb/linux/hh/stack-layout.html>
+
 ## Crt0
  - see [Wikipedia][12]
 
