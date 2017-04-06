@@ -60,6 +60,15 @@ String dump of section '.shstrtab':
   [    45]  .rela.eh_frame
 ```
 
+## string table
+ - seciton `.strtab`, (no flags)
+ - section `.dynstr`, (with flag `ALLOC`)
+
+## symbol table
+ - section `.symtab` (no flags)
+ - section `.dynsym` (with flag `ALLOC`)
+ 
+ 
 ## Relocation
  - [System V Application Binary Interface AMD64 Architecture Processor Supplement][4],pdf
 
