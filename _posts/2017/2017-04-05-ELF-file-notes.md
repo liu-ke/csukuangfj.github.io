@@ -14,6 +14,9 @@ tags:
  - [specification pdf][2]
  - [specification txt][3]
  - `man elf`
+ - [Auxiliary Vector][6] at Linux Standard Base Specification for the Itanium™ Architecture 1.3
+ - [About ELF Auxiliary Vectors][5]
+ 
  
 ## Components
  - header
@@ -72,6 +75,8 @@ String dump of section '.shstrtab':
 ## Relocation
  - [System V Application Binary Interface AMD64 Architecture Processor Supplement][4],pdf
 
+[6]: https://refspecs.linuxfoundation.org/LSB_1.3.0/IA64/spec/auxiliaryvector.html
+[5]: http://articles.manugarg.com/aboutelfauxiliaryvectors
 [4]: http://refspecs.linuxbase.org/elf/x86_64-abi-0.98.pdf
 [3]: http://www.muppetlabs.com/%7Ebreadbox/software/ELF.txt
 [2]: http://www.skyfree.org/linux/references/ELF_Format.pdf
