@@ -25,9 +25,14 @@ tags:
  - dynamic segment
  
  
- 1. view file header
- > readelf --file-header a.o
-
+1. view file header
+> readelf --file-header a.o
+2. view the program headers
+> --program-headers
+3. view the section headers
+> --section-headers
+4. view the section header string table (use -x secitionName)
+> -x .shstrtab
 
 
 [3]: http://www.muppetlabs.com/%7Ebreadbox/software/ELF.txt
