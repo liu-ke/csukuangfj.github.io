@@ -14,6 +14,7 @@ tags:
 # history
  - [self education and historical research of the C++ compiler cfront v3][42] at github
  - [A History of C++: 1979−1991][43], pdf, by Bjarne Stroustrup
+ - [Classes: an abstract data type facility for the C language][44]
 
 ## References
  - a book [Computer Science from the Bottom Up][33]
@@ -124,7 +125,7 @@ Note that `LD_PRELOAD` is searched before `LD_LIBRARY_PATH` !
 
 
 
-
+[44]: /pdf/programming/Classes-an-abstract-data-type-facility-for-the-C-language.pdf
 [43]: http://www.stroustrup.com/hopl2.pdf
 [42]: https://github.com/csukuangfj/cfront-3
 [41]: http://www.kaizou.org/2015/01/linux-libraries/
