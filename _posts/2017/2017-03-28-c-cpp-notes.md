@@ -15,6 +15,8 @@ tags:
  - [self education and historical research of the C++ compiler cfront v3][42] at github
  - [A History of C++: 1979−1991][43], pdf, by Bjarne Stroustrup
  - [Classes: an abstract data type facility for the C language][44]
+ - Adding Classes to the C Language: An Exercise in Language Evolution Software Practice and Experience, pp 139-161. February, 1983, by Bjarne Stroustrup
+ - [Data Abstraction in C, technical report][45], pdf, by Bjarne Stroustrup
 
 ## References
  - a book [Computer Science from the Bottom Up][33]
@@ -124,7 +126,7 @@ Note that `LD_PRELOAD` is searched before `LD_LIBRARY_PATH` !
  - [Anatomy of a Program in Memory][37]
 
 
-
+[45]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-DataAbstractionInC.pdf
 [44]: /pdf/programming/Classes-an-abstract-data-type-facility-for-the-C-language.pdf
 [43]: http://www.stroustrup.com/hopl2.pdf
 [42]: https://github.com/csukuangfj/cfront-3
