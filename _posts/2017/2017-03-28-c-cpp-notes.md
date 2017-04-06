@@ -10,6 +10,7 @@ tags:
 
 # TODO
  - IDA Pro: <https://www.hex-rays.com/products/ida/index.shtml>
+ - Historic Documents in Computer Science  <http://www.eah-jena.de/~kleine/history/>
 
 # history
  - [self education and historical research of the C++ compiler cfront v3][42] at github
@@ -17,7 +18,11 @@ tags:
  - [Classes: an abstract data type facility for the C language][44]
  - Adding Classes to the C Language: An Exercise in Language Evolution Software Practice and Experience, pp 139-161. February, 1983, by Bjarne Stroustrup
  - [Data Abstraction in C, technical report][45], pdf, by Bjarne Stroustrup
-
+ - [The c++ reference manual][46], pdf,  by Bjarne Stroustrup
+ - [A c++ tutorial, technical report][47], pdf, by Bjarne Stroustrup
+ 
+ 
+ 
 ## References
  - a book [Computer Science from the Bottom Up][33]
  - [MODULE 000-1 gcc, g++, gdb and friends 1][2]
@@ -126,6 +131,8 @@ Note that `LD_PRELOAD` is searched before `LD_LIBRARY_PATH` !
  - [Anatomy of a Program in Memory][37]
 
 
+[47]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-CplusplusTutorial.pdf
+[46]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-CplusplusReferenceManual.pdf
 [45]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-DataAbstractionInC.pdf
 [44]: /pdf/programming/Classes-an-abstract-data-type-facility-for-the-C-language.pdf
 [43]: http://www.stroustrup.com/hopl2.pdf
