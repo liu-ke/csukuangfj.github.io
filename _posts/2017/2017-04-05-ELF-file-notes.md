@@ -60,7 +60,10 @@ String dump of section '.shstrtab':
   [    45]  .rela.eh_frame
 ```
 
+## Relocation
+ - [System V Application Binary Interface AMD64 Architecture Processor Supplement][4],pdf
 
+[4]: http://refspecs.linuxbase.org/elf/x86_64-abi-0.98.pdf
 [3]: http://www.muppetlabs.com/%7Ebreadbox/software/ELF.txt
 [2]: http://www.skyfree.org/linux/references/ELF_Format.pdf
 [1]: https://github.com/thorkill/eresi
