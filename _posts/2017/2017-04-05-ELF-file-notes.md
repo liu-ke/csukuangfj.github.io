@@ -33,6 +33,32 @@ tags:
 > --section-headers
 4. view the section header string table (use -x secitionName)
 > -x .shstrtab
+```
+$ readelf -x .shstrtab b.o
+
+Hex dump of section '.shstrtab':
+  0x00000000 002e7379 6d746162 002e7374 72746162 ..symtab..strtab
+  0x00000010 002e7368 73747274 6162002e 74657874 ..shstrtab..text
+  0x00000020 002e6461 7461002e 62737300 2e636f6d ..data..bss..com
+  0x00000030 6d656e74 002e6e6f 74652e47 4e552d73 ment..note.GNU-s
+  0x00000040 7461636b 002e7265 6c612e65 685f6672 tack..rela.eh_fr
+  0x00000050 616d6500                            ame.
+```
+5. show the section header string table as strings (use -p sectionName)
+> -p .shstrtab
+```
+$ readelf -p .shstrtab b.o
+String dump of section '.shstrtab':
+  [     1]  .symtab
+  [     9]  .strtab
+  [    11]  .shstrtab
+  [    1b]  .text
+  [    21]  .data
+  [    27]  .bss
+  [    2c]  .comment
+  [    35]  .note.GNU-stack
+  [    45]  .rela.eh_frame
+```
 
 
 [3]: http://www.muppetlabs.com/%7Ebreadbox/software/ELF.txt
