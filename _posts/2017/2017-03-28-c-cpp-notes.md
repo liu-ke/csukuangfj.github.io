@@ -8,9 +8,15 @@ tags:
 - programming
 ---
 
+
+
 # TODO
  - IDA Pro: <https://www.hex-rays.com/products/ida/index.shtml>
  - Historic Documents in Computer Science  <http://www.eah-jena.de/~kleine/history/>
+
+
+# courses
+ - [Effective Programming in C and C++][72] at MIT
 
 # history
  - [self education and historical research of the C++ compiler cfront v3][42] at github
@@ -20,8 +26,41 @@ tags:
  - [Data Abstraction in C, technical report][45], pdf, by Bjarne Stroustrup
  - [The c++ reference manual][46], pdf,  by Bjarne Stroustrup
  - [A c++ tutorial, technical report][47], pdf, by Bjarne Stroustrup
- 
- 
+
+# http://en.cppreference.com
+## preprocessing
+ - [Preprocessor][50], `#define`, `#`, `##`, and some predefined marcos, such as `__FILE__`, `__LINE__`
+ - [Conditional inclusion][51], `#if`, `#ifdef`, `#ifndef`, `#elif`, `#else`, `#endif` 
+ - [Source file inclusion][52], differences between `#include <>` and `#include “”`
+ - [Error directive][53], `#error`
+ - [Implementation defined behavior control][56], such as `#pragma`
+ - [Filename and line information][57]
+## Comments
+ - [Comments][58], note that C also supports `//` style comment from C99 !!!
+## Enumerations
+ - [Enumerations][59], `enum`
+## types
+ - [size_t][60], note that `size_t` is unsigned!
+ - [sizeof operator][61]
+ - [alignof][69]
+ - [offsetof][62] and its possible [implementation][63]
+ - [Struct declaration][64], it discusses `flexible array element` as the last member of a `struct`, see also [6.17 Arrays of Length Zero][65] of GCC. Examples: [Flexible array member in C-structure][66]
+ - [Array initialization][67], pay attention to the last example: use `enum` as the array index, which may be useful for defining an array of error description string.
+ - [Struct and union initialization][68], specifies the member name while it is initialised (which is not supported in C++!!)! Note that padding bytes are initialised to 0 !!!
+
+# Variadic functions
+ - [Variadic functions][71]
+## printf
+ - float -> double
+ - char, short -> int
+ - long, long long, size_t, and so on, keep the same.
+ - `size_t` -> `%zu` (since c99)
+ - `long` -> `%ld`
+ - pay attention to the type of the argument and the format specifier!
+
+# `#pragam`
+ - [Structure-Packing Pragmas][54], in gcc,
+ - [What's the difference between “#pragma pack” and “__attribute__((aligned))”][55]
  
 ## References
  - a book [Computer Science from the Bottom Up][33]
@@ -37,6 +76,7 @@ tags:
 
 ## Crt0
  - see [Wikipedia][12]
+ - [Main function][70]
 
 ## C++ name mangling
  - [Name mangling][13] at Wikipedia
@@ -131,6 +171,29 @@ Note that `LD_PRELOAD` is searched before `LD_LIBRARY_PATH` !
  - [Anatomy of a Program in Memory][37]
 
 
+[72]: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/index.htm
+[71]: http://en.cppreference.com/w/c/variadic
+[70]: http://en.cppreference.com/w/c/language/main_function
+[69]: http://en.cppreference.com/w/c/language/_Alignof
+[68]: http://en.cppreference.com/w/c/language/struct_initialization
+[67]: http://en.cppreference.com/w/c/language/array_initialization
+[66]: http://stackoverflow.com/questions/3047530/flexible-array-member-in-c-structure
+[65]: https://gcc.gnu.org/onlinedocs/gcc/Zero-Length.html
+[64]: http://en.cppreference.com/w/c/language/struct
+[63]: http://lxr.free-electrons.com/source/scripts/kconfig/list.h#L8
+[62]: http://en.cppreference.com/w/c/types/offsetof
+[61]: http://en.cppreference.com/w/c/language/sizeof
+[60]: http://en.cppreference.com/w/c/types/size_t
+[59]: http://en.cppreference.com/w/c/language/enum
+[58]: http://en.cppreference.com/w/c/comment
+[57]: http://en.cppreference.com/w/c/preprocessor/line
+[56]: http://en.cppreference.com/w/c/preprocessor/impl
+[55]: http://stackoverflow.com/questions/14179748/whats-the-difference-between-pragma-pack-and-attribute-aligned
+[54]: https://gcc.gnu.org/onlinedocs/gcc-4.5.1/gcc/Structure_002dPacking-Pragmas.html
+[53]: http://en.cppreference.com/w/c/preprocessor/error
+[52]: http://en.cppreference.com/w/c/preprocessor/include
+[51]: http://en.cppreference.com/w/c/preprocessor/conditional
+[50]: http://en.cppreference.com/w/c/preprocessor
 [47]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-CplusplusTutorial.pdf
 [46]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-CplusplusReferenceManual.pdf
 [45]: http://www.eah-jena.de/~kleine/history/languages/Stroustrup-DataAbstractionInC.pdf
