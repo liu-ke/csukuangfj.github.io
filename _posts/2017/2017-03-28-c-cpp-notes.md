@@ -13,6 +13,15 @@ tags:
 # TODO
  - IDA Pro: <https://www.hex-rays.com/products/ida/index.shtml>
  - Historic Documents in Computer Science  <http://www.eah-jena.de/~kleine/history/>
+ - Compatibility of C and C++ <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C%2B%2B>
+ - Incompatibilities Between ISO C and ISO C++ <http://david.tribble.com/text/cdiffs.htm>
+ - C Craft <http://crypto.stanford.edu/~blynn/etc.html>, by Ben Lynn <http://crypto.stanford.edu/~blynn/>,
+ there are many technical notes of him, such as git <http://crypto.stanford.edu/~blynn/gitmagic/> !
+ - The function pointer tutorials <http://www.newty.de/fpt/index.html>
+ - Tips on Programming <http://users.bestweb.net/~ctips/>
+ - **C puzzles** <http://www.gowrikumar.com/c/index.php>, useful for testing (i.e, exam questions)
+ - Technical & HR Interview Questions of Google,Microsoft,Yahoo and many more Companies. <http://placementsindia.blogspot.de>
+ - 关于开发/编程工具 <http://guoshaoguang.com/blog/tag/github/>
 
 
 # courses
