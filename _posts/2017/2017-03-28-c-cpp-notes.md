@@ -24,7 +24,8 @@ tags:
  - **C puzzles** <http://www.gowrikumar.com/c/index.php>, useful for testing (i.e, exam questions)
  - Technical & HR Interview Questions of Google,Microsoft,Yahoo and many more Companies. <http://placementsindia.blogspot.de>
  - 关于开发/编程工具 <http://guoshaoguang.com/blog/tag/github/>
-
+## Security
+ - [Format String Vulnerability][73], pdf
 
 # courses
  - [Effective Programming in C and C++][72] at MIT
@@ -182,6 +183,8 @@ Note that `LD_PRELOAD` is searched before `LD_LIBRARY_PATH` !
  - [Anatomy of a Program in Memory][37]
 
 
+
+[73]: http://www.cis.syr.edu/~wedu/Teaching/cis643/LectureNotes_New/Format_String.pdf
 [72]: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/index.htm
 [71]: http://en.cppreference.com/w/c/variadic
 [70]: http://en.cppreference.com/w/c/language/main_function
