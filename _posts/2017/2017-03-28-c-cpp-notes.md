@@ -11,9 +11,9 @@ tags:
 
 
 # TODO
+ - SEI CERT C Coding Standard <https://www.securecoding.cert.org/confluence/display/c/SEI+CERT+C+Coding+Standard>
  - Solaris 64-bit Developer's Guide <https://docs.oracle.com/cd/E19455-01/806-0477/index.html>
- - ~~**Smashing The Stack For Fun And Profit**~~ <http://www-inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf> or
-<http://insecure.org/stf/smashstack.html>.
+ - ~~**Smashing The Stack For Fun And Profit**~~ <http://www-inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf> or <http://insecure.org/stf/smashstack.html>.
  - IDA Pro: <https://www.hex-rays.com/products/ida/index.shtml>
  - Historic Documents in Computer Science  <http://www.eah-jena.de/~kleine/history/>
  - Compatibility of C and C++ <https://en.wikipedia.org/wiki/Compatibility_of_C_and_C%2B%2B>
